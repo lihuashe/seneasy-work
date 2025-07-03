@@ -1,0 +1,40 @@
+{   
+    "env": {
+        "PROJECT_DIR":"vendor/827x_ble_remote",
+        "SDK_DIR":"."
+    },
+    "configurations": [
+        {
+            "name": "sdk",
+            "includePath": [
+                "${workspaceFolder}/${PROJECT_DIR}",
+                "${workspaceFolder}/${PROJECT_DIR}/**",
+                "${workspaceFolder}/${SDK_DIR}",
+                "${workspaceFolder}/${SDK_DIR}/vendor/common/**",
+                "${workspaceFolder}/${SDK_DIR}/stack/ble/**",
+                "${workspaceFolder}/${SDK_DIR}/proj_lib/**",
+                "${workspaceFolder}/${SDK_DIR}/drivers/8278/**",
+                "${workspaceFolder}/${SDK_DIR}/common/**",
+                "${workspaceFolder}/${SDK_DIR}/boot/**",
+                "${workspaceFolder}/${SDK_DIR}/application",
+                "${workspaceFolder}/${SDK_DIR}/application/app/**",
+                "${workspaceFolder}/${SDK_DIR}/application/audio/**",
+                "${workspaceFolder}/${SDK_DIR}/application/keyboard/**",
+                "${workspaceFolder}/${SDK_DIR}/application/print/**",
+                "${workspaceFolder}/${SDK_DIR}/application/usbstd/**"
+            ],
+            "defines": [
+                "MCU_STARTUP_8271_RET_32K",
+                "CHIP_TYPE=CHIP_TYPE_8278"
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/${PROJECT_DIR}/app_config.h"
+            ],
+            "compilerPath": "/opt/tc32/bin/tc32-elf-gcc",
+            "cStandard": "c99",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

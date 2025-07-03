@@ -1,0 +1,15 @@
+#ifndef CONTROLLER_EVENT_MASK_H
+#define CONTROLLER_EVENT_MASK_H
+
+void rom_controller_event_mask_init(void);
+
+bool rom_controller_event_mask_is_event_disabled(EN_LLC_SPEC_5_1_HCI_EVENT_CODE_T enumEventCode);
+
+bool rom_controller_event_mask_is_le_event_disabled(EN_LLC_SPEC_5_1_HCI_SUBEVENT_CODE_T enumSubeventCode);
+
+void rom_controller_event_mask_set_event_mask(uint64_t u64EventMask);
+
+void rom_controller_event_mask_set_le_event_mask(uint64_t u64LeEventMask);
+
+
+#endif

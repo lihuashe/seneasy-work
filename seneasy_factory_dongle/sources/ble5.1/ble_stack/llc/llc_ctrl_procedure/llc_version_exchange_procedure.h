@@ -1,0 +1,12 @@
+#ifndef LLC_VERSION_EXCHANGE_PROCEDURE_H
+#define LLC_VERSION_EXCHANGE_PROCEDURE_H
+
+void rom_llc_version_exchange_procedure_init(stLlcConnectionRole_t *pstRole);
+
+bool rom_llc_version_exchange_procedure_peer_initiated_init(stLlcConnectionRole_t *pstRole, stLlcCtrlProcedure_t* pstProcedure, stLlcDataChannelPdu_t* pstFirstPdu);
+
+void rom_llc_version_exchange_procedure_self_initiated_init(stLlcConnectionRole_t *pstRole, stLlcCtrlProcedure_t* pstProcedure, bool bPending);
+
+EN_LLC_CTRL_PROCEDURE_ERR_T rom_llc_version_exchange_procedure_on_recv_ctrl_pdu(stLlcConnectionRole_t *pstRole, stLlcCtrlProcedure_t* pstProcedure, stLlcDataChannelPdu_t* pstCtrlPdu);
+
+#endif

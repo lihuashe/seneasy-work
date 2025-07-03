@@ -1,0 +1,16 @@
+#ifndef LLC_CONNECTION_UPDATE_PROCEDURE_H
+#define LLC_CONNECTION_UPDATE_PROCEDURE_H
+
+void rom_llc_connection_update_procedure_init(stLlcConnectionRole_t *pstRole);
+
+bool rom_llc_connection_update_procedure_peer_initiated_init(stLlcConnectionRole_t *pstRole, stLlcCtrlProcedure_t* pstProcedure, stLlcDataChannelPdu_t* pstFirstPdu);
+
+uint8_t rom_llc_connection_update_procedure_self_initiated_init(stLlcConnectionRole_t *pstRole, stLlcCtrlProcedure_t* pstProcedure, bool bPending,
+    uint16_t u16ConnIntervalMin1250us, uint16_t u16ConnIntervalMax1250us, uint16_t u16ConnLatency, uint16_t u16SuperVisionTimeout10Ms);
+
+EN_LLC_CTRL_PROCEDURE_ERR_T rom_llc_connection_update_procedure_on_recv_ctrl_pdu(stLlcConnectionRole_t *pstRole, stLlcCtrlProcedure_t* pstProcedure, stLlcDataChannelPdu_t* pstCtrlPdu);
+
+
+EN_LLC_CTRL_PROCEDURE_ON_EVENT_CLOSED_RESULT_T rom_llc_connection_update_procedure_on_conn_event_closed(stLlcConnectionRole_t *pstRole, stLlcCtrlProcedure_t* pstProcedure);
+
+#endif

@@ -1,0 +1,11 @@
+--cpu Cortex-M0+
+"..\..\..\..\bin\mdk\ROM.lib"
+".\objects\fsbl_entry_ext.o"
+".\objects\keyscan_basic_driver.o"
+".\objects\rtl876x_keyscan.o"
+".\objects\rtl876x_rcc.o"
+".\objects\rtl876x_pinmux.o"
+--strict --scatter ".\rcu_fsbl_ext.sct"
+--diag_suppress=L6314,L6305 --datacompressor off --no_remove --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\fsbl_ext.map" -o .\Objects\fsbl_ext.axf

@@ -1,0 +1,16 @@
+######################################################################
+#
+# via file for armlink
+#
+#####################################################################
+
+# Peripheral ROM extend patchs
+#..\..\..\..\lib\keil\e1\xh98xx_rom_peripheral_ext_a1_armclang.lib(radio.o dma_nds.o)
+
+# Peripheral ROM symbol (User can edit this file to remove some ROM symbol)
+..\..\..\..\lib\keil\e1\xh98xx_rom_peripheral_a1.symdefs
+
+# BLE Stack ROM library
+..\..\..\..\lib\keil\e1\xh98xx_rom_a1.lib
+..\..\..\..\lib\keil\e1\xh98xx_lib_a1_armclang.lib
+

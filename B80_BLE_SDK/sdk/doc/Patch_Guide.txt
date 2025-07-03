@@ -1,0 +1,19 @@
+**************************************************************************
+                                                                        
+                       Telink SDK Patch Guide                              
+                                                                            
+                                                                        
+**************************************************************************
+2. 0002_20240408
+	This patch is forward compatible.
+	replace file "b80_ble_sdk/common/sdk_version.h" with "patch_0002_20240408/common/sdk_version.h",
+	replace file "b80_ble_sdk/proj_lib/liblt_8208.a" with "patch_0002_20240408/proj_lib/liblt_8208.a",
+	replace file "b80_ble_sdk/stack/ble/controller/ll/ll.h" with "patch_0002_20240408/stack/ble/controller/ll/ll.h",
+	replace file "b80_ble_sdk/stack/ble/host/attr/att.h" with "patch_0002_20240408/stack/ble/host/attr/att.h".
+
+1. 0001_20240305
+	replace file "b80_ble_sdk/common/sdk_version.h" with "patch_0001_20240305/common/sdk_version.h",
+	replace file "b80_ble_sdk/proj_lib/liblt_8208.a" with "patch_0001_20240305/proj_lib/liblt_8208.a",
+	replace file "b80_ble_sdk/stack/ble/controller/ll/ll.h" with "patch_0001_20240305/stack/ble/controller/ll/ll.h",
+	replace file "b80_ble_sdk/stack/ble/host/attr/att.h" with "patch_0001_20240305/stack/ble/host/attr/att.h".
+	

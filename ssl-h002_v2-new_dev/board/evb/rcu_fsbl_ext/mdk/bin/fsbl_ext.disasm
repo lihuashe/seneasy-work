@@ -1,0 +1,3783 @@
+
+========================================================================
+
+** ELF Header Information
+
+    File Name: D:\瑞昱资料整合\8762EJF-NEW-SDK\board\evb\rcu_fsbl_ext\mdk\Objects\fsbl_ext.axf
+
+    Machine class: ELFCLASS32 (32-bit)
+    Data encoding: ELFDATA2LSB (Little endian)
+    Header version: EV_CURRENT (Current version)
+    Operating System ABI: none
+    ABI Version: 0
+    File Type: ET_EXEC (Executable) (2)
+    Machine: EM_ARM (ARM)
+
+    Image Entry point: Not specified
+    Flags: EF_ARM_ABI_FLOAT_SOFT (0x05000200)
+
+    ARM ELF revision: 5 (ABI version 2)
+
+    Conforms to Soft float procedure-call standard
+
+    Built with
+    Component: ARM Compiler 5.06 update 7 (build 960) Tool: armasm [4d35fa]
+    Component: ARM Compiler 5.06 update 7 (build 960) Tool: armlink [4d3601]
+
+    Header size: 52 bytes (0x34)
+    Program header entry size: 32 bytes (0x20)
+    Section header entry size: 40 bytes (0x28)
+
+    Program header entries: 1
+    Section header entries: 16
+
+    Program header offset: 119880 (0x0001d448)
+    Section header offset: 119912 (0x0001d468)
+
+    Section header string table index: 15
+
+========================================================================
+
+** Program header #0 (PT_LOAD) [PF_X + PF_W + PF_R]
+    Size : 3960 bytes (3912 bytes in file)
+    Virtual address: 0x00856000 (Alignment 4)
+
+
+========================================================================
+
+** Section #1 'fsbl_ext.bin' (SHT_PROGBITS) [SHF_ALLOC]
+    Size   : 1024 bytes (alignment 4)
+    Address: 0x00856000
+
+    0x856000:   0c 00 34 01 94 27 00 00 00 0c 00 00 f9 4c 6b 7e    ..4..'.......Lk~
+    0x856010:   11 c5 eb 11 82 82 f7 4a 0c 0c ef 5b 00 50 21 00    .......J...[.P!.
+    0x856020:   00 64 85 00 48 0b 00 00 00 60 85 00 94 27 6c 73    .d..H....`...'ls
+    0x856030:   a5 12 5a 5a 00 00 00 00 00 00 00 00 00 00 00 00    ..ZZ............
+    0x856040:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856050:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856060:   21 00 00 00 b9 2e 12 98 73 64 6b 23 23 23 23 23    !.......sdk#####
+    0x856070:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856080:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856090:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8560a0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8560b0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8560c0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8560d0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8560e0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8560f0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856100:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856110:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856120:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856130:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856140:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856150:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856160:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856170:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856180:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856190:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8561a0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8561b0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8561c0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8561d0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8561e0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8561f0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856200:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856210:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856220:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856230:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856240:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856250:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856260:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856270:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856280:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856290:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8562a0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8562b0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8562c0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8562d0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8562e0:   ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff    ................
+    0x8562f0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856300:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856310:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856320:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856330:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856340:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856350:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856360:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856370:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856380:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x856390:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8563a0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8563b0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8563c0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8563d0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8563e0:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+    0x8563f0:   ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff    ................
+
+
+** Section #2 'FSBL_RAM_TEXT_SECTION' (SHT_PROGBITS) [SHF_ALLOC + SHF_EXECINSTR]
+    Size   : 2888 bytes (alignment 4)
+    Address: 0x00215000
+
+    $t
+    .patch.ram.start
+    fsbl_ext_entry
+;;; .\..\src\fsbl_entry_ext.c
+;;;105    bool fsbl_ext_entry(void)
+;;;105    {
+        0x00215000:    b51c        ..      PUSH     {r2-r4,lr}
+;;;106        bool ret = true;
+        0x00215002:    2401        .$      MOVS     r4,#1
+;;;107    
+;;;108        if (RESET_REASON_POWERDOWN != get_reset_reason())
+        0x00215004:    f000f908    ....    BL       get_reset_reason ; 0x215218
+        0x00215008:    28c0        .(      CMP      r0,#0xc0
+        0x0021500a:    d001        ..      BEQ      0x215010 ; fsbl_ext_entry + 16
+;;;109        {
+;;;110            return false;
+        0x0021500c:    2000        .       MOVS     r0,#0
+        0x0021500e:    bd1c        ..      POP      {r2-r4,pc}
+;;;111        }
+;;;112    
+;;;113        bss_ram_init();
+        0x00215010:    f000f8fc    ....    BL       bss_ram_init ; 0x21520c
+;;;114    
+;;;115    #if (RELEASE_VERSION == 0)
+;;;116        DBG_DIRECT("wake up from dss. secure_boot ext version: %d.%d.%d.%d", VERSION_MAJOR, VERSION_MINOR,
+        0x00215014:    2000        .       MOVS     r0,#0
+        0x00215016:    9000        ..      STR      r0,[sp,#0]
+        0x00215018:    9001        ..      STR      r0,[sp,#4]
+        0x0021501a:    2023        #       MOVS     r0,#0x23
+        0x0021501c:    2302        .#      MOVS     r3,#2
+        0x0021501e:    2201        ."      MOVS     r2,#1
+        0x00215020:    a105        ..      ADR      r1,{pc}+0x18 ; 0x215038
+        0x00215022:    0600        ..      LSLS     r0,r0,#24
+        0x00215024:    f5f0fcef    ....    BL       log_direct ; 0x5a06
+;;;117                   VERSION_REVISION, VERSION_BUILDNUM);
+;;;118    #endif
+;;;119    
+;;;120        keyscan_pinmux_config();
+        0x00215028:    f000f902    ....    BL       keyscan_pinmux_config ; 0x215230
+;;;121        keyscan_init_driver(KeyScan_Manual_Sel_Bit, KeyScan_Debounce_Disable);
+        0x0021502c:    2100        .!      MOVS     r1,#0
+        0x0021502e:    4608        .F      MOV      r0,r1
+        0x00215030:    f000f889    ....    BL       keyscan_init_driver ; 0x215146
+;;;122        //add user code here
+;;;123    
+;;;124        return ret;
+        0x00215034:    4620         F      MOV      r0,r4
+;;;125    }
+        0x00215036:    bd1c        ..      POP      {r2-r4,pc}
+    $d
+        0x00215038:    656b6177    wake    DCD    1701536119
+        0x0021503c:    20707520     up     DCD    544240928
+        0x00215040:    6d6f7266    from    DCD    1836020326
+        0x00215044:    73736420     dss    DCD    1936942112
+        0x00215048:    6573202e    . se    DCD    1702043694
+        0x0021504c:    65727563    cure    DCD    1701999971
+        0x00215050:    6f6f625f    _boo    DCD    1869570655
+        0x00215054:    78652074    t ex    DCD    2019893364
+        0x00215058:    65762074    t ve    DCD    1702240372
+        0x0021505c:    6f697372    rsio    DCD    1869181810
+        0x00215060:    25203a6e    n: %    DCD    622869102
+        0x00215064:    64252e64    d.%d    DCD    1680158308
+        0x00215068:    2e64252e    .%d.    DCD    778315054
+        0x0021506c:    00006425    %d..    DCD    25637
+    $t
+    .app.data_ram.text
+    keyscan_column_pad_config
+;;; ..\..\..\..\src\app\rcu\key_module\keyscan_basic_driver.c
+;;;186    {
+        0x00215070:    b5ff        ..      PUSH     {r0-r7,lr}
+        0x00215072:    b083        ..      SUB      sp,sp,#0xc
+        0x00215074:    461c        .F      MOV      r4,r3
+        0x00215076:    9300        ..      STR      r3,[sp,#0]
+;;; ..\..\..\..\src\app\rcu\key_module\keyscan_basic_driver.c (186)
+        0x00215078:    4616        .F      MOV      r6,r2
+        0x0021507a:    4613        .F      MOV      r3,r2
+        0x0021507c:    460f        .F      MOV      r7,r1
+;;;187    #ifdef COLUMN0
+;;;188        Pad_Config(COLUMN0, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+        0x0021507e:    9d0c        ..      LDR      r5,[sp,#0x30]
+        0x00215080:    460a        .F      MOV      r2,r1
+        0x00215082:    9501        ..      STR      r5,[sp,#4]
+        0x00215084:    2020                MOVS     r0,#0x20
+        0x00215086:    9903        ..      LDR      r1,[sp,#0xc]
+        0x00215088:    f000fb76    ..v.    BL       Pad_Config ; 0x215778
+;;;189    #endif
+;;;190    #ifdef COLUMN1
+;;;191        Pad_Config(COLUMN1, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+        0x0021508c:    4633        3F      MOV      r3,r6
+        0x0021508e:    463a        :F      MOV      r2,r7
+        0x00215090:    9501        ..      STR      r5,[sp,#4]
+        0x00215092:    9400        ..      STR      r4,[sp,#0]
+        0x00215094:    2021        !       MOVS     r0,#0x21
+        0x00215096:    9903        ..      LDR      r1,[sp,#0xc]
+        0x00215098:    f000fb6e    ..n.    BL       Pad_Config ; 0x215778
+;;;192    #endif
+;;;193    #ifdef COLUMN2
+;;;194        Pad_Config(COLUMN2, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+        0x0021509c:    4633        3F      MOV      r3,r6
+        0x0021509e:    463a        :F      MOV      r2,r7
+        0x002150a0:    9501        ..      STR      r5,[sp,#4]
+        0x002150a2:    9400        ..      STR      r4,[sp,#0]
+        0x002150a4:    2022        "       MOVS     r0,#0x22
+        0x002150a6:    9903        ..      LDR      r1,[sp,#0xc]
+        0x002150a8:    f000fb66    ..f.    BL       Pad_Config ; 0x215778
+;;;195    #endif
+;;;196    #ifdef COLUMN3
+;;;197        Pad_Config(COLUMN3, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+        0x002150ac:    4633        3F      MOV      r3,r6
+        0x002150ae:    463a        :F      MOV      r2,r7
+        0x002150b0:    9501        ..      STR      r5,[sp,#4]
+        0x002150b2:    9400        ..      STR      r4,[sp,#0]
+        0x002150b4:    2023        #       MOVS     r0,#0x23
+        0x002150b6:    9903        ..      LDR      r1,[sp,#0xc]
+        0x002150b8:    f000fb5e    ..^.    BL       Pad_Config ; 0x215778
+;;;198    #endif
+;;;199    #ifdef COLUMN4
+;;;200        Pad_Config(COLUMN4, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+        0x002150bc:    4633        3F      MOV      r3,r6
+        0x002150be:    463a        :F      MOV      r2,r7
+        0x002150c0:    9501        ..      STR      r5,[sp,#4]
+        0x002150c2:    9400        ..      STR      r4,[sp,#0]
+        0x002150c4:    2002        .       MOVS     r0,#2
+        0x002150c6:    9903        ..      LDR      r1,[sp,#0xc]
+        0x002150c8:    f000fb56    ..V.    BL       Pad_Config ; 0x215778
+;;;201    #endif
+;;;202    #ifdef COLUMN5
+;;;203        Pad_Config(COLUMN5, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;204    #endif
+;;;205    #ifdef COLUMN6
+;;;206        Pad_Config(COLUMN6, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;207    #endif
+;;;208    #ifdef COLUMN7
+;;;209        Pad_Config(COLUMN7, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;210    #endif
+;;;211    #ifdef COLUMN8
+;;;212        Pad_Config(COLUMN8, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;213    #endif
+;;;214    #ifdef COLUMN9
+;;;215        Pad_Config(COLUMN9, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;216    #endif
+;;;217    #ifdef COLUMN10
+;;;218        Pad_Config(COLUMN10, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;219    #endif
+;;;220    #ifdef COLUMN11
+;;;221        Pad_Config(COLUMN11, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;222    #endif
+;;;223    #ifdef COLUMN12
+;;;224        Pad_Config(COLUMN12, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;225    #endif
+;;;226    #ifdef COLUMN13
+;;;227        Pad_Config(COLUMN13, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;228    #endif
+;;;229    #ifdef COLUMN14
+;;;230        Pad_Config(COLUMN14, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;231    #endif
+;;;232    #ifdef COLUMN15
+;;;233        Pad_Config(COLUMN15, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;234    #endif
+;;;235    #ifdef COLUMN16
+;;;236        Pad_Config(COLUMN16, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;237    #endif
+;;;238    #ifdef COLUMN17
+;;;239        Pad_Config(COLUMN17, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;240    #endif
+;;;241    #ifdef COLUMN18
+;;;242        Pad_Config(COLUMN18, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;243    #endif
+;;;244    #ifdef COLUMN19
+;;;245        Pad_Config(COLUMN19, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;246    #endif
+;;;247    }
+        0x002150cc:    b007        ..      ADD      sp,sp,#0x1c
+        0x002150ce:    bdf0        ..      POP      {r4-r7,pc}
+    keyscan_row_pad_config
+        0x002150d0:    b5ff        ..      PUSH     {r0-r7,lr}
+        0x002150d2:    b083        ..      SUB      sp,sp,#0xc
+        0x002150d4:    461c        .F      MOV      r4,r3
+        0x002150d6:    9300        ..      STR      r3,[sp,#0]
+;;; ..\..\..\..\src\app\rcu\key_module\keyscan_basic_driver.c (132)
+        0x002150d8:    4616        .F      MOV      r6,r2
+        0x002150da:    4613        .F      MOV      r3,r2
+        0x002150dc:    460f        .F      MOV      r7,r1
+;;;133    #ifdef ROW0
+;;;134        Pad_Config(ROW0, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+        0x002150de:    9d0c        ..      LDR      r5,[sp,#0x30]
+        0x002150e0:    460a        .F      MOV      r2,r1
+        0x002150e2:    9501        ..      STR      r5,[sp,#4]
+        0x002150e4:    2018        .       MOVS     r0,#0x18
+        0x002150e6:    9903        ..      LDR      r1,[sp,#0xc]
+        0x002150e8:    f000fb46    ..F.    BL       Pad_Config ; 0x215778
+;;;135    #endif
+;;;136    #ifdef ROW1
+;;;137        Pad_Config(ROW1, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+        0x002150ec:    4633        3F      MOV      r3,r6
+        0x002150ee:    463a        :F      MOV      r2,r7
+        0x002150f0:    9501        ..      STR      r5,[sp,#4]
+        0x002150f2:    9400        ..      STR      r4,[sp,#0]
+        0x002150f4:    2019        .       MOVS     r0,#0x19
+        0x002150f6:    9903        ..      LDR      r1,[sp,#0xc]
+        0x002150f8:    f000fb3e    ..>.    BL       Pad_Config ; 0x215778
+;;;138    #endif
+;;;139    #ifdef ROW2
+;;;140        Pad_Config(ROW2, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+        0x002150fc:    4633        3F      MOV      r3,r6
+        0x002150fe:    463a        :F      MOV      r2,r7
+        0x00215100:    9501        ..      STR      r5,[sp,#4]
+        0x00215102:    9400        ..      STR      r4,[sp,#0]
+        0x00215104:    2009        .       MOVS     r0,#9
+        0x00215106:    9903        ..      LDR      r1,[sp,#0xc]
+        0x00215108:    f000fb36    ..6.    BL       Pad_Config ; 0x215778
+;;;141    #endif
+;;;142    #ifdef ROW3
+;;;143        Pad_Config(ROW3, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+        0x0021510c:    4633        3F      MOV      r3,r6
+        0x0021510e:    463a        :F      MOV      r2,r7
+        0x00215110:    9501        ..      STR      r5,[sp,#4]
+        0x00215112:    9400        ..      STR      r4,[sp,#0]
+        0x00215114:    2014        .       MOVS     r0,#0x14
+        0x00215116:    9903        ..      LDR      r1,[sp,#0xc]
+        0x00215118:    f000fb2e    ....    BL       Pad_Config ; 0x215778
+;;;144    #endif
+;;;145    #ifdef ROW4
+;;;146        Pad_Config(ROW4, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;147    #endif
+;;;148    #ifdef ROW5
+;;;149        Pad_Config(ROW5, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;150    #endif
+;;;151    #ifdef ROW6
+;;;152        Pad_Config(ROW6, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;153    #endif
+;;;154    #ifdef ROW7
+;;;155        Pad_Config(ROW7, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;156    #endif
+;;;157    #ifdef ROW8
+;;;158        Pad_Config(ROW8, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;159    #endif
+;;;160    #ifdef ROW9
+;;;161        Pad_Config(ROW9, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;162    #endif
+;;;163    #ifdef ROW10
+;;;164        Pad_Config(ROW10, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;165    #endif
+;;;166    #ifdef ROW11
+;;;167        Pad_Config(ROW11, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;168    #endif
+;;;169    }
+        0x0021511c:    e7d6        ..      B        0x2150cc ; keyscan_column_pad_config + 92
+    keyscan_init_pad_config
+;;;170    
+;;;171    /******************************************************************
+;;;172     * @brief  keyscan column pad config
+;;;173     * @param  AON_PAD_Mode
+;;;174     * @param  AON_PAD_PwrOn
+;;;175     * @param  AON_PAD_Pull
+;;;176     * @param  AON_PAD_E
+;;;177     * @param  AON_PAD_O
+;;;178     * @return none
+;;;179     * @retval void
+;;;180     */
+;;;181    void keyscan_column_pad_config(PAD_Mode AON_PAD_Mode,
+;;;182                                   PAD_PWR_Mode AON_PAD_PwrOn,
+;;;183                                   PAD_Pull_Mode AON_PAD_Pull,
+;;;184                                   PAD_OUTPUT_ENABLE_Mode AON_PAD_E,
+;;;185                                   PAD_OUTPUT_VAL AON_PAD_O)
+;;;186    {
+;;;187    #ifdef COLUMN0
+;;;188        Pad_Config(COLUMN0, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;189    #endif
+;;;190    #ifdef COLUMN1
+;;;191        Pad_Config(COLUMN1, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;192    #endif
+;;;193    #ifdef COLUMN2
+;;;194        Pad_Config(COLUMN2, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;195    #endif
+;;;196    #ifdef COLUMN3
+;;;197        Pad_Config(COLUMN3, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;198    #endif
+;;;199    #ifdef COLUMN4
+;;;200        Pad_Config(COLUMN4, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;201    #endif
+;;;202    #ifdef COLUMN5
+;;;203        Pad_Config(COLUMN5, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;204    #endif
+;;;205    #ifdef COLUMN6
+;;;206        Pad_Config(COLUMN6, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;207    #endif
+;;;208    #ifdef COLUMN7
+;;;209        Pad_Config(COLUMN7, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;210    #endif
+;;;211    #ifdef COLUMN8
+;;;212        Pad_Config(COLUMN8, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;213    #endif
+;;;214    #ifdef COLUMN9
+;;;215        Pad_Config(COLUMN9, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;216    #endif
+;;;217    #ifdef COLUMN10
+;;;218        Pad_Config(COLUMN10, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;219    #endif
+;;;220    #ifdef COLUMN11
+;;;221        Pad_Config(COLUMN11, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;222    #endif
+;;;223    #ifdef COLUMN12
+;;;224        Pad_Config(COLUMN12, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;225    #endif
+;;;226    #ifdef COLUMN13
+;;;227        Pad_Config(COLUMN13, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;228    #endif
+;;;229    #ifdef COLUMN14
+;;;230        Pad_Config(COLUMN14, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;231    #endif
+;;;232    #ifdef COLUMN15
+;;;233        Pad_Config(COLUMN15, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;234    #endif
+;;;235    #ifdef COLUMN16
+;;;236        Pad_Config(COLUMN16, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;237    #endif
+;;;238    #ifdef COLUMN17
+;;;239        Pad_Config(COLUMN17, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;240    #endif
+;;;241    #ifdef COLUMN18
+;;;242        Pad_Config(COLUMN18, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;243    #endif
+;;;244    #ifdef COLUMN19
+;;;245        Pad_Config(COLUMN19, AON_PAD_Mode, AON_PAD_PwrOn, AON_PAD_Pull, AON_PAD_E, AON_PAD_O);
+;;;246    #endif
+;;;247    }
+;;;248    
+;;;249    /******************************************************************
+;;;250     * @brief    keyscan pinmux config
+;;;251     * @param    none
+;;;252     * @return   none
+;;;253     * @retval   void
+;;;254     */
+;;;255    void keyscan_pinmux_config(void)
+;;;256    {
+;;;257    #ifdef ROW0
+;;;258        Pinmux_Config(ROW0, KEY_ROW_0);
+;;;259    #endif
+;;;260    #ifdef ROW1
+;;;261        Pinmux_Config(ROW1, KEY_ROW_1);
+;;;262    #endif
+;;;263    #ifdef ROW2
+;;;264        Pinmux_Config(ROW2, KEY_ROW_2);
+;;;265    #endif
+;;;266    #ifdef ROW3
+;;;267        Pinmux_Config(ROW3, KEY_ROW_3);
+;;;268    #endif
+;;;269    #ifdef ROW4
+;;;270        Pinmux_Config(ROW4, KEY_ROW_4);
+;;;271    #endif
+;;;272    #ifdef ROW5
+;;;273        Pinmux_Config(ROW5, KEY_ROW_5);
+;;;274    #endif
+;;;275    #ifdef ROW6
+;;;276        Pinmux_Config(ROW6, KEY_ROW_6);
+;;;277    #endif
+;;;278    #ifdef ROW7
+;;;279        Pinmux_Config(ROW7, KEY_ROW_7);
+;;;280    #endif
+;;;281    #ifdef ROW8
+;;;282        Pinmux_Config(ROW8, KEY_ROW_8);
+;;;283    #endif
+;;;284    #ifdef ROW9
+;;;285        Pinmux_Config(ROW9, KEY_ROW_9);
+;;;286    #endif
+;;;287    #ifdef ROW10
+;;;288        Pinmux_Config(ROW10, KEY_ROW_10);
+;;;289    #endif
+;;;290    #ifdef ROW11
+;;;291        Pinmux_Config(ROW11, KEY_ROW_11);
+;;;292    #endif
+;;;293    
+;;;294    #ifdef COLUMN0
+;;;295        Pinmux_Config(COLUMN0, KEY_COL_0);
+;;;296    #endif
+;;;297    #ifdef COLUMN1
+;;;298        Pinmux_Config(COLUMN1, KEY_COL_1);
+;;;299    #endif
+;;;300    #ifdef COLUMN2
+;;;301        Pinmux_Config(COLUMN2, KEY_COL_2);
+;;;302    #endif
+;;;303    #ifdef COLUMN3
+;;;304        Pinmux_Config(COLUMN3, KEY_COL_3);
+;;;305    #endif
+;;;306    #ifdef COLUMN4
+;;;307        Pinmux_Config(COLUMN4, KEY_COL_4);
+;;;308    #endif
+;;;309    #ifdef COLUMN5
+;;;310        Pinmux_Config(COLUMN5, KEY_COL_5);
+;;;311    #endif
+;;;312    #ifdef COLUMN6
+;;;313        Pinmux_Config(COLUMN6, KEY_COL_6);
+;;;314    #endif
+;;;315    #ifdef COLUMN7
+;;;316        Pinmux_Config(COLUMN7, KEY_COL_7);
+;;;317    #endif
+;;;318    #ifdef COLUMN8
+;;;319        Pinmux_Config(COLUMN8, KEY_COL_8);
+;;;320    #endif
+;;;321    #ifdef COLUMN9
+;;;322        Pinmux_Config(COLUMN9, KEY_COL_9);
+;;;323    #endif
+;;;324    #ifdef COLUMN10
+;;;325        Pinmux_Config(COLUMN10, KEY_COL_10);
+;;;326    #endif
+;;;327    #ifdef COLUMN11
+;;;328        Pinmux_Config(COLUMN11, KEY_COL_11);
+;;;329    #endif
+;;;330    #ifdef COLUMN12
+;;;331        Pinmux_Config(COLUMN12, KEY_COL_12);
+;;;332    #endif
+;;;333    #ifdef COLUMN13
+;;;334        Pinmux_Config(COLUMN13, KEY_COL_13);
+;;;335    #endif
+;;;336    #ifdef COLUMN14
+;;;337        Pinmux_Config(COLUMN14, KEY_COL_14);
+;;;338    #endif
+;;;339    #ifdef COLUMN15
+;;;340        Pinmux_Config(COLUMN15, KEY_COL_15);
+;;;341    #endif
+;;;342    #ifdef COLUMN16
+;;;343        Pinmux_Config(COLUMN16, KEY_COL_16);
+;;;344    #endif
+;;;345    #ifdef COLUMN17
+;;;346        Pinmux_Config(COLUMN17, KEY_COL_17);
+;;;347    #endif
+;;;348    #ifdef COLUMN18
+;;;349        Pinmux_Config(COLUMN18, KEY_COL_18);
+;;;350    #endif
+;;;351    #ifdef COLUMN19
+;;;352        Pinmux_Config(COLUMN19, KEY_COL_19);
+;;;353    #endif
+;;;354    }
+;;;355    
+;;;356    /******************************************************************
+;;;357     * @brief    keyscan init pad config
+;;;358     * @param    none
+;;;359     * @return   none
+;;;360     * @retval   void
+;;;361     */
+;;;362    void keyscan_init_pad_config(void)
+;;;363    {
+        0x0021511e:    b538        8.      PUSH     {r3-r5,lr}
+;;;364        keyscan_row_pad_config(PAD_PINMUX_MODE, PAD_IS_PWRON, PAD_PULL_UP, PAD_OUT_DISABLE, PAD_OUT_LOW);
+        0x00215120:    2400        .$      MOVS     r4,#0
+        0x00215122:    2101        .!      MOVS     r1,#1
+        0x00215124:    4623        #F      MOV      r3,r4
+        0x00215126:    4622        "F      MOV      r2,r4
+        0x00215128:    4608        .F      MOV      r0,r1
+        0x0021512a:    9400        ..      STR      r4,[sp,#0]
+        0x0021512c:    f7ffffd0    ....    BL       keyscan_row_pad_config ; 0x2150d0
+;;;365        keyscan_column_pad_config(PAD_PINMUX_MODE, PAD_IS_PWRON, PAD_PULL_NONE, PAD_OUT_ENABLE,
+        0x00215130:    2301        .#      MOVS     r3,#1
+        0x00215132:    2202        ."      MOVS     r2,#2
+        0x00215134:    4619        .F      MOV      r1,r3
+        0x00215136:    4618        .F      MOV      r0,r3
+        0x00215138:    9400        ..      STR      r4,[sp,#0]
+        0x0021513a:    f7ffff99    ....    BL       keyscan_column_pad_config ; 0x215070
+;;;366                                  PAD_OUT_LOW);
+;;;367        keyscan_global_data.is_pinmux_setted = true;
+        0x0021513e:    4925        %I      LDR      r1,[pc,#148] ; [0x2151d4] = 0x215b48
+        0x00215140:    2001        .       MOVS     r0,#1
+        0x00215142:    70c8        .p      STRB     r0,[r1,#3]
+;;;368    }
+        0x00215144:    bd38        8.      POP      {r3-r5,pc}
+    keyscan_init_driver
+;;; ..\..\..\..\src\app\rcu\key_module\keyscan_basic_driver.c (71)
+        0x00215146:    b530        0.      PUSH     {r4,r5,lr}
+        0x00215148:    4605        .F      MOV      r5,r0
+        0x0021514a:    4822        "H      LDR      r0,[pc,#136] ; [0x2151d4] = 0x215b48
+        0x0021514c:    b08f        ..      SUB      sp,sp,#0x3c
+        0x0021514e:    78c0        .x      LDRB     r0,[r0,#3]
+        0x00215150:    460c        .F      MOV      r4,r1
+        0x00215152:    2800        .(      CMP      r0,#0
+        0x00215154:    d101        ..      BNE      0x21515a ; keyscan_init_driver + 20
+;;;72         if (false == keyscan_global_data.is_pinmux_setted)
+;;;73         {
+;;;74             keyscan_init_pad_config();
+        0x00215156:    f7ffffe2    ....    BL       keyscan_init_pad_config ; 0x21511e
+;;;75         }
+;;;76     
+;;;77         /* turn on keyscan clock */
+;;;78         RCC_PeriphClockCmd(APBPeriph_KEYSCAN, APBPeriph_KEYSCAN_CLOCK, ENABLE);
+        0x0021515a:    2201        ."      MOVS     r2,#1
+        0x0021515c:    491e        .I      LDR      r1,[pc,#120] ; [0x2151d8] = 0x60000040
+        0x0021515e:    481f        .H      LDR      r0,[pc,#124] ; [0x2151dc] = 0x8080000
+        0x00215160:    f000f95c    ..\.    BL       RCC_PeriphClockCmd ; 0x21541c
+;;;79     
+;;;80         KEYSCAN_InitTypeDef  KeyScan_InitStruct;
+;;;81         KeyScan_StructInit(&KeyScan_InitStruct);
+        0x00215164:    4668        hF      MOV      r0,sp
+        0x00215166:    f000f8e2    ....    BL       KeyScan_StructInit ; 0x21532e
+;;;82         KeyScan_InitStruct.colSize         = KEYPAD_COLUMN_SIZE;
+        0x0021516a:    2005        .       MOVS     r0,#5
+        0x0021516c:    4669        iF      MOV      r1,sp
+        0x0021516e:    8048        H.      STRH     r0,[r1,#2]
+;;;83         KeyScan_InitStruct.rowSize         = KEYPAD_ROW_SIZE;
+        0x00215170:    2004        .       MOVS     r0,#4
+        0x00215172:    8008        ..      STRH     r0,[r1,#0]
+;;;84         KeyScan_InitStruct.scanmode        = KeyScan_Manual_Scan_Mode;
+        0x00215174:    2200        ."      MOVS     r2,#0
+;;;85         if (KeyScan_Manual_Scan_Mode == KeyScan_InitStruct.scanmode)
+;;;86         {
+;;;87             KeyScan_InitStruct.manual_sel = manual_sel;
+;;;88             if (manual_sel == KeyScan_Manual_Sel_Bit)
+;;;89             {
+;;;90                 KEYSCAN_DBG_BUFFER(MODULE_APP, LEVEL_INFO, "[keyscan_init_driver] KeyScan_Manual_Sel_Bit", 0);
+;;;91             }
+;;;92             else
+;;;93             {
+;;;94                 KEYSCAN_DBG_BUFFER(MODULE_APP, LEVEL_INFO, "[keyscan_init_driver] KeyScan_Manual_Sel_Key", 0);
+;;;95             }
+;;;96         }
+;;;97     
+;;;98         KeyScan_InitStruct.clockdiv         = 0x26;  /* 128kHz = 5MHz/(clockdiv+1) */
+        0x00215176:    2026        &       MOVS     r0,#0x26
+        0x00215178:    950e        ..      STR      r5,[sp,#0x38]
+        0x0021517a:    920a        ..      STR      r2,[sp,#0x28]
+        0x0021517c:    8588        ..      STRH     r0,[r1,#0x2c]
+;;;99         KeyScan_InitStruct.delayclk         = 0x0f;  /* 8kHz = 5MHz/(clockdiv+1)/(delayclk+1) */
+        0x0021517e:    200f        .       MOVS     r0,#0xf
+        0x00215180:    a908        ..      ADD      r1,sp,#0x20
+        0x00215182:    7388        .s      STRB     r0,[r1,#0xe]
+        0x00215184:    20ff        .       MOVS     r0,#0xff
+        0x00215186:    9403        ..      STR      r4,[sp,#0xc]
+;;;100    
+;;;101        KeyScan_InitStruct.debounceEn       = is_debounce;
+;;;102        KeyScan_InitStruct.scantimerEn  = KeyScan_ScanInterval_Disable;
+;;;103        KeyScan_InitStruct.detecttimerEn    = KeyScan_Release_Detect_Disable;
+        0x00215188:    9204        ..      STR      r2,[sp,#0x10]
+;;;104    
+;;;105        KeyScan_InitStruct.scanInterval     = 0x190;  /* 50ms = scanInterval/8kHz */
+        0x0021518a:    3091        .0      ADDS     r0,r0,#0x91
+        0x0021518c:    4669        iF      MOV      r1,sp
+        0x0021518e:    9205        ..      STR      r2,[sp,#0x14]
+        0x00215190:    8148        H.      STRH     r0,[r1,#0xa]
+;;;106        KeyScan_InitStruct.debouncecnt      = 0x30;   /* 6ms = debouncecnt/8kHz */
+        0x00215192:    2030        0       MOVS     r0,#0x30
+        0x00215194:    a908        ..      ADD      r1,sp,#0x20
+        0x00215196:    7488        .t      STRB     r0,[r1,#0x12]
+;;;107        KeyScan_InitStruct.releasecnt       = 0x50;   /* 10ms = releasecnt/8kHz */
+        0x00215198:    2050        P       MOVS     r0,#0x50
+        0x0021519a:    74c8        .t      STRB     r0,[r1,#0x13]
+;;;108        KeyScan_InitStruct.keylimit         = KEYSCAN_FIFO_LIMIT;
+        0x0021519c:    2003        .       MOVS     r0,#3
+        0x0021519e:    7508        .u      STRB     r0,[r1,#0x14]
+;;;109    
+;;;110        KeyScan_Init(KEYSCAN, &KeyScan_InitStruct);
+        0x002151a0:    4c0f        .L      LDR      r4,[pc,#60] ; [0x2151e0] = 0x40005000
+        0x002151a2:    4669        iF      MOV      r1,sp
+        0x002151a4:    4620         F      MOV      r0,r4
+        0x002151a6:    f000f869    ..i.    BL       KeyScan_Init ; 0x21527c
+;;;111        KeyScan_INTConfig(KEYSCAN, KEYSCAN_INT_SCAN_END, ENABLE);
+        0x002151aa:    2201        ."      MOVS     r2,#1
+        0x002151ac:    2104        .!      MOVS     r1,#4
+        0x002151ae:    4620         F      MOV      r0,r4
+        0x002151b0:    f000f8dc    ....    BL       KeyScan_INTConfig ; 0x21536c
+;;; ..\..\..\..\inc\peripheral\rtl876x_keyscan.h
+;;;505        KeyScan->INTCLR |= KeyScan_IT;
+        0x002151b4:    69e1        .i      LDR      r1,[r4,#0x1c]
+;;; ..\..\..\..\src\app\rcu\key_module\keyscan_basic_driver.c
+;;;112        KeyScan_ClearINTPendingBit(KEYSCAN, KEYSCAN_INT_SCAN_END);
+        0x002151b6:    2004        .       MOVS     r0,#4
+;;; ..\..\..\..\inc\peripheral\rtl876x_keyscan.h
+;;;505        KeyScan->INTCLR |= KeyScan_IT;
+        0x002151b8:    4301        .C      ORRS     r1,r1,r0
+        0x002151ba:    61e1        .a      STR      r1,[r4,#0x1c]
+;;; ..\..\..\..\src\app\rcu\key_module\keyscan_basic_driver.c
+;;;113        KeyScan_INTMask(KEYSCAN, KEYSCAN_INT_SCAN_END, DISABLE);  /* Mask keyscan interrupt */
+        0x002151bc:    4601        .F      MOV      r1,r0
+        0x002151be:    2200        ."      MOVS     r2,#0
+        0x002151c0:    4620         F      MOV      r0,r4
+        0x002151c2:    f000f8db    ....    BL       KeyScan_INTMask ; 0x21537c
+;;;114        KeyScan_Cmd(KEYSCAN, ENABLE);
+        0x002151c6:    2101        .!      MOVS     r1,#1
+        0x002151c8:    4620         F      MOV      r0,r4
+        0x002151ca:    f000f8ea    ....    BL       KeyScan_Cmd ; 0x2153a2
+;;;115    }
+        0x002151ce:    b00f        ..      ADD      sp,sp,#0x3c
+        0x002151d0:    bd30        0.      POP      {r4,r5,pc}
+    $d
+        0x002151d2:    0000        ..      DCW    0
+        0x002151d4:    00215b48    H[!.    DCD    2186056
+        0x002151d8:    60000040    @..`    DCD    1610612800
+        0x002151dc:    08080000    ....    DCD    134742016
+        0x002151e0:    40005000    .P.@    DCD    1073762304
+    $t
+    .rev16_text
+    __asm___16_fsbl_entry_ext_c_b35718a1____REV16
+;;; ..\\..\\..\\..\\inc\\platform\\cmsis_armcc.h
+;;;466      rev16 r0, r0
+        0x002151e4:    ba40        @.      REV16    r0,r0
+        0x002151e6:    4770        pG      BX       lr
+    .rev16_text
+    __asm___22_keyscan_basic_driver_c_5ad10e14____REV16
+;;; ..\\..\\..\\..\\inc\\platform\\cmsis_armcc.h (466)
+        0x002151e8:    ba40        @.      REV16    r0,r0
+        0x002151ea:    4770        pG      BX       lr
+    .rev16_text
+    __asm___17_rtl876x_keyscan_c_e63e7e65____REV16
+;;; ..\\..\\..\\..\\inc\\platform\\cmsis_armcc.h (466)
+        0x002151ec:    ba40        @.      REV16    r0,r0
+        0x002151ee:    4770        pG      BX       lr
+    .rev16_text
+    __asm___13_rtl876x_rcc_c_2b14c0fe____REV16
+;;; ..\\..\\..\\..\\inc\\platform\\cmsis_armcc.h (466)
+        0x002151f0:    ba40        @.      REV16    r0,r0
+        0x002151f2:    4770        pG      BX       lr
+    .rev16_text
+    __asm___16_rtl876x_pinmux_c_fe16c4ae____REV16
+;;; ..\\..\\..\\..\\inc\\platform\\cmsis_armcc.h (466)
+        0x002151f4:    ba40        @.      REV16    r0,r0
+;;;467      bx lr
+        0x002151f6:    4770        pG      BX       lr
+    .revsh_text
+    __asm___16_fsbl_entry_ext_c_b35718a1____REVSH
+;;;468    }
+;;;469    #endif
+;;;470    
+;;;471    
+;;;472    /**
+;;;473      \brief   Reverse byte order (16 bit)
+;;;474      \details Reverses the byte order in a 16-bit value and returns the signed 16-bit result. For example, 0x0080 becomes 0x8000.
+;;;475      \param [in]    value  Value to reverse
+;;;476      \return               Reversed value
+;;;477     */
+;;;478    #ifndef __NO_EMBEDDED_ASM
+;;;479    __attribute__((section(".revsh_text"))) __STATIC_INLINE __ASM int16_t __REVSH(int16_t value)
+;;;480    {
+;;;481      revsh r0, r0
+        0x002151f8:    bac0        ..      REVSH    r0,r0
+        0x002151fa:    4770        pG      BX       lr
+    .revsh_text
+    __asm___22_keyscan_basic_driver_c_5ad10e14____REVSH
+;;; ..\\..\\..\\..\\inc\\platform\\cmsis_armcc.h (481)
+        0x002151fc:    bac0        ..      REVSH    r0,r0
+        0x002151fe:    4770        pG      BX       lr
+    .revsh_text
+    __asm___17_rtl876x_keyscan_c_e63e7e65____REVSH
+;;; ..\\..\\..\\..\\inc\\platform\\cmsis_armcc.h (481)
+        0x00215200:    bac0        ..      REVSH    r0,r0
+        0x00215202:    4770        pG      BX       lr
+    .revsh_text
+    __asm___13_rtl876x_rcc_c_2b14c0fe____REVSH
+;;; ..\\..\\..\\..\\inc\\platform\\cmsis_armcc.h (481)
+        0x00215204:    bac0        ..      REVSH    r0,r0
+        0x00215206:    4770        pG      BX       lr
+    .revsh_text
+    __asm___16_rtl876x_pinmux_c_fe16c4ae____REVSH
+;;; ..\\..\\..\\..\\inc\\platform\\cmsis_armcc.h (481)
+        0x00215208:    bac0        ..      REVSH    r0,r0
+;;;482      bx lr
+        0x0021520a:    4770        pG      BX       lr
+    .text
+    bss_ram_init
+;;; .\..\src\fsbl_entry_ext.c
+;;;86     {
+        0x0021520c:    b510        ..      PUSH     {r4,lr}
+;;;87         extern char Image$$FSBL_RAM_TEXT_SECTION$$ZI$$Base[];
+;;;88         extern unsigned int Image$$FSBL_RAM_TEXT_SECTION$$ZI$$Length;
+;;;89     
+;;;90         memset(Image$$FSBL_RAM_TEXT_SECTION$$ZI$$Base,
+        0x0021520e:    4906        .I      LDR      r1,[pc,#24] ; [0x215228] = 0x30
+        0x00215210:    4806        .H      LDR      r0,[pc,#24] ; [0x21522c] = 0x215b48
+        0x00215212:    f62afb7f    *...    BL       __aeabi_memclr ; 0x3f914
+;;;91                0,
+;;;92                (unsigned int)&Image$$FSBL_RAM_TEXT_SECTION$$ZI$$Length);
+;;;93     }
+        0x00215216:    bd10        ..      POP      {r4,pc}
+    get_reset_reason
+;;;94     
+;;;95     T_SW_RESET_REASON get_reset_reason(void)
+;;;96     {
+        0x00215218:    b508        ..      PUSH     {r3,lr}
+;;;97         T_BTAON_FAST_TEST_MODE_TYPE aon;
+;;;98         aon.d16 = btaon_fast_read_safe(BTAON_FAST_TEST_MODE);
+        0x0021521a:    2016        .       MOVS     r0,#0x16
+        0x0021521c:    f61dfeba    ....    BL       btaon_fast_read_safe ; 0x32f94
+        0x00215220:    4669        iF      MOV      r1,sp
+        0x00215222:    8008        ..      STRH     r0,[r1,#0]
+;;;99         return (T_SW_RESET_REASON)(aon.s.reset_reason);
+        0x00215224:    7848        Hx      LDRB     r0,[r1,#1]
+;;;100    }
+        0x00215226:    bd08        ..      POP      {r3,pc}
+    $d
+        0x00215228:    00000030    0...    DCD    48
+        0x0021522c:    00215b48    H[!.    DCD    2186056
+    $t
+    .text
+    keyscan_pinmux_config
+;;; ..\..\..\..\src\app\rcu\key_module\keyscan_basic_driver.c
+;;;256    {
+        0x00215230:    b510        ..      PUSH     {r4,lr}
+;;;257    #ifdef ROW0
+;;;258        Pinmux_Config(ROW0, KEY_ROW_0);
+        0x00215232:    214e        N!      MOVS     r1,#0x4e
+        0x00215234:    2018        .       MOVS     r0,#0x18
+        0x00215236:    f000fa90    ....    BL       Pinmux_Config ; 0x21575a
+;;;259    #endif
+;;;260    #ifdef ROW1
+;;;261        Pinmux_Config(ROW1, KEY_ROW_1);
+        0x0021523a:    214f        O!      MOVS     r1,#0x4f
+        0x0021523c:    2019        .       MOVS     r0,#0x19
+        0x0021523e:    f000fa8c    ....    BL       Pinmux_Config ; 0x21575a
+;;;262    #endif
+;;;263    #ifdef ROW2
+;;;264        Pinmux_Config(ROW2, KEY_ROW_2);
+        0x00215242:    2150        P!      MOVS     r1,#0x50
+        0x00215244:    2009        .       MOVS     r0,#9
+        0x00215246:    f000fa88    ....    BL       Pinmux_Config ; 0x21575a
+;;;265    #endif
+;;;266    #ifdef ROW3
+;;;267        Pinmux_Config(ROW3, KEY_ROW_3);
+        0x0021524a:    2151        Q!      MOVS     r1,#0x51
+        0x0021524c:    2014        .       MOVS     r0,#0x14
+        0x0021524e:    f000fa84    ....    BL       Pinmux_Config ; 0x21575a
+;;;268    #endif
+;;;269    #ifdef ROW4
+;;;270        Pinmux_Config(ROW4, KEY_ROW_4);
+;;;271    #endif
+;;;272    #ifdef ROW5
+;;;273        Pinmux_Config(ROW5, KEY_ROW_5);
+;;;274    #endif
+;;;275    #ifdef ROW6
+;;;276        Pinmux_Config(ROW6, KEY_ROW_6);
+;;;277    #endif
+;;;278    #ifdef ROW7
+;;;279        Pinmux_Config(ROW7, KEY_ROW_7);
+;;;280    #endif
+;;;281    #ifdef ROW8
+;;;282        Pinmux_Config(ROW8, KEY_ROW_8);
+;;;283    #endif
+;;;284    #ifdef ROW9
+;;;285        Pinmux_Config(ROW9, KEY_ROW_9);
+;;;286    #endif
+;;;287    #ifdef ROW10
+;;;288        Pinmux_Config(ROW10, KEY_ROW_10);
+;;;289    #endif
+;;;290    #ifdef ROW11
+;;;291        Pinmux_Config(ROW11, KEY_ROW_11);
+;;;292    #endif
+;;;293    
+;;;294    #ifdef COLUMN0
+;;;295        Pinmux_Config(COLUMN0, KEY_COL_0);
+        0x00215252:    213a        :!      MOVS     r1,#0x3a
+        0x00215254:    2020                MOVS     r0,#0x20
+        0x00215256:    f000fa80    ....    BL       Pinmux_Config ; 0x21575a
+;;;296    #endif
+;;;297    #ifdef COLUMN1
+;;;298        Pinmux_Config(COLUMN1, KEY_COL_1);
+        0x0021525a:    213b        ;!      MOVS     r1,#0x3b
+        0x0021525c:    2021        !       MOVS     r0,#0x21
+        0x0021525e:    f000fa7c    ..|.    BL       Pinmux_Config ; 0x21575a
+;;;299    #endif
+;;;300    #ifdef COLUMN2
+;;;301        Pinmux_Config(COLUMN2, KEY_COL_2);
+        0x00215262:    213c        <!      MOVS     r1,#0x3c
+        0x00215264:    2022        "       MOVS     r0,#0x22
+        0x00215266:    f000fa78    ..x.    BL       Pinmux_Config ; 0x21575a
+;;;302    #endif
+;;;303    #ifdef COLUMN3
+;;;304        Pinmux_Config(COLUMN3, KEY_COL_3);
+        0x0021526a:    213d        =!      MOVS     r1,#0x3d
+        0x0021526c:    2023        #       MOVS     r0,#0x23
+        0x0021526e:    f000fa74    ..t.    BL       Pinmux_Config ; 0x21575a
+;;;305    #endif
+;;;306    #ifdef COLUMN4
+;;;307        Pinmux_Config(COLUMN4, KEY_COL_4);
+        0x00215272:    213e        >!      MOVS     r1,#0x3e
+        0x00215274:    2002        .       MOVS     r0,#2
+        0x00215276:    f000fa70    ..p.    BL       Pinmux_Config ; 0x21575a
+;;;308    #endif
+;;;309    #ifdef COLUMN5
+;;;310        Pinmux_Config(COLUMN5, KEY_COL_5);
+;;;311    #endif
+;;;312    #ifdef COLUMN6
+;;;313        Pinmux_Config(COLUMN6, KEY_COL_6);
+;;;314    #endif
+;;;315    #ifdef COLUMN7
+;;;316        Pinmux_Config(COLUMN7, KEY_COL_7);
+;;;317    #endif
+;;;318    #ifdef COLUMN8
+;;;319        Pinmux_Config(COLUMN8, KEY_COL_8);
+;;;320    #endif
+;;;321    #ifdef COLUMN9
+;;;322        Pinmux_Config(COLUMN9, KEY_COL_9);
+;;;323    #endif
+;;;324    #ifdef COLUMN10
+;;;325        Pinmux_Config(COLUMN10, KEY_COL_10);
+;;;326    #endif
+;;;327    #ifdef COLUMN11
+;;;328        Pinmux_Config(COLUMN11, KEY_COL_11);
+;;;329    #endif
+;;;330    #ifdef COLUMN12
+;;;331        Pinmux_Config(COLUMN12, KEY_COL_12);
+;;;332    #endif
+;;;333    #ifdef COLUMN13
+;;;334        Pinmux_Config(COLUMN13, KEY_COL_13);
+;;;335    #endif
+;;;336    #ifdef COLUMN14
+;;;337        Pinmux_Config(COLUMN14, KEY_COL_14);
+;;;338    #endif
+;;;339    #ifdef COLUMN15
+;;;340        Pinmux_Config(COLUMN15, KEY_COL_15);
+;;;341    #endif
+;;;342    #ifdef COLUMN16
+;;;343        Pinmux_Config(COLUMN16, KEY_COL_16);
+;;;344    #endif
+;;;345    #ifdef COLUMN17
+;;;346        Pinmux_Config(COLUMN17, KEY_COL_17);
+;;;347    #endif
+;;;348    #ifdef COLUMN18
+;;;349        Pinmux_Config(COLUMN18, KEY_COL_18);
+;;;350    #endif
+;;;351    #ifdef COLUMN19
+;;;352        Pinmux_Config(COLUMN19, KEY_COL_19);
+;;;353    #endif
+;;;354    }
+        0x0021527a:    bd10        ..      POP      {r4,pc}
+    .text
+    KeyScan_Init
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_keyscan.c
+;;;26     {
+        0x0021527c:    b530        0.      PUSH     {r4,r5,lr}
+;;;27         assert_param(IS_KeyScan_PERIPH(KeyScan));
+;;;28         assert_param(IS_KEYSCAN_ROW_NUM(KeyScan_InitStruct->rowSize));
+;;;29         assert_param(IS_KEYSCAN_COL_NUM(KeyScan_InitStruct->colSize));
+;;;30         assert_param(IS_KEYSCAN_DEBOUNCE_EN(KeyScan_InitStruct->debounceEn));
+;;;31         assert_param(IS_KEYSCAN_DETECT_MODE(KeyScan_InitStruct->detectMode));
+;;;32         assert_param(IS_KEYSCAN_FIFO_OVR_CTRL(KeyScan_InitStruct->fifoOvrCtrl));
+;;;33         assert_param(IS_KEYSCAN_MAX_SCAN_DATA(KeyScan_InitStruct->maxScanData));
+;;;34     
+;;;35         /* Set FSM to idle state */
+;;;36         KeyScan->CR &= ~BIT31;
+        0x0021527e:    6882        .h      LDR      r2,[r0,#8]
+        0x00215280:    0052        R.      LSLS     r2,r2,#1
+        0x00215282:    0852        R.      LSRS     r2,r2,#1
+        0x00215284:    6082        .`      STR      r2,[r0,#8]
+;;;37     
+;;;38         /* Mask all keyscan interrupt */
+;;;39         KeyScan->INTMASK |= 0x1f;
+        0x00215286:    6982        .i      LDR      r2,[r0,#0x18]
+        0x00215288:    231f        .#      MOVS     r3,#0x1f
+        0x0021528a:    431a        .C      ORRS     r2,r2,r3
+        0x0021528c:    6182        .a      STR      r2,[r0,#0x18]
+;;;40     
+;;;41         /* clock divider config */
+;;;42         KeyScan->CLKDIV &= ~((0x3FF << 8) | 0x1F);
+        0x0021528e:    6802        .h      LDR      r2,[r0,#0]
+        0x00215290:    4b5e        ^K      LDR      r3,[pc,#376] ; [0x21540c] = 0xfffc00e0
+        0x00215292:    401a        .@      ANDS     r2,r2,r3
+        0x00215294:    6002        .`      STR      r2,[r0,#0]
+;;;43         KeyScan->CLKDIV |= ((KeyScan_InitStruct->clockdiv << 8)\
+        0x00215296:    6803        .h      LDR      r3,[r0,#0]
+        0x00215298:    460a        .F      MOV      r2,r1
+        0x0021529a:    3220         2      ADDS     r2,r2,#0x20
+        0x0021529c:    7b94        .{      LDRB     r4,[r2,#0xe]
+        0x0021529e:    4323        #C      ORRS     r3,r3,r4
+        0x002152a0:    8d8c        ..      LDRH     r4,[r1,#0x2c]
+        0x002152a2:    0224        $.      LSLS     r4,r4,#8
+        0x002152a4:    4323        #C      ORRS     r3,r3,r4
+        0x002152a6:    6003        .`      STR      r3,[r0,#0]
+;;;44                             | (KeyScan_InitStruct->delayclk));
+;;;45     
+;;;46         /* Config scan mode and detect mode*/
+;;;47         KeyScan->CR = (KeyScan_InitStruct-> scanmode | KeyScan_InitStruct-> detectMode |
+        0x002152a8:    69cc        .i      LDR      r4,[r1,#0x1c]
+        0x002152aa:    6a8b        .j      LDR      r3,[r1,#0x28]
+        0x002152ac:    6a0d        .j      LDR      r5,[r1,#0x20]
+        0x002152ae:    4323        #C      ORRS     r3,r3,r4
+        0x002152b0:    6b8c        .k      LDR      r4,[r1,#0x38]
+        0x002152b2:    432c        ,C      ORRS     r4,r4,r5
+        0x002152b4:    4323        #C      ORRS     r3,r3,r4
+        0x002152b6:    6083        .`      STR      r3,[r0,#8]
+;;;48                        KeyScan_InitStruct-> manual_sel | KeyScan_InitStruct->fifoOvrCtrl);
+;;;49         /* fifo threshol setting */
+;;;50         KeyScan->CR |= (KeyScan_InitStruct ->fifotriggerlevel << 5);
+        0x002152b8:    6883        .h      LDR      r3,[r0,#8]
+        0x002152ba:    8e0c        ..      LDRH     r4,[r1,#0x30]
+        0x002152bc:    0164        d.      LSLS     r4,r4,#5
+        0x002152be:    4323        #C      ORRS     r3,r3,r4
+        0x002152c0:    6083        .`      STR      r3,[r0,#8]
+;;;51         /* key limit setting */
+;;;52         KeyScan->CR |= (KeyScan_InitStruct ->keylimit << 23);
+        0x002152c2:    6883        .h      LDR      r3,[r0,#8]
+        0x002152c4:    7d14        .}      LDRB     r4,[r2,#0x14]
+        0x002152c6:    05e4        ..      LSLS     r4,r4,#23
+        0x002152c8:    4323        #C      ORRS     r3,r3,r4
+        0x002152ca:    6083        .`      STR      r3,[r0,#8]
+;;;53     
+;;;54         /* time config */
+;;;55         KeyScan->TIMERCR = ((KeyScan_InitStruct ->debounceEn)\
+        0x002152cc:    694c        Li      LDR      r4,[r1,#0x14]
+        0x002152ce:    68cb        .h      LDR      r3,[r1,#0xc]
+        0x002152d0:    4323        #C      ORRS     r3,r3,r4
+        0x002152d2:    690c        .i      LDR      r4,[r1,#0x10]
+        0x002152d4:    4323        #C      ORRS     r3,r3,r4
+        0x002152d6:    6043        C`      STR      r3,[r0,#4]
+;;;56                             | (KeyScan_InitStruct->detecttimerEn)\
+;;;57                             | (KeyScan_InitStruct->scantimerEn));
+;;;58         /* time count config */
+;;;59         KeyScan->TIMERCR |= ((KeyScan_InitStruct->debouncecnt << 18)\
+        0x002152d8:    6843        Ch      LDR      r3,[r0,#4]
+        0x002152da:    7cd4        .|      LDRB     r4,[r2,#0x13]
+        0x002152dc:    7c92        .|      LDRB     r2,[r2,#0x12]
+        0x002152de:    4323        #C      ORRS     r3,r3,r4
+        0x002152e0:    894c        L.      LDRH     r4,[r1,#0xa]
+        0x002152e2:    0492        ..      LSLS     r2,r2,#18
+        0x002152e4:    0264        d.      LSLS     r4,r4,#9
+        0x002152e6:    4322        "C      ORRS     r2,r2,r4
+        0x002152e8:    4313        .C      ORRS     r3,r3,r2
+        0x002152ea:    6043        C`      STR      r3,[r0,#4]
+;;;60                              | (KeyScan_InitStruct->scanInterval << 9)\
+;;;61                              | (KeyScan_InitStruct->releasecnt));
+;;;62     
+;;;63         /* Set col map, config which col to work */
+;;;64         KeyScan->COLCR = ((((1 << KeyScan_InitStruct->colSize) - 1) << 8) \
+        0x002152ec:    884a        J.      LDRH     r2,[r1,#2]
+        0x002152ee:    2301        .#      MOVS     r3,#1
+        0x002152f0:    461c        .F      MOV      r4,r3
+        0x002152f2:    4094        .@      LSLS     r4,r4,r2
+        0x002152f4:    0224        $.      LSLS     r4,r4,#8
+        0x002152f6:    1e52        R.      SUBS     r2,r2,#1
+        0x002152f8:    3cff        .<      SUBS     r4,r4,#0xff
+        0x002152fa:    3c01        .<      SUBS     r4,#1
+        0x002152fc:    4314        .C      ORRS     r4,r4,r2
+        0x002152fe:    60c4        .`      STR      r4,[r0,#0xc]
+;;;65                           | (KeyScan_InitStruct->colSize - 1));
+;;;66     
+;;;67         /* Set col map, config which col to work */
+;;;68         KeyScan->ROWCR = ((KeyScan_InitStruct->rowSize - 1) << 16\
+        0x00215300:    8809        ..      LDRH     r1,[r1,#0]
+        0x00215302:    1e4a        J.      SUBS     r2,r1,#1
+        0x00215304:    0412        ..      LSLS     r2,r2,#16
+        0x00215306:    408b        .@      LSLS     r3,r3,r1
+        0x00215308:    1e5b        [.      SUBS     r3,r3,#1
+        0x0021530a:    431a        .C      ORRS     r2,r2,r3
+        0x0021530c:    6102        .a      STR      r2,[r0,#0x10]
+;;;69                           | ((1 << KeyScan_InitStruct->rowSize) - 1));
+;;;70     
+;;;71         /* clear all interrupt status and status flag */
+;;;72         KeyScan->INTCLR |= 0xff;
+        0x0021530e:    69c1        .i      LDR      r1,[r0,#0x1c]
+        0x00215310:    22ff        ."      MOVS     r2,#0xff
+        0x00215312:    4311        .C      ORRS     r1,r1,r2
+        0x00215314:    61c1        .a      STR      r1,[r0,#0x1c]
+;;;73         /* Unmask all keyscan interrupt */
+;;;74         KeyScan->INTMASK &= ~0x1f;
+        0x00215316:    6981        .i      LDR      r1,[r0,#0x18]
+        0x00215318:    0949        I.      LSRS     r1,r1,#5
+        0x0021531a:    0149        I.      LSLS     r1,r1,#5
+        0x0021531c:    6181        .a      STR      r1,[r0,#0x18]
+;;;75     
+;;;76         return;
+;;;77     }
+        0x0021531e:    bd30        0.      POP      {r4,r5,pc}
+    KeyScan_DeInit
+;;;78     
+;;;79     /**
+;;;80       * @brief  Deinitializes the Keyscan peripheral registers to their default reset values(turn off keyscan clock).
+;;;81       * @param  KeyScan: selected KeyScan peripheral.
+;;;82       * @retval None
+;;;83       */
+;;;84     void KeyScan_DeInit(KEYSCAN_TypeDef *KeyScan)
+;;;85     {
+        0x00215320:    b510        ..      PUSH     {r4,lr}
+;;;86         /* Check the parameters */
+;;;87         assert_param(IS_KeyScan_PERIPH(KeyScan));
+;;;88     
+;;;89         RCC_PeriphClockCmd(APBPeriph_KEYSCAN, APBPeriph_KEYSCAN_CLOCK, DISABLE);
+        0x00215322:    2200        ."      MOVS     r2,#0
+        0x00215324:    493a        :I      LDR      r1,[pc,#232] ; [0x215410] = 0x60000040
+        0x00215326:    483b        ;H      LDR      r0,[pc,#236] ; [0x215414] = 0x8080000
+        0x00215328:    f000f878    ..x.    BL       RCC_PeriphClockCmd ; 0x21541c
+;;;90     
+;;;91         return;
+;;;92     }
+        0x0021532c:    bd10        ..      POP      {r4,pc}
+    KeyScan_StructInit
+;;;93     
+;;;94     
+;;;95     /**
+;;;96       * @brief  Fills each I2C_InitStruct member with its default value.
+;;;97       * @param  KeyScan_InitStruct: pointer to an KEYSCAN_InitTypeDef structure which will be initialized.
+;;;98       * @retval None
+;;;99       */
+;;;100    void KeyScan_StructInit(KEYSCAN_InitTypeDef *KeyScan_InitStruct)
+;;;101    {
+        0x0021532e:    b530        0.      PUSH     {r4,r5,lr}
+;;;102        KeyScan_InitStruct->colSize          = 2;
+        0x00215330:    2102        .!      MOVS     r1,#2
+        0x00215332:    8041        A.      STRH     r1,[r0,#2]
+;;;103        KeyScan_InitStruct->rowSize          = 2;
+        0x00215334:    8001        ..      STRH     r1,[r0,#0]
+;;;104    
+;;;105        KeyScan_InitStruct->scanmode         = KeyScan_Auto_Scan_Mode;
+        0x00215336:    074c        L.      LSLS     r4,r1,#29
+;;;106        KeyScan_InitStruct->detectMode       = KeyScan_Detect_Mode_Level;
+        0x00215338:    070b        ..      LSLS     r3,r1,#28
+;;;107        KeyScan_InitStruct->clockdiv         = 0x1f8;
+        0x0021533a:    21ff        .!      MOVS     r1,#0xff
+        0x0021533c:    6284        .b      STR      r4,[r0,#0x28]
+        0x0021533e:    31f9        .1      ADDS     r1,r1,#0xf9
+        0x00215340:    61c3        .a      STR      r3,[r0,#0x1c]
+        0x00215342:    8581        ..      STRH     r1,[r0,#0x2c]
+;;;108        KeyScan_InitStruct->delayclk         = 0x01;
+        0x00215344:    2201        ."      MOVS     r2,#1
+        0x00215346:    4601        .F      MOV      r1,r0
+        0x00215348:    3120         1      ADDS     r1,r1,#0x20
+        0x0021534a:    738a        .s      STRB     r2,[r1,#0xe]
+;;;109        KeyScan_InitStruct->fifotriggerlevel = 1;
+        0x0021534c:    8602        ..      STRH     r2,[r0,#0x30]
+;;;110        KeyScan_InitStruct->fifoOvrCtrl      = KeyScan_FIFO_OVR_CTRL_DIS_LAST;
+        0x0021534e:    0715        ..      LSLS     r5,r2,#28
+;;;111    
+;;;112        KeyScan_InitStruct->debounceEn       = KeyScan_Debounce_Enable;
+        0x00215350:    6205        .b      STR      r5,[r0,#0x20]
+        0x00215352:    07d5        ..      LSLS     r5,r2,#31
+;;;113        KeyScan_InitStruct->scantimerEn      = KeyScan_ScanInterval_Enable;
+;;;114        KeyScan_InitStruct->detecttimerEn    = KeyScan_Release_Detect_Enable;
+;;;115    
+;;;116        KeyScan_InitStruct->scanInterval     = 0x10;
+        0x00215354:    60c5        .`      STR      r5,[r0,#0xc]
+        0x00215356:    6104        .a      STR      r4,[r0,#0x10]
+        0x00215358:    6143        Ca      STR      r3,[r0,#0x14]
+        0x0021535a:    2310        .#      MOVS     r3,#0x10
+        0x0021535c:    8143        C.      STRH     r3,[r0,#0xa]
+;;;117        KeyScan_InitStruct->debouncecnt      = 0x10;
+        0x0021535e:    748b        .t      STRB     r3,[r1,#0x12]
+;;;118        KeyScan_InitStruct->releasecnt       = 0x1;
+        0x00215360:    74ca        .t      STRB     r2,[r1,#0x13]
+;;;119    
+;;;120        KeyScan_InitStruct->keylimit         = 0x03;
+        0x00215362:    2203        ."      MOVS     r2,#3
+        0x00215364:    750a        .u      STRB     r2,[r1,#0x14]
+;;;121        KeyScan_InitStruct->manual_sel       = KeyScan_Manual_Sel_Bit;
+        0x00215366:    2100        .!      MOVS     r1,#0
+        0x00215368:    6381        .c      STR      r1,[r0,#0x38]
+;;;122    
+;;;123        return;
+;;;124    }
+        0x0021536a:    bd30        0.      POP      {r4,r5,pc}
+    KeyScan_INTConfig
+;;;125    
+;;;126    /**
+;;;127      * @brief  Enables or disables the specified KeyScan interrupts.
+;;;128      * @param  KeyScan: selected KeyScan peripheral.
+;;;129      * @param  KeyScan_IT: specifies the KeyScan interrupts sources to be enabled or disabled.
+;;;130      *   This parameter can be any combination of the following values:
+;;;131      *     @arg KEYSCAN_INT_TIMEOUT: KeyScan timeout interrupt mask
+;;;132      *     @arg KEYSCAN_INT_OVER_THRESHOLD: Kescan FIFO data over threshold interrupt mask
+;;;133      *     @arg KEYSCAN_INT_SCAN_END: KeyScan scan end interrupt mask
+;;;134      * @param  NewState: new state of the specified KeyScan interrupts.
+;;;135      *   This parameter can be: ENABLE or DISABLE.
+;;;136      * @retval None
+;;;137      */
+;;;138    void KeyScan_INTConfig(KEYSCAN_TypeDef *KeyScan, uint32_t KeyScan_IT, FunctionalState newState)
+;;;139    {
+;;;140        /* Check the parameters */
+;;;141        assert_param(IS_KeyScan_PERIPH(KeyScan));
+;;;142        assert_param(IS_FUNCTIONAL_STATE(newState));
+;;;143        assert_param(IS_KEYSCAN_CONFIG_IT(KeyScan_IT));
+;;;144    
+;;;145        if (newState == ENABLE)
+        0x0021536c:    2a01        .*      CMP      r2,#1
+        0x0021536e:    6882        .h      LDR      r2,[r0,#8]
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_keyscan.c (139)
+        0x00215370:    d002        ..      BEQ      0x215378 ; KeyScan_INTConfig + 12
+        0x00215372:    438a        .C      BICS     r2,r2,r1
+;;;140        /* Check the parameters */
+;;;141        assert_param(IS_KeyScan_PERIPH(KeyScan));
+;;;142        assert_param(IS_FUNCTIONAL_STATE(newState));
+;;;143        assert_param(IS_KEYSCAN_CONFIG_IT(KeyScan_IT));
+;;;144    
+;;;145        if (newState == ENABLE)
+;;;146        {
+;;;147            /* Enable the selected KeyScan interrupts */
+;;;148            KeyScan->CR |= KeyScan_IT;
+        0x00215374:    6082        .`      STR      r2,[r0,#8]
+        0x00215376:    4770        pG      BX       lr
+        0x00215378:    430a        .C      ORRS     r2,r2,r1
+        0x0021537a:    e7fb        ..      B        0x215374 ; KeyScan_INTConfig + 8
+    KeyScan_INTMask
+;;;149        }
+;;;150        else
+;;;151        {
+;;;152            /* Disable the selected KeyScan interrupts */
+;;;153            KeyScan->CR &= (uint32_t)~KeyScan_IT;
+;;;154        }
+;;;155    }
+;;;156    
+;;;157    /**
+;;;158      * @brief  Enables or disables the specified KeyScan interrupts mask.
+;;;159      * @param  KeyScan: selected KeyScan peripheral.
+;;;160      * @param  NewState: new state of the specified KeyScan interrupts mask.
+;;;161      *   This parameter can be: ENABLE or DISABLE.
+;;;162      * @retval None
+;;;163      */
+;;;164    void KeyScan_INTMask(KEYSCAN_TypeDef *KeyScan, uint32_t KeyScan_IT, FunctionalState newState)
+;;;165    {
+;;;166        /* Check the parameters */
+;;;167        assert_param(IS_KeyScan_PERIPH(KeyScan));
+;;;168        assert_param(IS_FUNCTIONAL_STATE(newState));
+;;;169    
+;;;170        if (newState == ENABLE)
+        0x0021537c:    2a01        .*      CMP      r2,#1
+        0x0021537e:    6982        .i      LDR      r2,[r0,#0x18]
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_keyscan.c (165)
+        0x00215380:    d002        ..      BEQ      0x215388 ; KeyScan_INTMask + 12
+        0x00215382:    438a        .C      BICS     r2,r2,r1
+;;;166        /* Check the parameters */
+;;;167        assert_param(IS_KeyScan_PERIPH(KeyScan));
+;;;168        assert_param(IS_FUNCTIONAL_STATE(newState));
+;;;169    
+;;;170        if (newState == ENABLE)
+;;;171        {
+;;;172            /* mask KeyScan interrupts */
+;;;173            KeyScan->INTMASK |= KeyScan_IT;
+        0x00215384:    6182        .a      STR      r2,[r0,#0x18]
+        0x00215386:    4770        pG      BX       lr
+        0x00215388:    430a        .C      ORRS     r2,r2,r1
+        0x0021538a:    e7fb        ..      B        0x215384 ; KeyScan_INTMask + 8
+    KeyScan_Read
+;;;174        }
+;;;175        else
+;;;176        {
+;;;177            /* enable KeyScan interrupts */
+;;;178            KeyScan->INTMASK &= (~KeyScan_IT);
+;;;179        }
+;;;180    }
+;;;181    
+;;;182    /**
+;;;183      * @brief  Read data from keyscan FIFO.
+;;;184      * @param  KeyScan: selected KeyScan peripheral.
+;;;185      * @param[out]  outBuf: buffer to save data read from KeyScan FIFO.
+;;;186      * @param  count: number of data to be read.
+;;;187      * @retval None
+;;;188      */
+;;;189    void KeyScan_Read(KEYSCAN_TypeDef *KeyScan, uint16_t *outBuf, uint16_t count)
+;;;190    {
+        0x0021538c:    b510        ..      PUSH     {r4,lr}
+        0x0021538e:    2300        .#      MOVS     r3,#0
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_keyscan.c (190)
+        0x00215390:    e004        ..      B        0x21539c ; KeyScan_Read + 16
+        0x00215392:    6944        Di      LDR      r4,[r0,#0x14]
+        0x00215394:    1c5b        [.      ADDS     r3,r3,#1
+        0x00215396:    800c        ..      STRH     r4,[r1,#0]
+;;;191        /* Check the parameters */
+;;;192        assert_param(IS_KeyScan_PERIPH(KeyScan));
+;;;193    
+;;;194        uint16_t i = 0;
+;;;195    
+;;;196        for (i = 0; i < count; i++)
+        0x00215398:    b29b        ..      UXTH     r3,r3
+        0x0021539a:    1c89        ..      ADDS     r1,r1,#2
+        0x0021539c:    4293        .B      CMP      r3,r2
+        0x0021539e:    d3f8        ..      BCC      0x215392 ; KeyScan_Read + 6
+;;;197        {
+;;;198            *outBuf++ = (uint16_t)KeyScan->FIFODATA;
+;;;199        }
+;;;200    
+;;;201        return;
+;;;202    }
+        0x002153a0:    bd10        ..      POP      {r4,pc}
+    KeyScan_Cmd
+        0x002153a2:    2900        .)      CMP      r1,#0
+        0x002153a4:    6881        .h      LDR      r1,[r0,#8]
+;;;203    
+;;;204    /**
+;;;205      * @brief  Enables or disables the KeyScan peripheral.
+;;;206      * @param  KeyScan: selected KeyScan peripheral.
+;;;207      * @param  NewState: new state of the KeyScan peripheral.
+;;;208      *   This parameter can be: ENABLE or DISABLE.
+;;;209      * @retval None
+;;;210      */
+;;;211    void KeyScan_Cmd(KEYSCAN_TypeDef *KeyScan, FunctionalState NewState)
+;;;212    {
+        0x002153a6:    d00f        ..      BEQ      0x2153c8 ; KeyScan_Cmd + 38
+;;;213        /* Check the parameters */
+;;;214        assert_param(IS_KeyScan_PERIPH(KeyScan));
+;;;215        assert_param(IS_FUNCTIONAL_STATE(NewState));
+;;;216    
+;;;217        if (NewState != DISABLE)
+;;;218        {
+;;;219            /* Enable the selected KeyScan peripheral */
+;;;220            /* In manual mode, bit22 must be write 1 to trigger scan,
+;;;221            and will be clear to 0 automatically after scan finish */
+;;;222            if (((KeyScan->CR & BIT30) == 0) && ((KeyScan->CR & BIT11) == 0))
+        0x002153a8:    0049        I.      LSLS     r1,r1,#1
+        0x002153aa:    d407        ..      BMI      0x2153bc ; KeyScan_Cmd + 26
+        0x002153ac:    6881        .h      LDR      r1,[r0,#8]
+        0x002153ae:    0509        ..      LSLS     r1,r1,#20
+        0x002153b0:    d404        ..      BMI      0x2153bc ; KeyScan_Cmd + 26
+;;;223            {
+;;;224                KeyScan->CR |= BIT22;
+        0x002153b2:    6881        .h      LDR      r1,[r0,#8]
+        0x002153b4:    2201        ."      MOVS     r2,#1
+        0x002153b6:    0592        ..      LSLS     r2,r2,#22
+        0x002153b8:    4311        .C      ORRS     r1,r1,r2
+        0x002153ba:    6081        .`      STR      r1,[r0,#8]
+;;;225            }
+;;;226    
+;;;227            KeyScan->CR |= BIT31;
+        0x002153bc:    6881        .h      LDR      r1,[r0,#8]
+        0x002153be:    2201        ."      MOVS     r2,#1
+        0x002153c0:    07d2        ..      LSLS     r2,r2,#31
+        0x002153c2:    4311        .C      ORRS     r1,r1,r2
+        0x002153c4:    6081        .`      STR      r1,[r0,#8]
+        0x002153c6:    4770        pG      BX       lr
+;;;228        }
+;;;229        else
+;;;230        {
+;;;231            /* Disable the selected KeyScan peripheral */
+;;;232            KeyScan->CR &= ~BIT31;
+        0x002153c8:    0049        I.      LSLS     r1,r1,#1
+        0x002153ca:    0849        I.      LSRS     r1,r1,#1
+        0x002153cc:    e7fa        ..      B        0x2153c4 ; KeyScan_Cmd + 34
+    KeyScan_FilterDataConfig
+;;;233        }
+;;;234    }
+;;;235    
+;;;236    /**
+;;;237      * @brief  Set filter data.
+;;;238      * @param  KeyScan: selected KeyScan peripheral.
+;;;239      * @param  data: config the data to be filtered.
+;;;240      *   This parameter should not be more than 9 bits
+;;;241      * @retval none.
+;;;242      */
+;;;243    void KeyScan_FilterDataConfig(KEYSCAN_TypeDef *KeyScan, uint16_t data, FunctionalState NewState)
+;;;244    {
+        0x002153ce:    b510        ..      PUSH     {r4,lr}
+        0x002153d0:    2301        .#      MOVS     r3,#1
+        0x002153d2:    05c9        ..      LSLS     r1,r1,#23
+        0x002153d4:    055b        [.      LSLS     r3,r3,#21
+        0x002153d6:    0ac9        ..      LSRS     r1,r1,#11
+;;;245        /* Check the parameters */
+;;;246        assert_param(IS_KeyScan_PERIPH(KeyScan));
+;;;247    
+;;;248        if (NewState == ENABLE)
+        0x002153d8:    2a01        .*      CMP      r2,#1
+;;;249        {
+;;;250            KeyScan->CR &= ~BIT21;
+;;;251    
+;;;252            KeyScan->CR &= ~(0x1ff << 12);
+        0x002153da:    4c0f        .L      LDR      r4,[pc,#60] ; [0x215418] = 0xffe00fff
+;;;253            KeyScan->CR |= ((data & 0x1ff) << 12);
+;;;254    
+;;;255            KeyScan->CR |= BIT21;
+;;;256        }
+;;;257        else
+;;;258        {
+;;;259            KeyScan->CR &= ~BIT21;
+        0x002153dc:    6882        .h      LDR      r2,[r0,#8]
+        0x002153de:    d008        ..      BEQ      0x2153f2 ; KeyScan_FilterDataConfig + 36
+        0x002153e0:    439a        .C      BICS     r2,r2,r3
+        0x002153e2:    6082        .`      STR      r2,[r0,#8]
+;;;260    
+;;;261            KeyScan->CR &= ~(0x1ff << 12);
+        0x002153e4:    6882        .h      LDR      r2,[r0,#8]
+        0x002153e6:    4022        "@      ANDS     r2,r2,r4
+        0x002153e8:    6082        .`      STR      r2,[r0,#8]
+;;;262            KeyScan->CR |= ((data & 0x1ff) << 12);
+        0x002153ea:    6882        .h      LDR      r2,[r0,#8]
+        0x002153ec:    430a        .C      ORRS     r2,r2,r1
+        0x002153ee:    6082        .`      STR      r2,[r0,#8]
+;;;263        }
+;;;264    
+;;;265        return;
+;;;266    }
+        0x002153f0:    bd10        ..      POP      {r4,pc}
+        0x002153f2:    439a        .C      BICS     r2,r2,r3
+        0x002153f4:    6082        .`      STR      r2,[r0,#8]
+        0x002153f6:    6882        .h      LDR      r2,[r0,#8]
+        0x002153f8:    4022        "@      ANDS     r2,r2,r4
+        0x002153fa:    6082        .`      STR      r2,[r0,#8]
+        0x002153fc:    6882        .h      LDR      r2,[r0,#8]
+        0x002153fe:    430a        .C      ORRS     r2,r2,r1
+        0x00215400:    6082        .`      STR      r2,[r0,#8]
+        0x00215402:    6881        .h      LDR      r1,[r0,#8]
+        0x00215404:    4319        .C      ORRS     r1,r1,r3
+        0x00215406:    6081        .`      STR      r1,[r0,#8]
+        0x00215408:    bd10        ..      POP      {r4,pc}
+    $d
+        0x0021540a:    0000        ..      DCW    0
+        0x0021540c:    fffc00e0    ....    DCD    4294705376
+        0x00215410:    60000040    @..`    DCD    1610612800
+        0x00215414:    08080000    ....    DCD    134742016
+        0x00215418:    ffe00fff    ....    DCD    4292874239
+    $t
+    .text
+    RCC_PeriphClockCmd
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_rcc.c
+;;;66     {
+        0x0021541c:    b5f0        ..      PUSH     {r4-r7,lr}
+        0x0021541e:    4694        .F      MOV      r12,r2
+        0x00215420:    004b        K.      LSLS     r3,r1,#1
+;;;67         /* Check the parameters */
+;;;68         assert_param(IS_APB_PERIPH(APBPeriph));
+;;;69         assert_param(IS_APB_PERIPH_CLOCK(APBPeriph_Clock));
+;;;70         assert_param(IS_FUNCTIONAL_STATE(NewState));
+;;;71     
+;;;72         uint32_t apbRegOff = ((APBPeriph & (0x03 << 26)) >> 26);
+        0x00215422:    0102        ..      LSLS     r2,r0,#4
+        0x00215424:    0f9d        ..      LSRS     r5,r3,#30
+        0x00215426:    4604        .F      MOV      r4,r0
+        0x00215428:    0f92        ..      LSRS     r2,r2,#30
+;;;73         uint32_t clkRegOff = ((APBPeriph_Clock & (0x03 << 29)) >> 29);
+;;;74     
+;;;75         /*Open clock gating first*/
+;;;76         if (NewState == ENABLE)
+        0x0021542a:    4666        fF      MOV      r6,r12
+        0x0021542c:    430c        .C      ORRS     r4,r4,r1
+        0x0021542e:    4bb3        .K      LDR      r3,[pc,#716] ; [0x2156fc] = 0x40000200
+        0x00215430:    2e01        ..      CMP      r6,#1
+        0x00215432:    d00a        ..      BEQ      0x21544a ; RCC_PeriphClockCmd + 46
+        0x00215434:    460e        .F      MOV      r6,r1
+        0x00215436:    3eff        .>      SUBS     r6,r6,#0xff
+        0x00215438:    3e21        !>      SUBS     r6,r6,#0x21
+        0x0021543a:    d05d        ].      BEQ      0x2154f8 ; RCC_PeriphClockCmd + 220
+        0x0021543c:    460e        .F      MOV      r6,r1
+        0x0021543e:    3eff        .>      SUBS     r6,r6,#0xff
+        0x00215440:    3e41        A>      SUBS     r6,r6,#0x41
+        0x00215442:    d059        Y.      BEQ      0x2154f8 ; RCC_PeriphClockCmd + 220
+        0x00215444:    2910        .)      CMP      r1,#0x10
+        0x00215446:    d057        W.      BEQ      0x2154f8 ; RCC_PeriphClockCmd + 220
+        0x00215448:    e03e        >.      B        0x2154c8 ; RCC_PeriphClockCmd + 172
+;;;77         {
+;;;78             if (APBPeriph_Clock == APBPeriph_KEYSCAN_CLOCK)
+        0x0021544a:    4fad        .O      LDR      r7,[pc,#692] ; [0x215700] = 0x60000040
+        0x0021544c:    053e        >.      LSLS     r6,r7,#20
+        0x0021544e:    42b9        .B      CMP      r1,r7
+        0x00215450:    d105        ..      BNE      0x21545e ; RCC_PeriphClockCmd + 66
+;;;79             {
+;;;80                 /*Open 5M clock source*/
+;;;81                 SYSBLKCTRL->u_20C.PERION_REG_SYS_CLK_SEL_2 |= BIT26;
+        0x00215452:    68df        .h      LDR      r7,[r3,#0xc]
+        0x00215454:    4337        7C      ORRS     r7,r7,r6
+        0x00215456:    60df        .`      STR      r7,[r3,#0xc]
+;;;82                 SYSBLKCTRL->u_20C.PERION_REG_SYS_CLK_SEL_2 |= BIT29;
+        0x00215458:    68de        .h      LDR      r6,[r3,#0xc]
+        0x0021545a:    05cf        ..      LSLS     r7,r1,#23
+        0x0021545c:    e010        ..      B        0x215480 ; RCC_PeriphClockCmd + 100
+;;;83             }
+;;;84             else if ((APBPeriph_Clock == APBPeriph_ADC_CLOCK) || (APBPeriph_Clock == APBPeriph_CTC_CLOCK))
+        0x0021545e:    2761        a'      MOVS     r7,#0x61
+        0x00215460:    063f        ?.      LSLS     r7,r7,#24
+        0x00215462:    42b9        .B      CMP      r1,r7
+        0x00215464:    d002        ..      BEQ      0x21546c ; RCC_PeriphClockCmd + 80
+        0x00215466:    4fa7        .O      LDR      r7,[pc,#668] ; [0x215704] = 0x40001000
+        0x00215468:    42b9        .B      CMP      r1,r7
+        0x0021546a:    d10c        ..      BNE      0x215486 ; RCC_PeriphClockCmd + 106
+;;;85             {
+;;;86                 /*Open 10M clock source*/
+;;;87                 SYSBLKCTRL->u_20C.PERION_REG_SYS_CLK_SEL_2 |= BIT26;
+        0x0021546c:    68df        .h      LDR      r7,[r3,#0xc]
+        0x0021546e:    4337        7C      ORRS     r7,r7,r6
+        0x00215470:    60df        .`      STR      r7,[r3,#0xc]
+;;;88                 SYSBLKCTRL->u_20C.PERION_REG_SYS_CLK_SEL_2 |= BIT22;
+        0x00215472:    68de        .h      LDR      r6,[r3,#0xc]
+        0x00215474:    2701        .'      MOVS     r7,#1
+        0x00215476:    05bf        ..      LSLS     r7,r7,#22
+        0x00215478:    433e        >C      ORRS     r6,r6,r7
+        0x0021547a:    60de        .`      STR      r6,[r3,#0xc]
+;;;89                 SYSBLKCTRL->u_20C.PERION_REG_SYS_CLK_SEL_2 |= BIT28;
+        0x0021547c:    68de        .h      LDR      r6,[r3,#0xc]
+        0x0021547e:    01bf        ..      LSLS     r7,r7,#6
+        0x00215480:    433e        >C      ORRS     r6,r6,r7
+        0x00215482:    60de        .`      STR      r6,[r3,#0xc]
+        0x00215484:    e016        ..      B        0x2154b4 ; RCC_PeriphClockCmd + 152
+;;;90             }
+;;;91             else if ((APBPeriph_Clock == APBPeriph_QDEC_CLOCK) || (APBPeriph_Clock == APBPeriph_SPI2W_CLOCK))
+        0x00215486:    4f9e        .O      LDR      r7,[pc,#632] ; [0x215700] = 0x60000040
+        0x00215488:    3f30        0?      SUBS     r7,r7,#0x30
+        0x0021548a:    42b9        .B      CMP      r1,r7
+        0x0021548c:    d002        ..      BEQ      0x215494 ; RCC_PeriphClockCmd + 120
+        0x0021548e:    4f9e        .O      LDR      r7,[pc,#632] ; [0x215708] = 0x60010000
+        0x00215490:    42b9        .B      CMP      r1,r7
+        0x00215492:    d106        ..      BNE      0x2154a2 ; RCC_PeriphClockCmd + 134
+;;;92             {
+;;;93                 /*Open 20M clock source*/
+;;;94                 SYSBLKCTRL->u_20C.PERION_REG_SYS_CLK_SEL_2 |= BIT26;
+        0x00215494:    68df        .h      LDR      r7,[r3,#0xc]
+        0x00215496:    4337        7C      ORRS     r7,r7,r6
+        0x00215498:    60df        .`      STR      r7,[r3,#0xc]
+;;;95                 SYSBLKCTRL->u_20C.PERION_REG_SYS_CLK_SEL_2 |= BIT27;
+        0x0021549a:    68de        .h      LDR      r6,[r3,#0xc]
+        0x0021549c:    2701        .'      MOVS     r7,#1
+        0x0021549e:    06ff        ..      LSLS     r7,r7,#27
+        0x002154a0:    e7ee        ..      B        0x215480 ; RCC_PeriphClockCmd + 100
+;;;96             }
+;;;97             else if ((APBPeriph_Clock == APBPeriph_TIMER_CLOCK) ||
+        0x002154a2:    4e9a        .N      LDR      r6,[pc,#616] ; [0x21570c] = 0x20004000
+        0x002154a4:    42b1        .B      CMP      r1,r6
+        0x002154a6:    d105        ..      BNE      0x2154b4 ; RCC_PeriphClockCmd + 152
+;;;98                      (APBPeriph_Clock == APBPeriph_ENHTIMER_CLOCK))
+;;;99             {
+;;;100                /* Enable Timer fixed 40M */
+;;;101                CLK_SOURCE_REG_2 |= BIT9;
+        0x002154a8:    4e99        .N      LDR      r6,[pc,#612] ; [0x215710] = 0x40000340
+        0x002154aa:    6a36        6j      LDR      r6,[r6,#0x20]
+        0x002154ac:    150f        ..      ASRS     r7,r1,#20
+        0x002154ae:    433e        >C      ORRS     r6,r6,r7
+        0x002154b0:    4f97        .O      LDR      r7,[pc,#604] ; [0x215710] = 0x40000340
+        0x002154b2:    623e        >b      STR      r6,[r7,#0x20]
+;;;102            }
+;;;103        }
+;;;104    
+;;;105        /* Special register handle */
+;;;106        if (NewState == ENABLE)
+;;;107        {
+;;;108            if ((APBPeriph_Clock == APBPeriph_I2S0_CLOCK) || ((APBPeriph_Clock == APBPeriph_I2S1_CLOCK)) ||
+        0x002154b4:    460e        .F      MOV      r6,r1
+        0x002154b6:    3eff        .>      SUBS     r6,r6,#0xff
+        0x002154b8:    3e21        !>      SUBS     r6,r6,#0x21
+        0x002154ba:    d01a        ..      BEQ      0x2154f2 ; RCC_PeriphClockCmd + 214
+        0x002154bc:    460e        .F      MOV      r6,r1
+        0x002154be:    3eff        .>      SUBS     r6,r6,#0xff
+        0x002154c0:    3e41        A>      SUBS     r6,r6,#0x41
+        0x002154c2:    d016        ..      BEQ      0x2154f2 ; RCC_PeriphClockCmd + 214
+;;;109                (APBPeriph_Clock == APBPeriph_CODEC_CLOCK))
+        0x002154c4:    2910        .)      CMP      r1,#0x10
+        0x002154c6:    d014        ..      BEQ      0x2154f2 ; RCC_PeriphClockCmd + 214
+;;;110            {
+;;;111                SYSBLKCTRL->u_220.PERION_REG_SOC_AUDIO_IF_EN |= APBPeriph | APBPeriph_Clock;
+;;;112    //            SYSBLKCTRL->u_220.PERION_REG_SOC_AUDIO_IF_EN |= 0x133;
+;;;113                return;
+;;;114            }
+;;;115        }
+;;;116        else
+;;;117        {
+;;;118            if ((APBPeriph_Clock == APBPeriph_I2S0_CLOCK) || ((APBPeriph_Clock == APBPeriph_I2S1_CLOCK)) ||
+;;;119                (APBPeriph_Clock == APBPeriph_CODEC_CLOCK))
+;;;120            {
+;;;121                SYSBLKCTRL->u_220.PERION_REG_SOC_AUDIO_IF_EN &= ~(APBPeriph | APBPeriph_Clock);
+;;;122    //            SYSBLKCTRL->u_220.PERION_REG_SOC_AUDIO_IF_EN &= ~(0x13F);
+;;;123                return;
+;;;124            }
+;;;125        }
+;;;126    
+;;;127        /* clear flag */
+;;;128        APBPeriph &= (~(0x03 << 26));
+        0x002154c8:    2403        .$      MOVS     r4,#3
+        0x002154ca:    06a4        ..      LSLS     r4,r4,#26
+        0x002154cc:    43a0        .C      BICS     r0,r0,r4
+;;;129        APBPeriph_Clock &= (~(0x03 << 29));
+        0x002154ce:    00e4        ..      LSLS     r4,r4,#3
+        0x002154d0:    43a1        .C      BICS     r1,r1,r4
+;;;130    
+;;;131        if (NewState == ENABLE)
+        0x002154d2:    4664        dF      MOV      r4,r12
+        0x002154d4:    2c01        .,      CMP      r4,#1
+        0x002154d6:    d013        ..      BEQ      0x215500 ; RCC_PeriphClockCmd + 228
+;;;132        {
+;;;133            //enable peripheral
+;;;134            *((uint32_t *)(&(SYSBLKCTRL->u_210.PERION_REG_SOC_FUNC_EN)) + apbRegOff) |= APBPeriph;
+;;;135            //enable peripheral clock
+;;;136            *((uint32_t *)(&(SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL)) + clkRegOff - 1) |= APBPeriph_Clock;
+;;;137            //enable peripheral clock in sleep mode
+;;;138            *((uint32_t *)(&(SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL)) + clkRegOff - 1) |=
+;;;139                (APBPeriph_Clock << 1);
+;;;140        }
+;;;141        else
+;;;142        {
+;;;143            //disable peripheral
+;;;144            *((uint32_t *)(&(SYSBLKCTRL->u_210.PERION_REG_SOC_FUNC_EN)) + apbRegOff) &= (~APBPeriph);
+        0x002154d8:    0092        ..      LSLS     r2,r2,#2
+        0x002154da:    18d2        ..      ADDS     r2,r2,r3
+        0x002154dc:    6914        .i      LDR      r4,[r2,#0x10]
+        0x002154de:    4384        .C      BICS     r4,r4,r0
+;;;145            //disable peripheral clock
+;;;146            *((uint32_t *)(&(SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL)) + clkRegOff - 1) &=
+        0x002154e0:    00a8        ..      LSLS     r0,r5,#2
+        0x002154e2:    18c0        ..      ADDS     r0,r0,r3
+        0x002154e4:    6114        .a      STR      r4,[r2,#0x10]
+        0x002154e6:    6ac2        .j      LDR      r2,[r0,#0x2c]
+        0x002154e8:    438a        .C      BICS     r2,r2,r1
+;;;147                (~APBPeriph_Clock);
+;;;148            //disable peripheral clock in sleep mode
+;;;149            *((uint32_t *)(&(SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL)) + clkRegOff - 1) &= (~
+        0x002154ea:    0049        I.      LSLS     r1,r1,#1
+        0x002154ec:    438a        .C      BICS     r2,r2,r1
+        0x002154ee:    62c2        .b      STR      r2,[r0,#0x2c]
+;;;150                    (APBPeriph_Clock << 1));
+;;;151        }
+;;;152    
+;;;153        return;
+;;;154    }
+        0x002154f0:    bdf0        ..      POP      {r4-r7,pc}
+        0x002154f2:    6a18        .j      LDR      r0,[r3,#0x20]
+        0x002154f4:    4320         C      ORRS     r0,r0,r4
+        0x002154f6:    e001        ..      B        0x2154fc ; RCC_PeriphClockCmd + 224
+        0x002154f8:    6a18        .j      LDR      r0,[r3,#0x20]
+        0x002154fa:    43a0        .C      BICS     r0,r0,r4
+        0x002154fc:    6218        .b      STR      r0,[r3,#0x20]
+        0x002154fe:    bdf0        ..      POP      {r4-r7,pc}
+        0x00215500:    0092        ..      LSLS     r2,r2,#2
+        0x00215502:    18d2        ..      ADDS     r2,r2,r3
+        0x00215504:    6914        .i      LDR      r4,[r2,#0x10]
+        0x00215506:    4304        .C      ORRS     r4,r4,r0
+        0x00215508:    00a8        ..      LSLS     r0,r5,#2
+        0x0021550a:    18c0        ..      ADDS     r0,r0,r3
+        0x0021550c:    6114        .a      STR      r4,[r2,#0x10]
+        0x0021550e:    6ac2        .j      LDR      r2,[r0,#0x2c]
+        0x00215510:    430a        .C      ORRS     r2,r2,r1
+        0x00215512:    0049        I.      LSLS     r1,r1,#1
+        0x00215514:    430a        .C      ORRS     r2,r2,r1
+        0x00215516:    e7ea        ..      B        0x2154ee ; RCC_PeriphClockCmd + 210
+    RCC_PeriFunctionConfig
+;;;155    
+;;;156    /**
+;;;157      * @brief  Enables or disables the APB peripheral clock.
+;;;158      * @param  APBPeriph: specifies the APB peripheral to gates its clock.
+;;;159      *   This parameter can be one of the following values:
+;;;160      *     @arg APBPeriph_TIMER
+;;;161      *     @arg APBPeriph_GDMA
+;;;162      *     @arg APBPeriph_IF8080
+;;;163      *     @arg APBPeriph_SPI2W
+;;;164      *     @arg APBPeriph_KEYSCAN
+;;;165      *     @arg APBPeriph_QDEC
+;;;166      *     @arg APBPeriph_I2C1
+;;;167      *     @arg APBPeriph_I2C0
+;;;168      *     @arg APBPeriph_IR
+;;;169      *     @arg APBPeriph_SPI1
+;;;170      *     @arg APBPeriph_SPI0
+;;;171      *     @arg APBPeriph_UART0
+;;;172      *     @arg APBPeriph_UART1
+;;;173      *     @arg APBPeriph_UART2
+;;;174      *     @arg APBPeriph_GPIO
+;;;175      *     @arg APBPeriph_ADC
+;;;176      *     @arg APBPeriph_I2S0
+;;;177      *     @arg APBPeriph_I2S1
+;;;178      *     @arg APBPeriph_CODEC
+;;;179      * @param  NewState: new state of the specified peripheral clock.
+;;;180      *   This parameter can be: ENABLE or DISABLE.
+;;;181      * @retval None
+;;;182      */
+;;;183    void RCC_PeriFunctionConfig(uint32_t APBPeriph, FunctionalState NewState)
+;;;184    {
+;;;185        /* Check the parameters */
+;;;186        assert_param(IS_APB_PERIPH(APBPeriph));
+;;;187        assert_param(IS_FUNCTIONAL_STATE(NewState));
+;;;188    
+;;;189        uint32_t apbRegOff = ((APBPeriph & (0x03 << 26)) >> 26);
+        0x00215518:    0102        ..      LSLS     r2,r0,#4
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_rcc.c (184)
+        0x0021551a:    b510        ..      PUSH     {r4,lr}
+        0x0021551c:    0f92        ..      LSRS     r2,r2,#30
+        0x0021551e:    4b77        wK      LDR      r3,[pc,#476] ; [0x2156fc] = 0x40000200
+        0x00215520:    2901        .)      CMP      r1,#1
+        0x00215522:    d006        ..      BEQ      0x215532 ; RCC_PeriFunctionConfig + 26
+        0x00215524:    2802        .(      CMP      r0,#2
+        0x00215526:    d018        ..      BEQ      0x21555a ; RCC_PeriFunctionConfig + 66
+        0x00215528:    2804        .(      CMP      r0,#4
+        0x0021552a:    d016        ..      BEQ      0x21555a ; RCC_PeriFunctionConfig + 66
+        0x0021552c:    2801        .(      CMP      r0,#1
+        0x0021552e:    d014        ..      BEQ      0x21555a ; RCC_PeriFunctionConfig + 66
+        0x00215530:    e005        ..      B        0x21553e ; RCC_PeriFunctionConfig + 38
+;;;185        /* Check the parameters */
+;;;186        assert_param(IS_APB_PERIPH(APBPeriph));
+;;;187        assert_param(IS_FUNCTIONAL_STATE(NewState));
+;;;188    
+;;;189        uint32_t apbRegOff = ((APBPeriph & (0x03 << 26)) >> 26);
+;;;190    
+;;;191        /* Special register handle */
+;;;192        if (NewState == ENABLE)
+;;;193        {
+;;;194            if ((APBPeriph == APBPeriph_I2S0) || ((APBPeriph == APBPeriph_I2S1)) ||
+        0x00215532:    2802        .(      CMP      r0,#2
+        0x00215534:    d00e        ..      BEQ      0x215554 ; RCC_PeriFunctionConfig + 60
+        0x00215536:    2804        .(      CMP      r0,#4
+        0x00215538:    d00c        ..      BEQ      0x215554 ; RCC_PeriFunctionConfig + 60
+;;;195                (APBPeriph == APBPeriph_CODEC))
+        0x0021553a:    2801        .(      CMP      r0,#1
+        0x0021553c:    d00a        ..      BEQ      0x215554 ; RCC_PeriFunctionConfig + 60
+        0x0021553e:    2403        .$      MOVS     r4,#3
+        0x00215540:    06a4        ..      LSLS     r4,r4,#26
+        0x00215542:    43a0        .C      BICS     r0,r0,r4
+        0x00215544:    2901        .)      CMP      r1,#1
+        0x00215546:    d00c        ..      BEQ      0x215562 ; RCC_PeriFunctionConfig + 74
+        0x00215548:    0091        ..      LSLS     r1,r2,#2
+        0x0021554a:    18c9        ..      ADDS     r1,r1,r3
+        0x0021554c:    690a        .i      LDR      r2,[r1,#0x10]
+        0x0021554e:    4382        .C      BICS     r2,r2,r0
+        0x00215550:    610a        .a      STR      r2,[r1,#0x10]
+        0x00215552:    bd10        ..      POP      {r4,pc}
+;;;196            {
+;;;197                SYSBLKCTRL->u_220.PERION_REG_SOC_AUDIO_IF_EN |= APBPeriph;
+        0x00215554:    6a19        .j      LDR      r1,[r3,#0x20]
+        0x00215556:    4301        .C      ORRS     r1,r1,r0
+;;;198                return;
+        0x00215558:    e001        ..      B        0x21555e ; RCC_PeriFunctionConfig + 70
+;;;199            }
+;;;200        }
+;;;201        else
+;;;202        {
+;;;203            if ((APBPeriph == APBPeriph_I2S0) || ((APBPeriph == APBPeriph_I2S1)) ||
+;;;204                (APBPeriph == APBPeriph_CODEC))
+;;;205            {
+;;;206                SYSBLKCTRL->u_220.PERION_REG_SOC_AUDIO_IF_EN &= ~(APBPeriph);
+        0x0021555a:    6a19        .j      LDR      r1,[r3,#0x20]
+        0x0021555c:    4381        .C      BICS     r1,r1,r0
+        0x0021555e:    6219        .b      STR      r1,[r3,#0x20]
+        0x00215560:    bd10        ..      POP      {r4,pc}
+;;;207                return;
+;;;208            }
+;;;209        }
+;;;210    
+;;;211        /* clear flag */
+;;;212        APBPeriph &= (~(0x03 << 26));
+;;;213    
+;;;214        if (NewState == ENABLE)
+;;;215        {
+;;;216            //enable peripheral
+;;;217            *((uint32_t *)(&(SYSBLKCTRL->u_210.PERION_REG_SOC_FUNC_EN)) + apbRegOff) |= APBPeriph;
+        0x00215562:    0091        ..      LSLS     r1,r2,#2
+        0x00215564:    18c9        ..      ADDS     r1,r1,r3
+        0x00215566:    690a        .i      LDR      r2,[r1,#0x10]
+        0x00215568:    4302        .C      ORRS     r2,r2,r0
+        0x0021556a:    e7f1        ..      B        0x215550 ; RCC_PeriFunctionConfig + 56
+    RCC_PeriClockConfig
+;;;218        }
+;;;219        else
+;;;220        {
+;;;221            //disable peripheral
+;;;222            *((uint32_t *)(&(SYSBLKCTRL->u_210.PERION_REG_SOC_FUNC_EN)) + apbRegOff) &= (~APBPeriph);
+;;;223        }
+;;;224    
+;;;225        return;
+;;;226    }
+;;;227    
+;;;228    /**
+;;;229      * @brief  Enables or disables the APB peripheral clock.
+;;;230      * @param  APBPeriph_Clock: specifies the APB peripheral clock config.
+;;;231      *   This parameter can be one of the following values(must be the same with APBPeriph):
+;;;232      *     @arg APBPeriph_TIMER_CLOCK
+;;;233      *     @arg APBPeriph_GDMA_CLOCK
+;;;234      *     @arg APBPeriph_SPI2W_CLOCK
+;;;235      *     @arg APBPeriph_KEYSCAN_CLOCK
+;;;236      *     @arg APBPeriph_QDEC_CLOCK
+;;;237      *     @arg APBPeriph_I2C1_CLOCK
+;;;238      *     @arg APBPeriph_I2C0_CLOCK
+;;;239      *     @arg APBPeriph_IR_CLOCK
+;;;240      *     @arg APBPeriph_SPI1_CLOCK
+;;;241      *     @arg APBPeriph_SPI0_CLOCK
+;;;242      *     @arg APBPeriph_UART0_CLOCK
+;;;243      *     @arg APBPeriph_UART1_CLOCK
+;;;244      *     @arg APBPeriph_UART2_CLOCK
+;;;245      *     @arg APBPeriph_GPIO_CLOCK
+;;;246      *     @arg APBPeriph_ADC_CLOCK
+;;;247      *     @arg APBPeriph_I2S0_CLOCK
+;;;248      *     @arg APBPeriph_I2S1_CLOCK
+;;;249      *     @arg APBPeriph_CODEC_CLOCK
+;;;250      * @param  NewState: new state of the specified peripheral clock.
+;;;251      *   This parameter can be: ENABLE or DISABLE.
+;;;252      * @retval None
+;;;253      */
+;;;254    void RCC_PeriClockConfig(uint32_t APBPeriph_Clock, FunctionalState NewState)
+;;;255    {
+        0x0021556c:    b530        0.      PUSH     {r4,r5,lr}
+;;;256        /* Check the parameters */
+;;;257        assert_param(IS_APB_PERIPH_CLOCK(APBPeriph_Clock));
+;;;258        assert_param(IS_FUNCTIONAL_STATE(NewState));
+;;;259    
+;;;260        uint32_t clkRegOff = ((APBPeriph_Clock & (0x03 << 29)) >> 29);
+        0x0021556e:    0042        B.      LSLS     r2,r0,#1
+        0x00215570:    25ff        .%      MOVS     r5,#0xff
+        0x00215572:    24ff        .$      MOVS     r4,#0xff
+        0x00215574:    0f92        ..      LSRS     r2,r2,#30
+        0x00215576:    3541        A5      ADDS     r5,r5,#0x41
+        0x00215578:    3421        !4      ADDS     r4,r4,#0x21
+        0x0021557a:    4b60        `K      LDR      r3,[pc,#384] ; [0x2156fc] = 0x40000200
+;;;261    
+;;;262        /* Special register handle */
+;;;263        if (NewState == ENABLE)
+        0x0021557c:    2901        .)      CMP      r1,#1
+        0x0021557e:    d006        ..      BEQ      0x21558e ; RCC_PeriClockConfig + 34
+        0x00215580:    42a0        .B      CMP      r0,r4
+        0x00215582:    d01a        ..      BEQ      0x2155ba ; RCC_PeriClockConfig + 78
+        0x00215584:    42a8        .B      CMP      r0,r5
+        0x00215586:    d018        ..      BEQ      0x2155ba ; RCC_PeriClockConfig + 78
+        0x00215588:    2810        .(      CMP      r0,#0x10
+        0x0021558a:    d016        ..      BEQ      0x2155ba ; RCC_PeriClockConfig + 78
+        0x0021558c:    e005        ..      B        0x21559a ; RCC_PeriClockConfig + 46
+;;;264        {
+;;;265            if ((APBPeriph_Clock == APBPeriph_I2S0_CLOCK) || ((APBPeriph_Clock == APBPeriph_I2S1_CLOCK)) ||
+        0x0021558e:    42a0        .B      CMP      r0,r4
+        0x00215590:    d010        ..      BEQ      0x2155b4 ; RCC_PeriClockConfig + 72
+        0x00215592:    42a8        .B      CMP      r0,r5
+        0x00215594:    d00e        ..      BEQ      0x2155b4 ; RCC_PeriClockConfig + 72
+;;;266                (APBPeriph_Clock == APBPeriph_CODEC_CLOCK))
+        0x00215596:    2810        .(      CMP      r0,#0x10
+        0x00215598:    d00c        ..      BEQ      0x2155b4 ; RCC_PeriClockConfig + 72
+        0x0021559a:    2403        .$      MOVS     r4,#3
+        0x0021559c:    0764        d.      LSLS     r4,r4,#29
+        0x0021559e:    43a0        .C      BICS     r0,r0,r4
+        0x002155a0:    2901        .)      CMP      r1,#1
+        0x002155a2:    d00e        ..      BEQ      0x2155c2 ; RCC_PeriClockConfig + 86
+        0x002155a4:    0091        ..      LSLS     r1,r2,#2
+        0x002155a6:    18c9        ..      ADDS     r1,r1,r3
+        0x002155a8:    6aca        .j      LDR      r2,[r1,#0x2c]
+        0x002155aa:    4382        .C      BICS     r2,r2,r0
+        0x002155ac:    0040        @.      LSLS     r0,r0,#1
+        0x002155ae:    4382        .C      BICS     r2,r2,r0
+        0x002155b0:    62ca        .b      STR      r2,[r1,#0x2c]
+        0x002155b2:    bd30        0.      POP      {r4,r5,pc}
+;;;267            {
+;;;268                SYSBLKCTRL->u_220.PERION_REG_SOC_AUDIO_IF_EN |= APBPeriph_Clock;
+        0x002155b4:    6a19        .j      LDR      r1,[r3,#0x20]
+        0x002155b6:    4301        .C      ORRS     r1,r1,r0
+;;;269                return;
+        0x002155b8:    e001        ..      B        0x2155be ; RCC_PeriClockConfig + 82
+;;;270            }
+;;;271        }
+;;;272        else
+;;;273        {
+;;;274            if ((APBPeriph_Clock == APBPeriph_I2S0_CLOCK) || ((APBPeriph_Clock == APBPeriph_I2S1_CLOCK)) ||
+;;;275                (APBPeriph_Clock == APBPeriph_CODEC_CLOCK))
+;;;276            {
+;;;277                SYSBLKCTRL->u_220.PERION_REG_SOC_AUDIO_IF_EN &= ~(APBPeriph_Clock);
+        0x002155ba:    6a19        .j      LDR      r1,[r3,#0x20]
+        0x002155bc:    4381        .C      BICS     r1,r1,r0
+        0x002155be:    6219        .b      STR      r1,[r3,#0x20]
+        0x002155c0:    bd30        0.      POP      {r4,r5,pc}
+;;;278                return;
+;;;279            }
+;;;280        }
+;;;281    
+;;;282        APBPeriph_Clock &= (~(0x03 << 29));
+;;;283    
+;;;284        if (NewState == ENABLE)
+;;;285        {
+;;;286            //enable peripheral clock
+;;;287            *((uint32_t *)(&(SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL)) + clkRegOff - 1) |= APBPeriph_Clock;
+        0x002155c2:    0091        ..      LSLS     r1,r2,#2
+        0x002155c4:    18c9        ..      ADDS     r1,r1,r3
+        0x002155c6:    6aca        .j      LDR      r2,[r1,#0x2c]
+        0x002155c8:    4302        .C      ORRS     r2,r2,r0
+;;;288            //enable peripheral clock in sleep mode
+;;;289            *((uint32_t *)(&(SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL)) + clkRegOff - 1) |=
+        0x002155ca:    0040        @.      LSLS     r0,r0,#1
+        0x002155cc:    4302        .C      ORRS     r2,r2,r0
+        0x002155ce:    e7ef        ..      B        0x2155b0 ; RCC_PeriClockConfig + 68
+    RCC_I2CClkDivConfig
+;;;290                (APBPeriph_Clock << 1);
+;;;291        }
+;;;292        else
+;;;293        {
+;;;294            //disable peripheral clock
+;;;295            *((uint32_t *)(&(SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL)) + clkRegOff - 1) &=
+;;;296                (~APBPeriph_Clock);
+;;;297            //disable peripheral clock in sleep mode
+;;;298            *((uint32_t *)(&(SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL)) + clkRegOff - 1) &= (~
+;;;299                    (APBPeriph_Clock << 1));
+;;;300        }
+;;;301    
+;;;302        return;
+;;;303    }
+;;;304    
+;;;305    /**
+;;;306      * @brief  I2C clock divider config.
+;;;307      * @param  I2Cx: where x can be 0 or 1 to select the I2C peripheral.
+;;;308      * @param  ClockDiv: specifies the APB peripheral to gates its clock.
+;;;309      *   This parameter can be one of the following values:
+;;;310      *     @arg I2C_CLOCK_DIV_1
+;;;311      *     @arg I2C_CLOCK_DIV_2
+;;;312      *     @arg I2C_CLOCK_DIV_4
+;;;313      *     @arg I2C_CLOCK_DIV_8
+;;;314      * @retval None
+;;;315      */
+;;;316    void RCC_I2CClkDivConfig(I2C_TypeDef *I2Cx, uint16_t ClockDiv)
+;;;317    {
+        0x002155d0:    b530        0.      PUSH     {r4,r5,lr}
+        0x002155d2:    4c50        PL      LDR      r4,[pc,#320] ; [0x215714] = 0x40015000
+        0x002155d4:    4b49        IK      LDR      r3,[pc,#292] ; [0x2156fc] = 0x40000200
+        0x002155d6:    4a4e        NJ      LDR      r2,[pc,#312] ; [0x215710] = 0x40000340
+        0x002155d8:    42a0        .B      CMP      r0,r4
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_rcc.c (317)
+        0x002155da:    d111        ..      BNE      0x215600 ; RCC_I2CClkDivConfig + 48
+;;;318        assert_param(IS_I2C_DIV(ClockDiv));
+;;;319    
+;;;320        /* Config I2C clock divider */
+;;;321        if (I2Cx == I2C0)
+;;;322        {
+;;;323            /* disable clock first */
+;;;324            SYSBLKCTRL->u_238.PERION_r_PON_PERI_CLK_CTRL1 &= ~SYSBLK_ACTCK_I2C0_EN_Msk;
+        0x002155dc:    6b98        .k      LDR      r0,[r3,#0x38]
+        0x002155de:    0840        @.      LSRS     r0,r0,#1
+        0x002155e0:    0040        @.      LSLS     r0,r0,#1
+        0x002155e2:    6398        .c      STR      r0,[r3,#0x38]
+;;;325            //platform_delay_us(1);
+;;;326    
+;;;327            CLK_SOURCE_REG_1 &= ~(0x03 << 15);
+        0x002155e4:    69d0        .i      LDR      r0,[r2,#0x1c]
+        0x002155e6:    2403        .$      MOVS     r4,#3
+        0x002155e8:    03e4        ..      LSLS     r4,r4,#15
+        0x002155ea:    43a0        .C      BICS     r0,r0,r4
+        0x002155ec:    61d0        .a      STR      r0,[r2,#0x1c]
+;;;328            CLK_SOURCE_REG_1 |= (ClockDiv << 15);
+        0x002155ee:    69d0        .i      LDR      r0,[r2,#0x1c]
+        0x002155f0:    03c9        ..      LSLS     r1,r1,#15
+        0x002155f2:    4308        .C      ORRS     r0,r0,r1
+        0x002155f4:    61d0        .a      STR      r0,[r2,#0x1c]
+;;;329    
+;;;330            //platform_delay_us(1);
+;;;331            SYSBLKCTRL->u_238.PERION_r_PON_PERI_CLK_CTRL1 |= SYSBLK_ACTCK_I2C0_EN_Msk;
+        0x002155f6:    6b98        .k      LDR      r0,[r3,#0x38]
+        0x002155f8:    2101        .!      MOVS     r1,#1
+        0x002155fa:    4308        .C      ORRS     r0,r0,r1
+        0x002155fc:    6398        .c      STR      r0,[r3,#0x38]
+        0x002155fe:    bd30        0.      POP      {r4,r5,pc}
+;;;332        }
+;;;333        else if (I2Cx == I2C1)
+        0x00215600:    4c45        EL      LDR      r4,[pc,#276] ; [0x215718] = 0x40015400
+        0x00215602:    42a0        .B      CMP      r0,r4
+        0x00215604:    d1fb        ..      BNE      0x2155fe ; RCC_I2CClkDivConfig + 46
+;;;334        {
+;;;335            SYSBLKCTRL->u_238.PERION_r_PON_PERI_CLK_CTRL1 &= ~SYSBLK_ACTCK_I2C1_EN_Msk;
+        0x00215606:    6b9c        .k      LDR      r4,[r3,#0x38]
+        0x00215608:    2004        .       MOVS     r0,#4
+        0x0021560a:    4384        .C      BICS     r4,r4,r0
+        0x0021560c:    639c        .c      STR      r4,[r3,#0x38]
+;;;336            //platform_delay_us(1);
+;;;337    
+;;;338            CLK_SOURCE_REG_1 &= ~(0x03 << 17);
+        0x0021560e:    69d4        .i      LDR      r4,[r2,#0x1c]
+        0x00215610:    2503        .%      MOVS     r5,#3
+        0x00215612:    046d        m.      LSLS     r5,r5,#17
+        0x00215614:    43ac        .C      BICS     r4,r4,r5
+        0x00215616:    61d4        .a      STR      r4,[r2,#0x1c]
+;;;339            CLK_SOURCE_REG_1 |= (ClockDiv << 17);
+        0x00215618:    69d4        .i      LDR      r4,[r2,#0x1c]
+        0x0021561a:    0449        I.      LSLS     r1,r1,#17
+        0x0021561c:    430c        .C      ORRS     r4,r4,r1
+        0x0021561e:    61d4        .a      STR      r4,[r2,#0x1c]
+;;;340    
+;;;341            //platform_delay_us(1);
+;;;342            SYSBLKCTRL->u_238.PERION_r_PON_PERI_CLK_CTRL1 |= SYSBLK_ACTCK_I2C1_EN_Msk;
+        0x00215620:    6b99        .k      LDR      r1,[r3,#0x38]
+        0x00215622:    4301        .C      ORRS     r1,r1,r0
+        0x00215624:    6399        .c      STR      r1,[r3,#0x38]
+;;;343        }
+;;;344    
+;;;345        return;
+;;;346    }
+        0x00215626:    bd30        0.      POP      {r4,r5,pc}
+    RCC_SPIClkDivConfig
+;;;347    
+;;;348    /**
+;;;349      * @brief  SPI clock divider config.
+;;;350      * @param  SPIx: where x can be 0 or 1 to select the SPI peripheral.
+;;;351      * @param  ClockDiv: specifies the APB peripheral to gates its clock.
+;;;352      *   This parameter can be one of the following values:
+;;;353      *     @arg SPI_CLOCK_DIV_1
+;;;354      *     @arg SPI_CLOCK_DIV_2
+;;;355      *     @arg SPI_CLOCK_DIV_4
+;;;356      *     @arg SPI_CLOCK_DIV_8
+;;;357      * @retval None
+;;;358      */
+;;;359    void RCC_SPIClkDivConfig(SPI_TypeDef *SPIx, uint16_t ClockDiv)
+;;;360    {
+        0x00215628:    b530        0.      PUSH     {r4,r5,lr}
+        0x0021562a:    4c3c        <L      LDR      r4,[pc,#240] ; [0x21571c] = 0x40013000
+        0x0021562c:    4b33        3K      LDR      r3,[pc,#204] ; [0x2156fc] = 0x40000200
+        0x0021562e:    4a38        8J      LDR      r2,[pc,#224] ; [0x215710] = 0x40000340
+        0x00215630:    42a0        .B      CMP      r0,r4
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_rcc.c (360)
+        0x00215632:    d10b        ..      BNE      0x21564c ; RCC_SPIClkDivConfig + 36
+;;;361        assert_param(IS_SPI_DIV(ClockDiv));
+;;;362    
+;;;363        /* Config I2C clock divider */
+;;;364        if (SPIx == SPI0)
+;;;365        {
+;;;366            /* disable clock first */
+;;;367            SYSBLKCTRL->u_234.PERION_REG_PESOC_PERI_CLK_CTRL0 &= ~SYSBLK_ACTCK_SPI0_EN_Msk;
+        0x00215634:    6b5c        \k      LDR      r4,[r3,#0x34]
+        0x00215636:    1390        ..      ASRS     r0,r2,#14
+        0x00215638:    4384        .C      BICS     r4,r4,r0
+        0x0021563a:    635c        \c      STR      r4,[r3,#0x34]
+;;;368            //platform_delay_us(1);
+;;;369    
+;;;370            CLK_SOURCE_REG_1 &= ~(0x03 << 19);
+        0x0021563c:    69d4        .i      LDR      r4,[r2,#0x1c]
+        0x0021563e:    2503        .%      MOVS     r5,#3
+        0x00215640:    04ed        ..      LSLS     r5,r5,#19
+        0x00215642:    43ac        .C      BICS     r4,r4,r5
+        0x00215644:    61d4        .a      STR      r4,[r2,#0x1c]
+;;;371            CLK_SOURCE_REG_1 |= (ClockDiv << 19);
+        0x00215646:    69d4        .i      LDR      r4,[r2,#0x1c]
+        0x00215648:    04c9        ..      LSLS     r1,r1,#19
+;;;372    
+;;;373            //platform_delay_us(1);
+;;;374            SYSBLKCTRL->u_234.PERION_REG_PESOC_PERI_CLK_CTRL0 |= SYSBLK_ACTCK_SPI0_EN_Msk;
+        0x0021564a:    e00e        ..      B        0x21566a ; RCC_SPIClkDivConfig + 66
+;;;375        }
+;;;376        else if (SPIx == SPI1)
+        0x0021564c:    4c34        4L      LDR      r4,[pc,#208] ; [0x215720] = 0x40013400
+        0x0021564e:    42a0        .B      CMP      r0,r4
+        0x00215650:    d110        ..      BNE      0x215674 ; RCC_SPIClkDivConfig + 76
+;;;377        {
+;;;378            SYSBLKCTRL->u_234.PERION_REG_PESOC_PERI_CLK_CTRL0 &= ~SYSBLK_ACTCK_SPI1_EN_Msk;
+        0x00215652:    6b5c        \k      LDR      r4,[r3,#0x34]
+        0x00215654:    2001        .       MOVS     r0,#1
+        0x00215656:    0480        ..      LSLS     r0,r0,#18
+        0x00215658:    4384        .C      BICS     r4,r4,r0
+        0x0021565a:    635c        \c      STR      r4,[r3,#0x34]
+;;;379            //platform_delay_us(1);
+;;;380    
+;;;381            CLK_SOURCE_REG_1 &= ~(0x03 << 21);
+        0x0021565c:    69d4        .i      LDR      r4,[r2,#0x1c]
+        0x0021565e:    2503        .%      MOVS     r5,#3
+        0x00215660:    056d        m.      LSLS     r5,r5,#21
+        0x00215662:    43ac        .C      BICS     r4,r4,r5
+        0x00215664:    61d4        .a      STR      r4,[r2,#0x1c]
+;;;382            CLK_SOURCE_REG_1 |= (ClockDiv << 21);
+        0x00215666:    69d4        .i      LDR      r4,[r2,#0x1c]
+        0x00215668:    0549        I.      LSLS     r1,r1,#21
+        0x0021566a:    430c        .C      ORRS     r4,r4,r1
+        0x0021566c:    61d4        .a      STR      r4,[r2,#0x1c]
+        0x0021566e:    6b59        Yk      LDR      r1,[r3,#0x34]
+        0x00215670:    4301        .C      ORRS     r1,r1,r0
+        0x00215672:    6359        Yc      STR      r1,[r3,#0x34]
+;;;383    
+;;;384            //platform_delay_us(1);
+;;;385            SYSBLKCTRL->u_234.PERION_REG_PESOC_PERI_CLK_CTRL0 |= SYSBLK_ACTCK_SPI1_EN_Msk;
+;;;386        }
+;;;387        return;
+;;;388    }
+        0x00215674:    bd30        0.      POP      {r4,r5,pc}
+    RCC_TIMClkDivConfig
+;;;389    
+;;;390    /**
+;;;391      * @brief  TIMER & ENH-TIMER clock divider config.
+;;;392      * @param  TIMx: selected TIM number.
+;;;393      * @param  ClockDiv: specifies the APB peripheral to gates its clock.
+;;;394      *         This parameter can be one of the following values:
+;;;395      *         @arg TIM_CLOCK_DIV_1
+;;;396      *         @arg TIM_CLOCK_DIV_125
+;;;397      *         @arg TIM_CLOCK_DIV_2
+;;;398      *         @arg TIM_CLOCK_DIV_4
+;;;399      *         @arg TIM_CLOCK_DIV_8
+;;;400      *         @arg TIM_CLOCK_DIV_40
+;;;401      * @retval None
+;;;402      */
+;;;403    void RCC_TIMClkDivConfig(E_TIM_NUM TIMx, uint16_t ClockDiv)
+;;;404    {
+        0x00215676:    b570        p.      PUSH     {r4-r6,lr}
+;;;405        assert_param(IS_UART_DIV(ClockDiv));
+;;;406    
+;;;407        /* Config TIM clock divider */
+;;;408        /* disable clock first */
+;;;409        SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL &= ~SYSBLK_ACTCK_TIMER_EN_Msk;
+        0x00215678:    4a20         J      LDR      r2,[pc,#128] ; [0x2156fc] = 0x40000200
+        0x0021567a:    6b13        .k      LDR      r3,[r2,#0x30]
+        0x0021567c:    1415        ..      ASRS     r5,r2,#16
+        0x0021567e:    43ab        .C      BICS     r3,r3,r5
+        0x00215680:    6313        .c      STR      r3,[r2,#0x30]
+;;;410        //platform_delay_us(1);
+;;;411    
+;;;412        CLK_SOURCE_REG_2 &= ~(0x07 << (13 + (TIMx - 2) * 3));
+        0x00215682:    4b23        #K      LDR      r3,[pc,#140] ; [0x215710] = 0x40000340
+        0x00215684:    6a1c        .j      LDR      r4,[r3,#0x20]
+        0x00215686:    0046        F.      LSLS     r6,r0,#1
+        0x00215688:    1980        ..      ADDS     r0,r0,r6
+        0x0021568a:    2607        .&      MOVS     r6,#7
+        0x0021568c:    1dc0        ..      ADDS     r0,r0,#7
+        0x0021568e:    4086        .@      LSLS     r6,r6,r0
+        0x00215690:    43b4        .C      BICS     r4,r4,r6
+        0x00215692:    621c        .b      STR      r4,[r3,#0x20]
+;;;413        CLK_SOURCE_REG_2 |= (ClockDiv << (13 + (TIMx - 2) * 3));
+        0x00215694:    6a1c        .j      LDR      r4,[r3,#0x20]
+        0x00215696:    4081        .@      LSLS     r1,r1,r0
+        0x00215698:    430c        .C      ORRS     r4,r4,r1
+        0x0021569a:    621c        .b      STR      r4,[r3,#0x20]
+;;;414    
+;;;415        //platform_delay_us(1);
+;;;416        SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL |= SYSBLK_ACTCK_TIMER_EN_Msk;
+        0x0021569c:    6b10        .k      LDR      r0,[r2,#0x30]
+        0x0021569e:    4328        (C      ORRS     r0,r0,r5
+        0x002156a0:    6310        .c      STR      r0,[r2,#0x30]
+;;;417    
+;;;418        return;
+;;;419    }
+        0x002156a2:    bd70        p.      POP      {r4-r6,pc}
+    RCC_UARTClkDivConfig
+;;;420    
+;;;421    /**
+;;;422      * @brief  UART clock divider config.
+;;;423      * @param  UARTx: selected UART peripheral.
+;;;424      * @param  ClockDiv: specifies the APB peripheral to gates its clock.
+;;;425      *   This parameter can be one of the following values:
+;;;426      *     @arg UART_CLOCK_DIV_1
+;;;427      *     @arg UART_CLOCK_DIV_2
+;;;428      *     @arg UART_CLOCK_DIV_4
+;;;429      *     @arg UART_CLOCK_DIV_16
+;;;430      * @retval None
+;;;431      */
+;;;432    void RCC_UARTClkDivConfig(UART_TypeDef *UARTx, uint16_t ClockDiv)
+;;;433    {
+        0x002156a4:    b530        0.      PUSH     {r4,r5,lr}
+        0x002156a6:    4c1f        .L      LDR      r4,[pc,#124] ; [0x215724] = 0x40012000
+        0x002156a8:    4b14        .K      LDR      r3,[pc,#80] ; [0x2156fc] = 0x40000200
+        0x002156aa:    4a19        .J      LDR      r2,[pc,#100] ; [0x215710] = 0x40000340
+        0x002156ac:    42a0        .B      CMP      r0,r4
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_rcc.c (433)
+        0x002156ae:    d111        ..      BNE      0x2156d4 ; RCC_UARTClkDivConfig + 48
+;;;434        assert_param(IS_UART_DIV(ClockDiv));
+;;;435    
+;;;436        /* Config UART clock divider */
+;;;437        if (UARTx == UART0)
+;;;438        {
+;;;439            /* disable clock first */
+;;;440            SYSBLKCTRL->u_234.PERION_REG_PESOC_PERI_CLK_CTRL0 &= ~SYSBLK_ACTCK_UART0DATA_EN_Msk;
+        0x002156b0:    6b58        Xk      LDR      r0,[r3,#0x34]
+        0x002156b2:    0840        @.      LSRS     r0,r0,#1
+        0x002156b4:    0040        @.      LSLS     r0,r0,#1
+        0x002156b6:    6358        Xc      STR      r0,[r3,#0x34]
+;;;441            //platform_delay_us(1);
+;;;442    
+;;;443            CLK_SOURCE_REG_1 &= ~(0x03 << 9);
+        0x002156b8:    69d0        .i      LDR      r0,[r2,#0x1c]
+        0x002156ba:    2403        .$      MOVS     r4,#3
+        0x002156bc:    0264        d.      LSLS     r4,r4,#9
+        0x002156be:    43a0        .C      BICS     r0,r0,r4
+        0x002156c0:    61d0        .a      STR      r0,[r2,#0x1c]
+;;;444            CLK_SOURCE_REG_1 |= (ClockDiv << 9);
+        0x002156c2:    69d0        .i      LDR      r0,[r2,#0x1c]
+        0x002156c4:    0249        I.      LSLS     r1,r1,#9
+        0x002156c6:    4308        .C      ORRS     r0,r0,r1
+        0x002156c8:    61d0        .a      STR      r0,[r2,#0x1c]
+;;;445    
+;;;446            //platform_delay_us(1);
+;;;447            SYSBLKCTRL->u_234.PERION_REG_PESOC_PERI_CLK_CTRL0 |= SYSBLK_ACTCK_UART0DATA_EN_Msk;
+        0x002156ca:    6b58        Xk      LDR      r0,[r3,#0x34]
+        0x002156cc:    2101        .!      MOVS     r1,#1
+        0x002156ce:    4308        .C      ORRS     r0,r0,r1
+        0x002156d0:    6358        Xc      STR      r0,[r3,#0x34]
+        0x002156d2:    bd30        0.      POP      {r4,r5,pc}
+;;;448        }
+;;;449        else if (UARTx == UART1)
+        0x002156d4:    4c14        .L      LDR      r4,[pc,#80] ; [0x215728] = 0x40011000
+        0x002156d6:    42a0        .B      CMP      r0,r4
+        0x002156d8:    d1fb        ..      BNE      0x2156d2 ; RCC_UARTClkDivConfig + 46
+;;;450        {
+;;;451            SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL &= ~SYSBLK_ACTCK_LOGUART_EN_Msk;
+        0x002156da:    6b1c        .k      LDR      r4,[r3,#0x30]
+        0x002156dc:    1480        ..      ASRS     r0,r0,#18
+        0x002156de:    4384        .C      BICS     r4,r4,r0
+        0x002156e0:    631c        .c      STR      r4,[r3,#0x30]
+;;;452            //platform_delay_us(1);
+;;;453    
+;;;454            CLK_SOURCE_REG_1 &= ~(0x03 << 11);
+        0x002156e2:    69d4        .i      LDR      r4,[r2,#0x1c]
+        0x002156e4:    2503        .%      MOVS     r5,#3
+        0x002156e6:    02ed        ..      LSLS     r5,r5,#11
+        0x002156e8:    43ac        .C      BICS     r4,r4,r5
+        0x002156ea:    61d4        .a      STR      r4,[r2,#0x1c]
+;;;455            CLK_SOURCE_REG_1 |= (ClockDiv << 11);
+        0x002156ec:    69d4        .i      LDR      r4,[r2,#0x1c]
+        0x002156ee:    02c9        ..      LSLS     r1,r1,#11
+        0x002156f0:    430c        .C      ORRS     r4,r4,r1
+        0x002156f2:    61d4        .a      STR      r4,[r2,#0x1c]
+;;;456    
+;;;457            //platform_delay_us(1);
+;;;458            SYSBLKCTRL->u_230.PERION_REG_PESOC_CLK_CTRL |= SYSBLK_ACTCK_LOGUART_EN_Msk;
+        0x002156f4:    6b19        .k      LDR      r1,[r3,#0x30]
+        0x002156f6:    4301        .C      ORRS     r1,r1,r0
+        0x002156f8:    6319        .c      STR      r1,[r3,#0x30]
+;;;459        }
+;;;460    
+;;;461        return;
+;;;462    }
+        0x002156fa:    bd30        0.      POP      {r4,r5,pc}
+    $d
+        0x002156fc:    40000200    ...@    DCD    1073742336
+        0x00215700:    60000040    @..`    DCD    1610612800
+        0x00215704:    40001000    ...@    DCD    1073745920
+        0x00215708:    60010000    ...`    DCD    1610678272
+        0x0021570c:    20004000    .@.     DCD    536887296
+        0x00215710:    40000340    @..@    DCD    1073742656
+        0x00215714:    40015000    .P.@    DCD    1073827840
+        0x00215718:    40015400    .T.@    DCD    1073828864
+        0x0021571c:    40013000    .0.@    DCD    1073819648
+        0x00215720:    40013400    .4.@    DCD    1073820672
+        0x00215724:    40012000    . .@    DCD    1073815552
+        0x00215728:    40011000    ...@    DCD    1073811456
+    $t
+    .text
+    Pinmux_Reset
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_pinmux.c
+;;;46         for (i = 0; i < 10; i++)
+        0x0021572c:    2000        .       MOVS     r0,#0
+        0x0021572e:    49da        .I      LDR      r1,[pc,#872] ; [0x215a98] = 0x40000280
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_pinmux.c (46)
+        0x00215730:    4602        .F      MOV      r2,r0
+        0x00215732:    0083        ..      LSLS     r3,r0,#2
+        0x00215734:    185b        [.      ADDS     r3,r3,r1
+        0x00215736:    601a        .`      STR      r2,[r3,#0]
+        0x00215738:    1c40        @.      ADDS     r0,r0,#1
+        0x0021573a:    b2c0        ..      UXTB     r0,r0
+        0x0021573c:    280a        .(      CMP      r0,#0xa
+        0x0021573e:    d3f8        ..      BCC      0x215732 ; Pinmux_Reset + 6
+;;;47         {
+;;;48             PINMUX->CFG[i] = 0x00;
+;;;49         }
+;;;50     
+;;;51         return;
+;;;52     }
+        0x00215740:    4770        pG      BX       lr
+    Pinmux_Deinit
+;;;53     
+;;;54     /**
+;;;55       * @brief  Deinit the IO function of one pin.
+;;;56       * @param  Pin_Num: pin number.
+;;;57       *     This parameter is from ADC_0 to P4_1, please refer to rtl876x.h "Pin_Number" part.
+;;;58       * @retval None
+;;;59       */
+;;;60     void Pinmux_Deinit(uint8_t Pin_Num)
+;;;61     {
+;;;62         uint8_t pinmux_reg_num;
+;;;63     
+;;;64         pinmux_reg_num = Pin_Num >> 2;
+        0x00215742:    0881        ..      LSRS     r1,r0,#2
+;;;65         PINMUX->CFG[pinmux_reg_num] &= ~(0xff << ((Pin_Num % 4) << 3));
+        0x00215744:    008a        ..      LSLS     r2,r1,#2
+        0x00215746:    49d4        .I      LDR      r1,[pc,#848] ; [0x215a98] = 0x40000280
+        0x00215748:    1851        Q.      ADDS     r1,r2,r1
+        0x0021574a:    680a        .h      LDR      r2,[r1,#0]
+        0x0021574c:    0780        ..      LSLS     r0,r0,#30
+        0x0021574e:    0ec3        ..      LSRS     r3,r0,#27
+        0x00215750:    20ff        .       MOVS     r0,#0xff
+        0x00215752:    4098        .@      LSLS     r0,r0,r3
+        0x00215754:    4382        .C      BICS     r2,r2,r0
+        0x00215756:    600a        .`      STR      r2,[r1,#0]
+;;;66         return;
+;;;67     }
+        0x00215758:    4770        pG      BX       lr
+    Pinmux_Config
+        0x0021575a:    0882        ..      LSRS     r2,r0,#2
+        0x0021575c:    0093        ..      LSLS     r3,r2,#2
+        0x0021575e:    0780        ..      LSLS     r0,r0,#30
+        0x00215760:    4acd        .J      LDR      r2,[pc,#820] ; [0x215a98] = 0x40000280
+;;;68     
+;;;69     /**
+;;;70       * @brief  Config pin to its corresponding IO function.
+;;;71       * @param  Pin_Num: pin number.
+;;;72       *     This parameter is from ADC_0 to P4_1, please refer to rtl876x.h "Pin_Number" part.
+;;;73       * @param  Pin_Func: mean one IO function, please refer to rtl876x_pinmux.h "Pin_Function_Number" part.
+;;;74       * @retval None
+;;;75       */
+;;;76     void Pinmux_Config(uint8_t Pin_Num, uint8_t Pin_Func)
+;;;77     {
+        0x00215762:    b510        ..      PUSH     {r4,lr}
+;;;78         uint8_t pinmux_reg_num;
+;;;79         uint8_t reg_offset;
+;;;80     
+;;;81         pinmux_reg_num = Pin_Num >> 2;
+;;;82         reg_offset = (Pin_Num & 0x03) << 3;
+        0x00215764:    0ec0        ..      LSRS     r0,r0,#27
+;;;83     
+;;;84         PINMUX->CFG[pinmux_reg_num] = (PINMUX->CFG[pinmux_reg_num] & ~(0xFF << reg_offset))
+        0x00215766:    189a        ..      ADDS     r2,r3,r2
+        0x00215768:    6813        .h      LDR      r3,[r2,#0]
+        0x0021576a:    24ff        .$      MOVS     r4,#0xff
+        0x0021576c:    4084        .@      LSLS     r4,r4,r0
+        0x0021576e:    43a3        .C      BICS     r3,r3,r4
+        0x00215770:    4081        .@      LSLS     r1,r1,r0
+        0x00215772:    430b        .C      ORRS     r3,r3,r1
+        0x00215774:    6013        .`      STR      r3,[r2,#0]
+;;;85                                       | Pin_Func << reg_offset;
+;;;86     
+;;;87         return;
+;;;88     }
+        0x00215776:    bd10        ..      POP      {r4,pc}
+    Pad_Config
+;;;89     
+;;;90     /**
+;;;91       * @brief  config the corresponding pad.
+;;;92       * @param  Pin_Num: pin number.
+;;;93       *     This parameter is from ADC_0 to P4_1, please refer to rtl876x.h "Pin_Number" part.
+;;;94       * @param  AON_PAD_MODE: use software mode or pinmux mode.
+;;;95       *     This parameter can be one of the following values:
+;;;96       *     @arg PAD_SW_MODE: use software mode.
+;;;97       *     @arg PAD_PINMUX_MODE: use pinmux mode.
+;;;98       * @param  AON_PAD_PwrOn: config power of pad.
+;;;99       *     This parameter can be one of the following values:
+;;;100      *     @arg PAD_NOT_PWRON: shutdown power of pad.
+;;;101      *     @arg PAD_IS_PWRON: enable power of pad.
+;;;102      * @param  AON_PAD_Pull: config pad pull mode.
+;;;103      *     This parameter can be one of the following values:
+;;;104      *     @arg PAD_PULL_NONE: no pull.
+;;;105      *     @arg PAD_PULL_UP: pull this pin up.
+;;;106      *     @arg PAD_PULL_DOWN: pull thi pin down.
+;;;107      * @param  AON_PAD_E: config pad out put function.
+;;;108      *     This parameter can be one of the following values:
+;;;109      *     @arg PAD_OUT_DISABLE: disable pin output.
+;;;110      *     @arg PAD_OUT_ENABLE: enable pad output.
+;;;111      * @param  AON_PAD_O: config pin output level.
+;;;112      *     This parameter can be one of the following values:
+;;;113      *     @arg PAD_OUT_LOW: pad output low.
+;;;114      *     @arg PAD_OUT_HIGH: pad output high.
+;;;115      * @retval None
+;;;116      */
+;;;117    
+;;;118    void Pad_Config(uint8_t Pin_Num,
+;;;119                    PAD_Mode AON_PAD_Mode,
+;;;120                    PAD_PWR_Mode AON_PAD_PwrOn,
+;;;121                    PAD_Pull_Mode AON_PAD_Pull,
+;;;122                    PAD_OUTPUT_ENABLE_Mode AON_PAD_E,
+;;;123                    PAD_OUTPUT_VAL AON_PAD_O)
+;;;124    {
+        0x00215778:    b5f8        ..      PUSH     {r3-r7,lr}
+        0x0021577a:    460f        .F      MOV      r7,r1
+        0x0021577c:    49c7        .I      LDR      r1,[pc,#796] ; [0x215a9c] = 0x215aac
+        0x0021577e:    0040        @.      LSLS     r0,r0,#1
+        0x00215780:    5c0d        .\      LDRB     r5,[r1,r0]
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_pinmux.c (124)
+        0x00215782:    461c        .F      MOV      r4,r3
+        0x00215784:    4616        .F      MOV      r6,r2
+;;;125        uint16_t tmpVal;
+;;;126        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;127    
+;;;128        tmpVal = btaon_fast_read_safe(addr);
+        0x00215786:    4628        (F      MOV      r0,r5
+        0x00215788:    f61dfc04    ....    BL       btaon_fast_read_safe ; 0x32f94
+;;;129    
+;;;130        /* Clear reg value first*/
+;;;131        tmpVal &= ~0xF;
+        0x0021578c:    0900        ..      LSRS     r0,r0,#4
+        0x0021578e:    0100        ..      LSLS     r0,r0,#4
+;;;132    
+;;;133        /* Pull Config */
+;;;134        if (AON_PAD_Pull == PAD_PULL_UP)
+        0x00215790:    2c00        .,      CMP      r4,#0
+        0x00215792:    d002        ..      BEQ      0x21579a ; Pad_Config + 34
+        0x00215794:    2c01        .,      CMP      r4,#1
+        0x00215796:    d002        ..      BEQ      0x21579e ; Pad_Config + 38
+        0x00215798:    e003        ..      B        0x2157a2 ; Pad_Config + 42
+;;;135        {
+;;;136            tmpVal |= Pull_En;
+        0x0021579a:    2104        .!      MOVS     r1,#4
+        0x0021579c:    e000        ..      B        0x2157a0 ; Pad_Config + 40
+;;;137        }
+;;;138        else if (AON_PAD_Pull == PAD_PULL_DOWN)
+;;;139        {
+;;;140            tmpVal |= (Pull_En | Pull_Direction);
+        0x0021579e:    210c        .!      MOVS     r1,#0xc
+        0x002157a0:    4308        .C      ORRS     r0,r0,r1
+;;;141        }
+;;;142    
+;;;143        /* Output Config */
+;;;144        tmpVal |= (AON_PAD_O | (AON_PAD_E << 1));
+        0x002157a2:    9906        ..      LDR      r1,[sp,#0x18]
+        0x002157a4:    004c        L.      LSLS     r4,r1,#1
+        0x002157a6:    9907        ..      LDR      r1,[sp,#0x1c]
+        0x002157a8:    430c        .C      ORRS     r4,r4,r1
+        0x002157aa:    4304        .C      ORRS     r4,r4,r0
+        0x002157ac:    2001        .       MOVS     r0,#1
+        0x002157ae:    0240        @.      LSLS     r0,r0,#9
+;;;145    
+;;;146        if (AON_PAD_Mode)
+        0x002157b0:    2f00        ./      CMP      r7,#0
+        0x002157b2:    d001        ..      BEQ      0x2157b8 ; Pad_Config + 64
+;;;147        {
+;;;148            tmpVal |= Pin_Mode;
+        0x002157b4:    4304        .C      ORRS     r4,r4,r0
+        0x002157b6:    e000        ..      B        0x2157ba ; Pad_Config + 66
+;;;149        }
+;;;150        else
+;;;151        {
+;;;152            tmpVal &= ~Pin_Mode;
+        0x002157b8:    4384        .C      BICS     r4,r4,r0
+;;;153        }
+;;;154    
+;;;155        btaon_fast_write_safe(addr, tmpVal | SHDN);
+        0x002157ba:    27ff        .'      MOVS     r7,#0xff
+        0x002157bc:    4621        !F      MOV      r1,r4
+        0x002157be:    3701        .7      ADDS     r7,#1
+        0x002157c0:    4339        9C      ORRS     r1,r1,r7
+        0x002157c2:    4628        (F      MOV      r0,r5
+        0x002157c4:    f61dfc38    ..8.    BL       btaon_fast_write_safe ; 0x33038
+;;;156    
+;;;157        /* Pad control mode */
+;;;158        if (AON_PAD_PwrOn == PAD_NOT_PWRON)
+        0x002157c8:    2e00        ..      CMP      r6,#0
+        0x002157ca:    d104        ..      BNE      0x2157d6 ; Pad_Config + 94
+        0x002157cc:    4621        !F      MOV      r1,r4
+;;;159        {
+;;;160            tmpVal &= ~SHDN;
+        0x002157ce:    43b9        .C      BICS     r1,r1,r7
+;;;161            btaon_fast_write_safe(addr, tmpVal);
+        0x002157d0:    4628        (F      MOV      r0,r5
+        0x002157d2:    f61dfc31    ..1.    BL       btaon_fast_write_safe ; 0x33038
+;;;162        }
+;;;163    
+;;;164    }
+        0x002157d6:    bdf8        ..      POP      {r3-r7,pc}
+    Pad_WakeupEnableValue
+;;;165    
+;;;166    //1ms~64ms
+;;;167    static void System_WakeUpDebounceTime(uint8_t time)
+;;;168    {
+;;;169        uint16_t  tmpVal;
+;;;170        tmpVal = btaon_fast_read_safe(0x2a);
+;;;171        /* clear reg value first */
+;;;172        tmpVal &= ~(0x3f00);
+;;;173        /* set value */
+;;;174        tmpVal |= (time & 0x3f) << 8;
+;;;175        /* clear debounce status */
+;;;176        tmpVal |= (BIT15 | BIT14);
+;;;177        btaon_fast_write_safe(0x2a, tmpVal);
+;;;178    }
+;;;179    /**
+;;;180      * @brief  Enable pin wakeup function.
+;;;181      * @param  Pin_Num: pin number.
+;;;182      *     This parameter is from ADC_0 to P4_1, please refer to rtl876x.h "Pin_Number" part.
+;;;183      * @param  Polarity: PAD_WAKEUP_POL_HIGH--use high level wakeup, PAD_WAKEUP_POL_LOW-- use low level wakeup.
+;;;184      * @param[in] DebounceEn: Enable delay function.
+;;;185      *      \arg PAD_WK_DEBOUNCE_DISABLE: Disable delay function.
+;;;186      *      \arg PAD_WK_DEBOUNCE_ENABLE: Enable delay function.
+;;;187      * @param[in] DebounceTime: Set debounce time, range from 0~63ms.
+;;;188      * @retval None
+;;;189      */
+;;;190    void System_WakeUpPinEnable(uint8_t Pin_Num, uint8_t Polarity, uint8_t DebounceEn,
+;;;191                                uint8_t DebounceTime)
+;;;192    {
+;;;193        if (DebounceEn == ENABLE)
+;;;194        {
+;;;195            System_WakeUpPinDisable(Pin_Num);
+;;;196            if (DebounceTime >= 64)
+;;;197            {
+;;;198                DebounceTime = 63;
+;;;199            }
+;;;200            System_WakeUpDebounceTime(DebounceTime);
+;;;201        }
+;;;202        else
+;;;203        {
+;;;204            System_DebounceWakeupStatus();
+;;;205        }
+;;;206        Pad_WakeupPolarityValue(Pin_Num, Polarity);
+;;;207        Pad_WKDebounceConfig(Pin_Num, DebounceEn);
+;;;208        Pad_WakeupEnableValue(Pin_Num, 1);
+;;;209    }
+;;;210    
+;;;211    /**
+;;;212      * @brief  Disable pin wakeup function.
+;;;213      * @param  Pin_Num: pin number.
+;;;214      *     This parameter is from ADC_0 to P4_1, please refer to rtl876x.h "Pin_Number" part.
+;;;215      * @retval None
+;;;216      */
+;;;217    void System_WakeUpPinDisable(uint8_t Pin_Num)
+;;;218    {
+;;;219        Pad_WakeupEnableValue(Pin_Num, 0);
+;;;220    }
+;;;221    
+;;;222    /**
+;;;223      * @brief  Check debounce wake up status.
+;;;224      * @note:  Call this API will clear the debunce wakeup status bit.
+;;;225      * @param  None
+;;;226      * @retval Debounce wakeup status
+;;;227      */
+;;;228    uint8_t System_DebounceWakeupStatus(void)
+;;;229    {
+;;;230        return Pad_DebounceWakeupStatus();
+;;;231    }
+;;;232    
+;;;233    /**
+;;;234      * @brief  Check wake up pin interrupt status.
+;;;235      * @param  Pin_Num: pin number.
+;;;236      *     This parameter is from ADC_0 to P4_1, please refer to rtl876x.h "Pin_Number" part.
+;;;237      * @retval Pin interrupt status
+;;;238      */
+;;;239    uint8_t System_WakeUpInterruptValue(uint8_t Pin_Num)
+;;;240    {
+;;;241        return Pad_WakeupInterruptValue(Pin_Num);
+;;;242    }
+;;;243    
+;;;244    void Pad_OutputControlValue(uint8_t Pin_Num, uint8_t value)
+;;;245    {
+;;;246        uint16_t tmpVal;
+;;;247        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;248    
+;;;249        tmpVal = btaon_fast_read_safe(addr);
+;;;250        if (value)
+;;;251        {
+;;;252            tmpVal |= Output_Val;
+;;;253        }
+;;;254        else
+;;;255        {
+;;;256            tmpVal &= ~Output_Val;
+;;;257        }
+;;;258        btaon_fast_write_safe((addr), tmpVal);
+;;;259    }
+;;;260    
+;;;261    void Pad_OutputEnableValue(uint8_t Pin_Num, uint8_t value)//0xf6
+;;;262    {
+;;;263        uint16_t tmpVal;
+;;;264        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;265    
+;;;266        tmpVal = btaon_fast_read_safe(addr);
+;;;267        if (value)
+;;;268        {
+;;;269            tmpVal |= Output_En;
+;;;270        }
+;;;271        else
+;;;272        {
+;;;273            tmpVal &= ~Output_En;
+;;;274        }
+;;;275        btaon_fast_write_safe((addr), tmpVal);
+;;;276    }
+;;;277    
+;;;278    void Pad_PullEnableValue(uint8_t Pin_Num, uint8_t value)
+;;;279    {
+;;;280        uint16_t tmpVal;
+;;;281        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;282    
+;;;283        tmpVal = btaon_fast_read_safe(addr);
+;;;284        if (value)
+;;;285        {
+;;;286            tmpVal |= Pull_En;
+;;;287        }
+;;;288        else
+;;;289        {
+;;;290            tmpVal &= ~Pull_En;
+;;;291        }
+;;;292        btaon_fast_write_safe((addr), tmpVal);
+;;;293    }
+;;;294    
+;;;295    void Pad_PullUpOrDownValue(uint8_t Pin_Num, uint8_t value)
+;;;296    {
+;;;297        uint16_t tmpVal;
+;;;298        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;299    
+;;;300        tmpVal = btaon_fast_read_safe(addr);
+;;;301        if (value)
+;;;302        {
+;;;303            tmpVal |= Pull_Direction;
+;;;304        }
+;;;305        else
+;;;306        {
+;;;307            tmpVal &= ~Pull_Direction;
+;;;308        }
+;;;309        btaon_fast_write_safe((addr), tmpVal);
+;;;310    }
+;;;311    
+;;;312    void Pad_PullConfigValue(uint8_t Pin_Num, uint8_t value)
+;;;313    {
+;;;314        uint16_t tmpVal;
+;;;315        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;316    
+;;;317        tmpVal = btaon_fast_read_safe(addr);
+;;;318        if (value)
+;;;319        {
+;;;320            tmpVal |= Pull_Resistance;
+;;;321        }
+;;;322        else
+;;;323        {
+;;;324            tmpVal &= ~(Pull_Resistance);
+;;;325        }
+;;;326        btaon_fast_write_safe(addr, tmpVal);
+;;;327    }
+;;;328    
+;;;329    void Pad_PowerOrShutDownValue(uint8_t Pin_Num, uint8_t value)
+;;;330    {
+;;;331        uint16_t tmpVal;
+;;;332        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;333    
+;;;334        tmpVal = btaon_fast_read_safe(addr);
+;;;335        if (value)
+;;;336        {
+;;;337            tmpVal |= SHDN;
+;;;338        }
+;;;339        else
+;;;340        {
+;;;341            tmpVal &= ~SHDN;
+;;;342        }
+;;;343        btaon_fast_write_safe((addr), tmpVal);
+;;;344    }
+;;;345    
+;;;346    void Pad_ControlSelectValue(uint8_t Pin_Num, uint8_t value)
+;;;347    {
+;;;348        uint16_t tmpVal;
+;;;349        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;350    
+;;;351        tmpVal = btaon_fast_read_safe(addr);
+;;;352        if (value)
+;;;353        {
+;;;354            tmpVal |= Pin_Mode;
+;;;355        }
+;;;356        else
+;;;357        {
+;;;358            tmpVal &= ~Pin_Mode;
+;;;359        }
+;;;360        btaon_fast_write_safe((addr), tmpVal);
+;;;361    }
+;;;362    
+;;;363    void Pad_WakeupEnableValue(uint8_t Pin_Num, uint8_t value)
+;;;364    {
+        0x002157d8:    b570        p.      PUSH     {r4-r6,lr}
+        0x002157da:    460d        .F      MOV      r5,r1
+;;;365        uint16_t tmpVal;
+;;;366        uint8_t addr = PINADDR_TABLE[Pin_Num];
+        0x002157dc:    49af        .I      LDR      r1,[pc,#700] ; [0x215a9c] = 0x215aac
+        0x002157de:    0040        @.      LSLS     r0,r0,#1
+        0x002157e0:    5c0c        .\      LDRB     r4,[r1,r0]
+;;;367    
+;;;368        tmpVal = btaon_fast_read_safe(addr);
+        0x002157e2:    4620         F      MOV      r0,r4
+        0x002157e4:    f61dfbd6    ....    BL       btaon_fast_read_safe ; 0x32f94
+        0x002157e8:    2220         "      MOVS     r2,#0x20
+;;;369        if (value)
+        0x002157ea:    2d00        .-      CMP      r5,#0
+        0x002157ec:    d001        ..      BEQ      0x2157f2 ; Pad_WakeupEnableValue + 26
+;;;370        {
+;;;371            tmpVal |= WakeUp_En;
+        0x002157ee:    4310        .C      ORRS     r0,r0,r2
+        0x002157f0:    e000        ..      B        0x2157f4 ; Pad_WakeupEnableValue + 28
+;;;372        }
+;;;373        else
+;;;374        {
+;;;375            tmpVal &= ~WakeUp_En;
+        0x002157f2:    4390        .C      BICS     r0,r0,r2
+        0x002157f4:    4601        .F      MOV      r1,r0
+;;;376        }
+;;;377        btaon_fast_write_safe((addr), tmpVal);
+        0x002157f6:    4620         F      MOV      r0,r4
+        0x002157f8:    f61dfc1e    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;378    }
+        0x002157fc:    bd70        p.      POP      {r4-r6,pc}
+    Pad_WKDebounceConfig
+;;;379    
+;;;380    void Pad_WakeupPolarityValue(uint8_t Pin_Num, uint8_t value)
+;;;381    {
+;;;382        uint16_t tmpVal;
+;;;383        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;384    
+;;;385        tmpVal = btaon_fast_read_safe(addr);
+;;;386        if (value)
+;;;387        {
+;;;388            tmpVal |= WKPOL;
+;;;389        }
+;;;390        else
+;;;391        {
+;;;392            tmpVal &= ~WKPOL;
+;;;393        }
+;;;394        btaon_fast_write_safe((addr), tmpVal);
+;;;395    }
+;;;396    
+;;;397    void Pad_WKDebounceConfig(uint8_t Pin_Num, uint8_t value)
+;;;398    {
+        0x002157fe:    b570        p.      PUSH     {r4-r6,lr}
+        0x00215800:    460d        .F      MOV      r5,r1
+;;;399        uint16_t tmpVal;
+;;;400        uint8_t addr = PINADDR_TABLE[Pin_Num];
+        0x00215802:    49a6        .I      LDR      r1,[pc,#664] ; [0x215a9c] = 0x215aac
+        0x00215804:    0040        @.      LSLS     r0,r0,#1
+        0x00215806:    5c0c        .\      LDRB     r4,[r1,r0]
+;;;401    
+;;;402        tmpVal = btaon_fast_read_safe(addr);
+        0x00215808:    4620         F      MOV      r0,r4
+        0x0021580a:    f61dfbc3    ....    BL       btaon_fast_read_safe ; 0x32f94
+        0x0021580e:    2201        ."      MOVS     r2,#1
+        0x00215810:    0292        ..      LSLS     r2,r2,#10
+;;;403        if (value)
+        0x00215812:    2d00        .-      CMP      r5,#0
+        0x00215814:    d001        ..      BEQ      0x21581a ; Pad_WKDebounceConfig + 28
+;;;404        {
+;;;405            tmpVal |= Pin_Debounce;
+        0x00215816:    4310        .C      ORRS     r0,r0,r2
+        0x00215818:    e000        ..      B        0x21581c ; Pad_WKDebounceConfig + 30
+;;;406        }
+;;;407        else
+;;;408        {
+;;;409            tmpVal &= ~Pin_Debounce;
+        0x0021581a:    4390        .C      BICS     r0,r0,r2
+        0x0021581c:    4601        .F      MOV      r1,r0
+;;;410        }
+;;;411        btaon_fast_write_safe((addr), tmpVal);
+        0x0021581e:    4620         F      MOV      r0,r4
+        0x00215820:    f61dfc0a    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;412    }
+        0x00215824:    bd70        p.      POP      {r4-r6,pc}
+    Pad_WakeupPolarityValue
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_pinmux.c (381)
+        0x00215826:    b570        p.      PUSH     {r4-r6,lr}
+        0x00215828:    460d        .F      MOV      r5,r1
+;;;382        uint16_t tmpVal;
+;;;383        uint8_t addr = PINADDR_TABLE[Pin_Num];
+        0x0021582a:    499c        .I      LDR      r1,[pc,#624] ; [0x215a9c] = 0x215aac
+        0x0021582c:    0040        @.      LSLS     r0,r0,#1
+        0x0021582e:    5c0c        .\      LDRB     r4,[r1,r0]
+;;;384    
+;;;385        tmpVal = btaon_fast_read_safe(addr);
+        0x00215830:    4620         F      MOV      r0,r4
+        0x00215832:    f61dfbaf    ....    BL       btaon_fast_read_safe ; 0x32f94
+        0x00215836:    2240        @"      MOVS     r2,#0x40
+;;;386        if (value)
+        0x00215838:    2d00        .-      CMP      r5,#0
+        0x0021583a:    d001        ..      BEQ      0x215840 ; Pad_WakeupPolarityValue + 26
+;;;387        {
+;;;388            tmpVal |= WKPOL;
+        0x0021583c:    4310        .C      ORRS     r0,r0,r2
+        0x0021583e:    e000        ..      B        0x215842 ; Pad_WakeupPolarityValue + 28
+;;;389        }
+;;;390        else
+;;;391        {
+;;;392            tmpVal &= ~WKPOL;
+        0x00215840:    4390        .C      BICS     r0,r0,r2
+        0x00215842:    4601        .F      MOV      r1,r0
+;;;393        }
+;;;394        btaon_fast_write_safe((addr), tmpVal);
+        0x00215844:    4620         F      MOV      r0,r4
+        0x00215846:    f61dfbf7    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;395    }
+        0x0021584a:    bd70        p.      POP      {r4-r6,pc}
+    Pad_DebounceWakeupStatus
+;;;396    
+;;;397    void Pad_WKDebounceConfig(uint8_t Pin_Num, uint8_t value)
+;;;398    {
+;;;399        uint16_t tmpVal;
+;;;400        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;401    
+;;;402        tmpVal = btaon_fast_read_safe(addr);
+;;;403        if (value)
+;;;404        {
+;;;405            tmpVal |= Pin_Debounce;
+;;;406        }
+;;;407        else
+;;;408        {
+;;;409            tmpVal &= ~Pin_Debounce;
+;;;410        }
+;;;411        btaon_fast_write_safe((addr), tmpVal);
+;;;412    }
+;;;413    
+;;;414    uint8_t Pad_WakeupInterruptValue(uint8_t Pin_Num)
+;;;415    {
+;;;416        uint16_t reg_temp;
+;;;417        uint16_t bit_temp;
+;;;418        uint16_t temp_value = 0;
+;;;419        uint8_t int_value = RESET;
+;;;420    
+;;;421        reg_temp = (WKSTATUS_TABLE[Pin_Num] & ~(0xf000));
+;;;422        bit_temp = BIT((WKSTATUS_TABLE[Pin_Num]  & (0xf000)) >> 12);
+;;;423        temp_value = btaon_fast_read_safe(reg_temp);
+;;;424        if (temp_value & bit_temp)
+;;;425        {
+;;;426            int_value = SET;
+;;;427        }
+;;;428        return int_value;
+;;;429    }
+;;;430    
+;;;431    uint8_t Pad_DebounceWakeupStatus(void)
+;;;432    {
+        0x0021584c:    b510        ..      PUSH     {r4,lr}
+;;;433        uint16_t value16 = 0;
+;;;434        uint8_t status_value = RESET;
+        0x0021584e:    2400        .$      MOVS     r4,#0
+;;;435    
+;;;436        value16 = btaon_fast_read_safe(0x2a);
+        0x00215850:    202a        *       MOVS     r0,#0x2a
+        0x00215852:    f61dfb9f    ....    BL       btaon_fast_read_safe ; 0x32f94
+;;;437        if (value16 & BIT15)
+        0x00215856:    0401        ..      LSLS     r1,r0,#16
+        0x00215858:    d500        ..      BPL      0x21585c ; Pad_DebounceWakeupStatus + 16
+;;;438        {
+;;;439            status_value = SET;
+        0x0021585a:    2401        .$      MOVS     r4,#1
+;;;440        }
+;;;441        //Write 1 to clear debounceWakeupStatus
+;;;442        btaon_fast_write_safe(0x2a, (value16 | BIT15));
+        0x0021585c:    2101        .!      MOVS     r1,#1
+        0x0021585e:    03c9        ..      LSLS     r1,r1,#15
+        0x00215860:    4301        .C      ORRS     r1,r1,r0
+        0x00215862:    202a        *       MOVS     r0,#0x2a
+        0x00215864:    f61dfbe8    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;443        return status_value;
+        0x00215868:    4620         F      MOV      r0,r4
+;;;444    }
+        0x0021586a:    bd10        ..      POP      {r4,pc}
+    System_DebounceWakeupStatus
+        0x0021586c:    e7ee        ..      B        Pad_DebounceWakeupStatus ; 0x21584c
+    System_WakeUpPinDisable
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_pinmux.c (219)
+        0x0021586e:    2100        .!      MOVS     r1,#0
+        0x00215870:    e7b2        ..      B        Pad_WakeupEnableValue ; 0x2157d8
+    System_WakeUpPinEnable
+        0x00215872:    b5f8        ..      PUSH     {r3-r7,lr}
+        0x00215874:    461c        .F      MOV      r4,r3
+        0x00215876:    4615        .F      MOV      r5,r2
+        0x00215878:    460e        .F      MOV      r6,r1
+        0x0021587a:    4607        .F      MOV      r7,r0
+        0x0021587c:    2a01        .*      CMP      r2,#1
+        0x0021587e:    d00e        ..      BEQ      0x21589e ; System_WakeUpPinEnable + 44
+        0x00215880:    f7ffffe4    ....    BL       Pad_DebounceWakeupStatus ; 0x21584c
+        0x00215884:    4631        1F      MOV      r1,r6
+        0x00215886:    4638        8F      MOV      r0,r7
+        0x00215888:    f7ffffcd    ....    BL       Pad_WakeupPolarityValue ; 0x215826
+        0x0021588c:    4629        )F      MOV      r1,r5
+        0x0021588e:    4638        8F      MOV      r0,r7
+        0x00215890:    f7ffffb5    ....    BL       Pad_WKDebounceConfig ; 0x2157fe
+        0x00215894:    2101        .!      MOVS     r1,#1
+        0x00215896:    4638        8F      MOV      r0,r7
+        0x00215898:    f7ffff9e    ....    BL       Pad_WakeupEnableValue ; 0x2157d8
+        0x0021589c:    bdf8        ..      POP      {r3-r7,pc}
+        0x0021589e:    f7ffffe6    ....    BL       System_WakeUpPinDisable ; 0x21586e
+        0x002158a2:    2c40        @,      CMP      r4,#0x40
+        0x002158a4:    d300        ..      BCC      0x2158a8 ; System_WakeUpPinEnable + 54
+        0x002158a6:    243f        ?$      MOVS     r4,#0x3f
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_pinmux.c (170)
+        0x002158a8:    202a        *       MOVS     r0,#0x2a
+        0x002158aa:    f61dfb73    ..s.    BL       btaon_fast_read_safe ; 0x32f94
+;;;171        /* clear reg value first */
+;;;172        tmpVal &= ~(0x3f00);
+        0x002158ae:    213f        ?!      MOVS     r1,#0x3f
+        0x002158b0:    0209        ..      LSLS     r1,r1,#8
+        0x002158b2:    4388        .C      BICS     r0,r0,r1
+;;;173        /* set value */
+;;;174        tmpVal |= (time & 0x3f) << 8;
+        0x002158b4:    06a1        ..      LSLS     r1,r4,#26
+        0x002158b6:    0c89        ..      LSRS     r1,r1,#18
+        0x002158b8:    4301        .C      ORRS     r1,r1,r0
+;;;175        /* clear debounce status */
+;;;176        tmpVal |= (BIT15 | BIT14);
+        0x002158ba:    2003        .       MOVS     r0,#3
+        0x002158bc:    0380        ..      LSLS     r0,r0,#14
+        0x002158be:    4301        .C      ORRS     r1,r1,r0
+;;;177        btaon_fast_write_safe(0x2a, tmpVal);
+        0x002158c0:    202a        *       MOVS     r0,#0x2a
+        0x002158c2:    f61dfbb9    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;178    }
+;;;179    /**
+;;;180      * @brief  Enable pin wakeup function.
+;;;181      * @param  Pin_Num: pin number.
+;;;182      *     This parameter is from ADC_0 to P4_1, please refer to rtl876x.h "Pin_Number" part.
+;;;183      * @param  Polarity: PAD_WAKEUP_POL_HIGH--use high level wakeup, PAD_WAKEUP_POL_LOW-- use low level wakeup.
+;;;184      * @param[in] DebounceEn: Enable delay function.
+;;;185      *      \arg PAD_WK_DEBOUNCE_DISABLE: Disable delay function.
+;;;186      *      \arg PAD_WK_DEBOUNCE_ENABLE: Enable delay function.
+;;;187      * @param[in] DebounceTime: Set debounce time, range from 0~63ms.
+;;;188      * @retval None
+;;;189      */
+;;;190    void System_WakeUpPinEnable(uint8_t Pin_Num, uint8_t Polarity, uint8_t DebounceEn,
+;;;191                                uint8_t DebounceTime)
+;;;192    {
+;;;193        if (DebounceEn == ENABLE)
+;;;194        {
+;;;195            System_WakeUpPinDisable(Pin_Num);
+;;;196            if (DebounceTime >= 64)
+;;;197            {
+;;;198                DebounceTime = 63;
+;;;199            }
+;;;200            System_WakeUpDebounceTime(DebounceTime);
+        0x002158c6:    e7dd        ..      B        0x215884 ; System_WakeUpPinEnable + 18
+    Pad_WakeupInterruptValue
+;;;201        }
+;;;202        else
+;;;203        {
+;;;204            System_DebounceWakeupStatus();
+;;;205        }
+;;;206        Pad_WakeupPolarityValue(Pin_Num, Polarity);
+;;;207        Pad_WKDebounceConfig(Pin_Num, DebounceEn);
+;;;208        Pad_WakeupEnableValue(Pin_Num, 1);
+;;;209    }
+;;;210    
+;;;211    /**
+;;;212      * @brief  Disable pin wakeup function.
+;;;213      * @param  Pin_Num: pin number.
+;;;214      *     This parameter is from ADC_0 to P4_1, please refer to rtl876x.h "Pin_Number" part.
+;;;215      * @retval None
+;;;216      */
+;;;217    void System_WakeUpPinDisable(uint8_t Pin_Num)
+;;;218    {
+;;;219        Pad_WakeupEnableValue(Pin_Num, 0);
+;;;220    }
+;;;221    
+;;;222    /**
+;;;223      * @brief  Check debounce wake up status.
+;;;224      * @note:  Call this API will clear the debunce wakeup status bit.
+;;;225      * @param  None
+;;;226      * @retval Debounce wakeup status
+;;;227      */
+;;;228    uint8_t System_DebounceWakeupStatus(void)
+;;;229    {
+;;;230        return Pad_DebounceWakeupStatus();
+;;;231    }
+;;;232    
+;;;233    /**
+;;;234      * @brief  Check wake up pin interrupt status.
+;;;235      * @param  Pin_Num: pin number.
+;;;236      *     This parameter is from ADC_0 to P4_1, please refer to rtl876x.h "Pin_Number" part.
+;;;237      * @retval Pin interrupt status
+;;;238      */
+;;;239    uint8_t System_WakeUpInterruptValue(uint8_t Pin_Num)
+;;;240    {
+;;;241        return Pad_WakeupInterruptValue(Pin_Num);
+;;;242    }
+;;;243    
+;;;244    void Pad_OutputControlValue(uint8_t Pin_Num, uint8_t value)
+;;;245    {
+;;;246        uint16_t tmpVal;
+;;;247        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;248    
+;;;249        tmpVal = btaon_fast_read_safe(addr);
+;;;250        if (value)
+;;;251        {
+;;;252            tmpVal |= Output_Val;
+;;;253        }
+;;;254        else
+;;;255        {
+;;;256            tmpVal &= ~Output_Val;
+;;;257        }
+;;;258        btaon_fast_write_safe((addr), tmpVal);
+;;;259    }
+;;;260    
+;;;261    void Pad_OutputEnableValue(uint8_t Pin_Num, uint8_t value)//0xf6
+;;;262    {
+;;;263        uint16_t tmpVal;
+;;;264        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;265    
+;;;266        tmpVal = btaon_fast_read_safe(addr);
+;;;267        if (value)
+;;;268        {
+;;;269            tmpVal |= Output_En;
+;;;270        }
+;;;271        else
+;;;272        {
+;;;273            tmpVal &= ~Output_En;
+;;;274        }
+;;;275        btaon_fast_write_safe((addr), tmpVal);
+;;;276    }
+;;;277    
+;;;278    void Pad_PullEnableValue(uint8_t Pin_Num, uint8_t value)
+;;;279    {
+;;;280        uint16_t tmpVal;
+;;;281        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;282    
+;;;283        tmpVal = btaon_fast_read_safe(addr);
+;;;284        if (value)
+;;;285        {
+;;;286            tmpVal |= Pull_En;
+;;;287        }
+;;;288        else
+;;;289        {
+;;;290            tmpVal &= ~Pull_En;
+;;;291        }
+;;;292        btaon_fast_write_safe((addr), tmpVal);
+;;;293    }
+;;;294    
+;;;295    void Pad_PullUpOrDownValue(uint8_t Pin_Num, uint8_t value)
+;;;296    {
+;;;297        uint16_t tmpVal;
+;;;298        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;299    
+;;;300        tmpVal = btaon_fast_read_safe(addr);
+;;;301        if (value)
+;;;302        {
+;;;303            tmpVal |= Pull_Direction;
+;;;304        }
+;;;305        else
+;;;306        {
+;;;307            tmpVal &= ~Pull_Direction;
+;;;308        }
+;;;309        btaon_fast_write_safe((addr), tmpVal);
+;;;310    }
+;;;311    
+;;;312    void Pad_PullConfigValue(uint8_t Pin_Num, uint8_t value)
+;;;313    {
+;;;314        uint16_t tmpVal;
+;;;315        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;316    
+;;;317        tmpVal = btaon_fast_read_safe(addr);
+;;;318        if (value)
+;;;319        {
+;;;320            tmpVal |= Pull_Resistance;
+;;;321        }
+;;;322        else
+;;;323        {
+;;;324            tmpVal &= ~(Pull_Resistance);
+;;;325        }
+;;;326        btaon_fast_write_safe(addr, tmpVal);
+;;;327    }
+;;;328    
+;;;329    void Pad_PowerOrShutDownValue(uint8_t Pin_Num, uint8_t value)
+;;;330    {
+;;;331        uint16_t tmpVal;
+;;;332        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;333    
+;;;334        tmpVal = btaon_fast_read_safe(addr);
+;;;335        if (value)
+;;;336        {
+;;;337            tmpVal |= SHDN;
+;;;338        }
+;;;339        else
+;;;340        {
+;;;341            tmpVal &= ~SHDN;
+;;;342        }
+;;;343        btaon_fast_write_safe((addr), tmpVal);
+;;;344    }
+;;;345    
+;;;346    void Pad_ControlSelectValue(uint8_t Pin_Num, uint8_t value)
+;;;347    {
+;;;348        uint16_t tmpVal;
+;;;349        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;350    
+;;;351        tmpVal = btaon_fast_read_safe(addr);
+;;;352        if (value)
+;;;353        {
+;;;354            tmpVal |= Pin_Mode;
+;;;355        }
+;;;356        else
+;;;357        {
+;;;358            tmpVal &= ~Pin_Mode;
+;;;359        }
+;;;360        btaon_fast_write_safe((addr), tmpVal);
+;;;361    }
+;;;362    
+;;;363    void Pad_WakeupEnableValue(uint8_t Pin_Num, uint8_t value)
+;;;364    {
+;;;365        uint16_t tmpVal;
+;;;366        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;367    
+;;;368        tmpVal = btaon_fast_read_safe(addr);
+;;;369        if (value)
+;;;370        {
+;;;371            tmpVal |= WakeUp_En;
+;;;372        }
+;;;373        else
+;;;374        {
+;;;375            tmpVal &= ~WakeUp_En;
+;;;376        }
+;;;377        btaon_fast_write_safe((addr), tmpVal);
+;;;378    }
+;;;379    
+;;;380    void Pad_WakeupPolarityValue(uint8_t Pin_Num, uint8_t value)
+;;;381    {
+;;;382        uint16_t tmpVal;
+;;;383        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;384    
+;;;385        tmpVal = btaon_fast_read_safe(addr);
+;;;386        if (value)
+;;;387        {
+;;;388            tmpVal |= WKPOL;
+;;;389        }
+;;;390        else
+;;;391        {
+;;;392            tmpVal &= ~WKPOL;
+;;;393        }
+;;;394        btaon_fast_write_safe((addr), tmpVal);
+;;;395    }
+;;;396    
+;;;397    void Pad_WKDebounceConfig(uint8_t Pin_Num, uint8_t value)
+;;;398    {
+;;;399        uint16_t tmpVal;
+;;;400        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;401    
+;;;402        tmpVal = btaon_fast_read_safe(addr);
+;;;403        if (value)
+;;;404        {
+;;;405            tmpVal |= Pin_Debounce;
+;;;406        }
+;;;407        else
+;;;408        {
+;;;409            tmpVal &= ~Pin_Debounce;
+;;;410        }
+;;;411        btaon_fast_write_safe((addr), tmpVal);
+;;;412    }
+;;;413    
+;;;414    uint8_t Pad_WakeupInterruptValue(uint8_t Pin_Num)
+;;;415    {
+        0x002158c8:    b570        p.      PUSH     {r4-r6,lr}
+        0x002158ca:    0041        A.      LSLS     r1,r0,#1
+        0x002158cc:    4873        sH      LDR      r0,[pc,#460] ; [0x215a9c] = 0x215aac
+;;;416        uint16_t reg_temp;
+;;;417        uint16_t bit_temp;
+;;;418        uint16_t temp_value = 0;
+;;;419        uint8_t int_value = RESET;
+        0x002158ce:    2400        .$      MOVS     r4,#0
+;;;420    
+;;;421        reg_temp = (WKSTATUS_TABLE[Pin_Num] & ~(0xf000));
+        0x002158d0:    304e        N0      ADDS     r0,r0,#0x4e
+        0x002158d2:    5a40        @Z      LDRH     r0,[r0,r1]
+        0x002158d4:    0501        ..      LSLS     r1,r0,#20
+        0x002158d6:    0d09        ..      LSRS     r1,r1,#20
+;;;422        bit_temp = BIT((WKSTATUS_TABLE[Pin_Num]  & (0xf000)) >> 12);
+        0x002158d8:    0b02        ..      LSRS     r2,r0,#12
+        0x002158da:    2001        .       MOVS     r0,#1
+        0x002158dc:    4090        .@      LSLS     r0,r0,r2
+        0x002158de:    b285        ..      UXTH     r5,r0
+;;;423        temp_value = btaon_fast_read_safe(reg_temp);
+        0x002158e0:    4608        .F      MOV      r0,r1
+        0x002158e2:    f61dfb57    ..W.    BL       btaon_fast_read_safe ; 0x32f94
+;;;424        if (temp_value & bit_temp)
+        0x002158e6:    4228        (B      TST      r0,r5
+        0x002158e8:    d000        ..      BEQ      0x2158ec ; Pad_WakeupInterruptValue + 36
+;;;425        {
+;;;426            int_value = SET;
+        0x002158ea:    2401        .$      MOVS     r4,#1
+;;;427        }
+;;;428        return int_value;
+        0x002158ec:    4620         F      MOV      r0,r4
+;;;429    }
+        0x002158ee:    bd70        p.      POP      {r4-r6,pc}
+    System_WakeUpInterruptValue
+        0x002158f0:    e7ea        ..      B        Pad_WakeupInterruptValue ; 0x2158c8
+    Pad_OutputControlValue
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_pinmux.c (245)
+        0x002158f2:    b570        p.      PUSH     {r4-r6,lr}
+        0x002158f4:    460d        .F      MOV      r5,r1
+;;;246        uint16_t tmpVal;
+;;;247        uint8_t addr = PINADDR_TABLE[Pin_Num];
+        0x002158f6:    4969        iI      LDR      r1,[pc,#420] ; [0x215a9c] = 0x215aac
+        0x002158f8:    0040        @.      LSLS     r0,r0,#1
+        0x002158fa:    5c0c        .\      LDRB     r4,[r1,r0]
+;;;248    
+;;;249        tmpVal = btaon_fast_read_safe(addr);
+        0x002158fc:    4620         F      MOV      r0,r4
+        0x002158fe:    f61dfb49    ..I.    BL       btaon_fast_read_safe ; 0x32f94
+;;;250        if (value)
+        0x00215902:    2d00        .-      CMP      r5,#0
+        0x00215904:    d002        ..      BEQ      0x21590c ; Pad_OutputControlValue + 26
+;;;251        {
+;;;252            tmpVal |= Output_Val;
+        0x00215906:    2101        .!      MOVS     r1,#1
+        0x00215908:    4301        .C      ORRS     r1,r1,r0
+        0x0021590a:    e001        ..      B        0x215910 ; Pad_OutputControlValue + 30
+;;;253        }
+;;;254        else
+;;;255        {
+;;;256            tmpVal &= ~Output_Val;
+        0x0021590c:    0841        A.      LSRS     r1,r0,#1
+        0x0021590e:    0049        I.      LSLS     r1,r1,#1
+;;;257        }
+;;;258        btaon_fast_write_safe((addr), tmpVal);
+        0x00215910:    4620         F      MOV      r0,r4
+        0x00215912:    f61dfb91    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;259    }
+        0x00215916:    bd70        p.      POP      {r4-r6,pc}
+    Pad_OutputEnableValue
+;;;260    
+;;;261    void Pad_OutputEnableValue(uint8_t Pin_Num, uint8_t value)//0xf6
+;;;262    {
+        0x00215918:    b570        p.      PUSH     {r4-r6,lr}
+        0x0021591a:    460d        .F      MOV      r5,r1
+;;;263        uint16_t tmpVal;
+;;;264        uint8_t addr = PINADDR_TABLE[Pin_Num];
+        0x0021591c:    495f        _I      LDR      r1,[pc,#380] ; [0x215a9c] = 0x215aac
+        0x0021591e:    0040        @.      LSLS     r0,r0,#1
+        0x00215920:    5c0c        .\      LDRB     r4,[r1,r0]
+;;;265    
+;;;266        tmpVal = btaon_fast_read_safe(addr);
+        0x00215922:    4620         F      MOV      r0,r4
+        0x00215924:    f61dfb36    ..6.    BL       btaon_fast_read_safe ; 0x32f94
+        0x00215928:    2202        ."      MOVS     r2,#2
+;;;267        if (value)
+        0x0021592a:    2d00        .-      CMP      r5,#0
+        0x0021592c:    d001        ..      BEQ      0x215932 ; Pad_OutputEnableValue + 26
+;;;268        {
+;;;269            tmpVal |= Output_En;
+        0x0021592e:    4310        .C      ORRS     r0,r0,r2
+        0x00215930:    e000        ..      B        0x215934 ; Pad_OutputEnableValue + 28
+;;;270        }
+;;;271        else
+;;;272        {
+;;;273            tmpVal &= ~Output_En;
+        0x00215932:    4390        .C      BICS     r0,r0,r2
+        0x00215934:    4601        .F      MOV      r1,r0
+;;;274        }
+;;;275        btaon_fast_write_safe((addr), tmpVal);
+        0x00215936:    4620         F      MOV      r0,r4
+        0x00215938:    f61dfb7e    ..~.    BL       btaon_fast_write_safe ; 0x33038
+;;;276    }
+        0x0021593c:    bd70        p.      POP      {r4-r6,pc}
+    Pad_PullEnableValue
+;;;277    
+;;;278    void Pad_PullEnableValue(uint8_t Pin_Num, uint8_t value)
+;;;279    {
+        0x0021593e:    b570        p.      PUSH     {r4-r6,lr}
+        0x00215940:    460d        .F      MOV      r5,r1
+;;;280        uint16_t tmpVal;
+;;;281        uint8_t addr = PINADDR_TABLE[Pin_Num];
+        0x00215942:    4956        VI      LDR      r1,[pc,#344] ; [0x215a9c] = 0x215aac
+        0x00215944:    0040        @.      LSLS     r0,r0,#1
+        0x00215946:    5c0c        .\      LDRB     r4,[r1,r0]
+;;;282    
+;;;283        tmpVal = btaon_fast_read_safe(addr);
+        0x00215948:    4620         F      MOV      r0,r4
+        0x0021594a:    f61dfb23    ..#.    BL       btaon_fast_read_safe ; 0x32f94
+        0x0021594e:    2204        ."      MOVS     r2,#4
+;;;284        if (value)
+        0x00215950:    2d00        .-      CMP      r5,#0
+        0x00215952:    d001        ..      BEQ      0x215958 ; Pad_PullEnableValue + 26
+;;;285        {
+;;;286            tmpVal |= Pull_En;
+        0x00215954:    4310        .C      ORRS     r0,r0,r2
+        0x00215956:    e000        ..      B        0x21595a ; Pad_PullEnableValue + 28
+;;;287        }
+;;;288        else
+;;;289        {
+;;;290            tmpVal &= ~Pull_En;
+        0x00215958:    4390        .C      BICS     r0,r0,r2
+        0x0021595a:    4601        .F      MOV      r1,r0
+;;;291        }
+;;;292        btaon_fast_write_safe((addr), tmpVal);
+        0x0021595c:    4620         F      MOV      r0,r4
+        0x0021595e:    f61dfb6b    ..k.    BL       btaon_fast_write_safe ; 0x33038
+;;;293    }
+        0x00215962:    bd70        p.      POP      {r4-r6,pc}
+    Pad_PullUpOrDownValue
+;;;294    
+;;;295    void Pad_PullUpOrDownValue(uint8_t Pin_Num, uint8_t value)
+;;;296    {
+        0x00215964:    b570        p.      PUSH     {r4-r6,lr}
+        0x00215966:    460d        .F      MOV      r5,r1
+;;;297        uint16_t tmpVal;
+;;;298        uint8_t addr = PINADDR_TABLE[Pin_Num];
+        0x00215968:    494c        LI      LDR      r1,[pc,#304] ; [0x215a9c] = 0x215aac
+        0x0021596a:    0040        @.      LSLS     r0,r0,#1
+        0x0021596c:    5c0c        .\      LDRB     r4,[r1,r0]
+;;;299    
+;;;300        tmpVal = btaon_fast_read_safe(addr);
+        0x0021596e:    4620         F      MOV      r0,r4
+        0x00215970:    f61dfb10    ....    BL       btaon_fast_read_safe ; 0x32f94
+        0x00215974:    2208        ."      MOVS     r2,#8
+;;;301        if (value)
+        0x00215976:    2d00        .-      CMP      r5,#0
+        0x00215978:    d001        ..      BEQ      0x21597e ; Pad_PullUpOrDownValue + 26
+;;;302        {
+;;;303            tmpVal |= Pull_Direction;
+        0x0021597a:    4310        .C      ORRS     r0,r0,r2
+        0x0021597c:    e000        ..      B        0x215980 ; Pad_PullUpOrDownValue + 28
+;;;304        }
+;;;305        else
+;;;306        {
+;;;307            tmpVal &= ~Pull_Direction;
+        0x0021597e:    4390        .C      BICS     r0,r0,r2
+        0x00215980:    4601        .F      MOV      r1,r0
+;;;308        }
+;;;309        btaon_fast_write_safe((addr), tmpVal);
+        0x00215982:    4620         F      MOV      r0,r4
+        0x00215984:    f61dfb58    ..X.    BL       btaon_fast_write_safe ; 0x33038
+;;;310    }
+        0x00215988:    bd70        p.      POP      {r4-r6,pc}
+    Pad_PullConfigValue
+;;;311    
+;;;312    void Pad_PullConfigValue(uint8_t Pin_Num, uint8_t value)
+;;;313    {
+        0x0021598a:    b570        p.      PUSH     {r4-r6,lr}
+        0x0021598c:    460d        .F      MOV      r5,r1
+;;;314        uint16_t tmpVal;
+;;;315        uint8_t addr = PINADDR_TABLE[Pin_Num];
+        0x0021598e:    4943        CI      LDR      r1,[pc,#268] ; [0x215a9c] = 0x215aac
+        0x00215990:    0040        @.      LSLS     r0,r0,#1
+        0x00215992:    5c0c        .\      LDRB     r4,[r1,r0]
+;;;316    
+;;;317        tmpVal = btaon_fast_read_safe(addr);
+        0x00215994:    4620         F      MOV      r0,r4
+        0x00215996:    f61dfafd    ....    BL       btaon_fast_read_safe ; 0x32f94
+        0x0021599a:    2210        ."      MOVS     r2,#0x10
+;;;318        if (value)
+        0x0021599c:    2d00        .-      CMP      r5,#0
+        0x0021599e:    d001        ..      BEQ      0x2159a4 ; Pad_PullConfigValue + 26
+;;;319        {
+;;;320            tmpVal |= Pull_Resistance;
+        0x002159a0:    4310        .C      ORRS     r0,r0,r2
+        0x002159a2:    e000        ..      B        0x2159a6 ; Pad_PullConfigValue + 28
+;;;321        }
+;;;322        else
+;;;323        {
+;;;324            tmpVal &= ~(Pull_Resistance);
+        0x002159a4:    4390        .C      BICS     r0,r0,r2
+        0x002159a6:    4601        .F      MOV      r1,r0
+;;;325        }
+;;;326        btaon_fast_write_safe(addr, tmpVal);
+        0x002159a8:    4620         F      MOV      r0,r4
+        0x002159aa:    f61dfb45    ..E.    BL       btaon_fast_write_safe ; 0x33038
+;;;327    }
+        0x002159ae:    bd70        p.      POP      {r4-r6,pc}
+    Pad_PowerOrShutDownValue
+;;;328    
+;;;329    void Pad_PowerOrShutDownValue(uint8_t Pin_Num, uint8_t value)
+;;;330    {
+        0x002159b0:    b570        p.      PUSH     {r4-r6,lr}
+        0x002159b2:    460d        .F      MOV      r5,r1
+;;;331        uint16_t tmpVal;
+;;;332        uint8_t addr = PINADDR_TABLE[Pin_Num];
+        0x002159b4:    4939        9I      LDR      r1,[pc,#228] ; [0x215a9c] = 0x215aac
+        0x002159b6:    0040        @.      LSLS     r0,r0,#1
+        0x002159b8:    5c0c        .\      LDRB     r4,[r1,r0]
+;;;333    
+;;;334        tmpVal = btaon_fast_read_safe(addr);
+        0x002159ba:    4620         F      MOV      r0,r4
+        0x002159bc:    f61dfaea    ....    BL       btaon_fast_read_safe ; 0x32f94
+        0x002159c0:    22ff        ."      MOVS     r2,#0xff
+        0x002159c2:    3201        .2      ADDS     r2,#1
+;;;335        if (value)
+        0x002159c4:    2d00        .-      CMP      r5,#0
+        0x002159c6:    d001        ..      BEQ      0x2159cc ; Pad_PowerOrShutDownValue + 28
+;;;336        {
+;;;337            tmpVal |= SHDN;
+        0x002159c8:    4310        .C      ORRS     r0,r0,r2
+        0x002159ca:    e000        ..      B        0x2159ce ; Pad_PowerOrShutDownValue + 30
+;;;338        }
+;;;339        else
+;;;340        {
+;;;341            tmpVal &= ~SHDN;
+        0x002159cc:    4390        .C      BICS     r0,r0,r2
+        0x002159ce:    4601        .F      MOV      r1,r0
+;;;342        }
+;;;343        btaon_fast_write_safe((addr), tmpVal);
+        0x002159d0:    4620         F      MOV      r0,r4
+        0x002159d2:    f61dfb31    ..1.    BL       btaon_fast_write_safe ; 0x33038
+;;;344    }
+        0x002159d6:    bd70        p.      POP      {r4-r6,pc}
+    Pad_ControlSelectValue
+;;;345    
+;;;346    void Pad_ControlSelectValue(uint8_t Pin_Num, uint8_t value)
+;;;347    {
+        0x002159d8:    b570        p.      PUSH     {r4-r6,lr}
+        0x002159da:    460d        .F      MOV      r5,r1
+;;;348        uint16_t tmpVal;
+;;;349        uint8_t addr = PINADDR_TABLE[Pin_Num];
+        0x002159dc:    492f        /I      LDR      r1,[pc,#188] ; [0x215a9c] = 0x215aac
+        0x002159de:    0040        @.      LSLS     r0,r0,#1
+        0x002159e0:    5c0c        .\      LDRB     r4,[r1,r0]
+;;;350    
+;;;351        tmpVal = btaon_fast_read_safe(addr);
+        0x002159e2:    4620         F      MOV      r0,r4
+        0x002159e4:    f61dfad6    ....    BL       btaon_fast_read_safe ; 0x32f94
+        0x002159e8:    2201        ."      MOVS     r2,#1
+        0x002159ea:    0252        R.      LSLS     r2,r2,#9
+;;;352        if (value)
+        0x002159ec:    2d00        .-      CMP      r5,#0
+        0x002159ee:    d001        ..      BEQ      0x2159f4 ; Pad_ControlSelectValue + 28
+;;;353        {
+;;;354            tmpVal |= Pin_Mode;
+        0x002159f0:    4310        .C      ORRS     r0,r0,r2
+        0x002159f2:    e000        ..      B        0x2159f6 ; Pad_ControlSelectValue + 30
+;;;355        }
+;;;356        else
+;;;357        {
+;;;358            tmpVal &= ~Pin_Mode;
+        0x002159f4:    4390        .C      BICS     r0,r0,r2
+        0x002159f6:    4601        .F      MOV      r1,r0
+;;;359        }
+;;;360        btaon_fast_write_safe((addr), tmpVal);
+        0x002159f8:    4620         F      MOV      r0,r4
+        0x002159fa:    f61dfb1d    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;361    }
+        0x002159fe:    bd70        p.      POP      {r4-r6,pc}
+    Pad_ClearWakeupINTPendingBit
+;;;362    
+;;;363    void Pad_WakeupEnableValue(uint8_t Pin_Num, uint8_t value)
+;;;364    {
+;;;365        uint16_t tmpVal;
+;;;366        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;367    
+;;;368        tmpVal = btaon_fast_read_safe(addr);
+;;;369        if (value)
+;;;370        {
+;;;371            tmpVal |= WakeUp_En;
+;;;372        }
+;;;373        else
+;;;374        {
+;;;375            tmpVal &= ~WakeUp_En;
+;;;376        }
+;;;377        btaon_fast_write_safe((addr), tmpVal);
+;;;378    }
+;;;379    
+;;;380    void Pad_WakeupPolarityValue(uint8_t Pin_Num, uint8_t value)
+;;;381    {
+;;;382        uint16_t tmpVal;
+;;;383        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;384    
+;;;385        tmpVal = btaon_fast_read_safe(addr);
+;;;386        if (value)
+;;;387        {
+;;;388            tmpVal |= WKPOL;
+;;;389        }
+;;;390        else
+;;;391        {
+;;;392            tmpVal &= ~WKPOL;
+;;;393        }
+;;;394        btaon_fast_write_safe((addr), tmpVal);
+;;;395    }
+;;;396    
+;;;397    void Pad_WKDebounceConfig(uint8_t Pin_Num, uint8_t value)
+;;;398    {
+;;;399        uint16_t tmpVal;
+;;;400        uint8_t addr = PINADDR_TABLE[Pin_Num];
+;;;401    
+;;;402        tmpVal = btaon_fast_read_safe(addr);
+;;;403        if (value)
+;;;404        {
+;;;405            tmpVal |= Pin_Debounce;
+;;;406        }
+;;;407        else
+;;;408        {
+;;;409            tmpVal &= ~Pin_Debounce;
+;;;410        }
+;;;411        btaon_fast_write_safe((addr), tmpVal);
+;;;412    }
+;;;413    
+;;;414    uint8_t Pad_WakeupInterruptValue(uint8_t Pin_Num)
+;;;415    {
+;;;416        uint16_t reg_temp;
+;;;417        uint16_t bit_temp;
+;;;418        uint16_t temp_value = 0;
+;;;419        uint8_t int_value = RESET;
+;;;420    
+;;;421        reg_temp = (WKSTATUS_TABLE[Pin_Num] & ~(0xf000));
+;;;422        bit_temp = BIT((WKSTATUS_TABLE[Pin_Num]  & (0xf000)) >> 12);
+;;;423        temp_value = btaon_fast_read_safe(reg_temp);
+;;;424        if (temp_value & bit_temp)
+;;;425        {
+;;;426            int_value = SET;
+;;;427        }
+;;;428        return int_value;
+;;;429    }
+;;;430    
+;;;431    uint8_t Pad_DebounceWakeupStatus(void)
+;;;432    {
+;;;433        uint16_t value16 = 0;
+;;;434        uint8_t status_value = RESET;
+;;;435    
+;;;436        value16 = btaon_fast_read_safe(0x2a);
+;;;437        if (value16 & BIT15)
+;;;438        {
+;;;439            status_value = SET;
+;;;440        }
+;;;441        //Write 1 to clear debounceWakeupStatus
+;;;442        btaon_fast_write_safe(0x2a, (value16 | BIT15));
+;;;443        return status_value;
+;;;444    }
+;;;445    
+;;;446    void Pad_ClearWakeupINTPendingBit(uint8_t Pin_Num)
+;;;447    {
+        0x00215a00:    b570        p.      PUSH     {r4-r6,lr}
+;;;448        uint16_t reg_temp;
+;;;449        uint16_t bit_temp;
+;;;450        uint16_t reg_value = 0;
+;;;451    
+;;;452        reg_temp = (WKSTATUS_TABLE[Pin_Num] & ~(0xf000));
+        0x00215a02:    0041        A.      LSLS     r1,r0,#1
+        0x00215a04:    4825        %H      LDR      r0,[pc,#148] ; [0x215a9c] = 0x215aac
+        0x00215a06:    304e        N0      ADDS     r0,r0,#0x4e
+        0x00215a08:    5a40        @Z      LDRH     r0,[r0,r1]
+        0x00215a0a:    0504        ..      LSLS     r4,r0,#20
+        0x00215a0c:    0d24        $.      LSRS     r4,r4,#20
+;;;453        bit_temp = BIT((WKSTATUS_TABLE[Pin_Num]  & (0xf000)) >> 12);
+        0x00215a0e:    0b01        ..      LSRS     r1,r0,#12
+        0x00215a10:    2001        .       MOVS     r0,#1
+        0x00215a12:    4088        .@      LSLS     r0,r0,r1
+        0x00215a14:    b285        ..      UXTH     r5,r0
+;;;454        reg_value = btaon_fast_read_safe(reg_temp) | bit_temp;
+        0x00215a16:    4620         F      MOV      r0,r4
+        0x00215a18:    f61dfabc    ....    BL       btaon_fast_read_safe ; 0x32f94
+        0x00215a1c:    4328        (C      ORRS     r0,r0,r5
+        0x00215a1e:    4601        .F      MOV      r1,r0
+;;;455        btaon_fast_write_safe(reg_temp, reg_value);
+        0x00215a20:    4620         F      MOV      r0,r4
+        0x00215a22:    f61dfb09    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;456    }
+        0x00215a26:    bd70        p.      POP      {r4-r6,pc}
+    Pad_ClearAllWakeupINT
+;;;457    
+;;;458    /**
+;;;459      * @brief Clear all wake up pin interrupt pending bit.
+;;;460      * @retun None
+;;;461      */
+;;;462    void Pad_ClearAllWakeupINT(void)
+;;;463    {
+        0x00215a28:    b510        ..      PUSH     {r4,lr}
+;;;464        uint16_t tmpVal;
+;;;465    
+;;;466        tmpVal = btaon_fast_read_safe(0x9a);
+        0x00215a2a:    209a        .       MOVS     r0,#0x9a
+        0x00215a2c:    f61dfab2    ....    BL       btaon_fast_read_safe ; 0x32f94
+;;;467        tmpVal |= 0x1BFF;
+        0x00215a30:    491b        .I      LDR      r1,[pc,#108] ; [0x215aa0] = 0x1bff
+        0x00215a32:    4301        .C      ORRS     r1,r1,r0
+;;;468        btaon_fast_write_safe(0x9a, tmpVal);
+        0x00215a34:    209a        .       MOVS     r0,#0x9a
+        0x00215a36:    f61dfaff    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;469    
+;;;470        tmpVal = btaon_fast_read_safe(0xae);
+        0x00215a3a:    20ae        .       MOVS     r0,#0xae
+        0x00215a3c:    f61dfaaa    ....    BL       btaon_fast_read_safe ; 0x32f94
+;;;471        tmpVal |= 0x7F;
+        0x00215a40:    217f        .!      MOVS     r1,#0x7f
+        0x00215a42:    4301        .C      ORRS     r1,r1,r0
+;;;472        btaon_fast_write_safe(0xae, tmpVal);
+        0x00215a44:    20ae        .       MOVS     r0,#0xae
+        0x00215a46:    f61dfaf7    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;473    
+;;;474        tmpVal = btaon_fast_read_safe(0xd2);
+        0x00215a4a:    20d2        .       MOVS     r0,#0xd2
+        0x00215a4c:    f61dfaa2    ....    BL       btaon_fast_read_safe ; 0x32f94
+;;;475        tmpVal |= 0x1FF;
+        0x00215a50:    4914        .I      LDR      r1,[pc,#80] ; [0x215aa4] = 0x1ff
+        0x00215a52:    4301        .C      ORRS     r1,r1,r0
+;;;476        btaon_fast_write_safe(0xd2, tmpVal);
+        0x00215a54:    20d2        .       MOVS     r0,#0xd2
+        0x00215a56:    f61dfaef    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;477    
+;;;478        tmpVal = btaon_fast_read_safe(0xf4);
+        0x00215a5a:    20f4        .       MOVS     r0,#0xf4
+        0x00215a5c:    f61dfa9a    ....    BL       btaon_fast_read_safe ; 0x32f94
+;;;479        tmpVal |= 0x3FF;
+        0x00215a60:    4911        .I      LDR      r1,[pc,#68] ; [0x215aa8] = 0x3ff
+        0x00215a62:    4301        .C      ORRS     r1,r1,r0
+;;;480        btaon_fast_write_safe(0xf4, tmpVal);
+        0x00215a64:    20f4        .       MOVS     r0,#0xf4
+        0x00215a66:    f61dfae7    ....    BL       btaon_fast_write_safe ; 0x33038
+;;;481    }
+        0x00215a6a:    bd10        ..      POP      {r4,pc}
+    Spic0_control
+;;;482    
+;;;483    /**
+;;;484      * @brief  Spic0 master enable.
+;;;485      * @param  value: 0:Disable 1:Enable .
+;;;486      * @retval None
+;;;487      */
+;;;488    void Spic0_control(uint8_t value)
+;;;489    {
+;;;490        if (value)
+;;;491        {
+;;;492            HAL_WRITE32(SYSTEM_REG_BASE, REG_TEST_MODE, HAL_READ32(SYSTEM_REG_BASE, REG_TEST_MODE) | BIT(24));
+        0x00215a6c:    2201        ."      MOVS     r2,#1
+        0x00215a6e:    490a        .I      LDR      r1,[pc,#40] ; [0x215a98] = 0x40000280
+        0x00215a70:    0612        ..      LSLS     r2,r2,#24
+        0x00215a72:    2800        .(      CMP      r0,#0
+        0x00215a74:    6a88        .j      LDR      r0,[r1,#0x28]
+;;; .\..\..\..\..\src\mcu\peripheral\rtl876x_pinmux.c (489)
+        0x00215a76:    d001        ..      BEQ      0x215a7c ; Spic0_control + 16
+;;;490        if (value)
+;;;491        {
+;;;492            HAL_WRITE32(SYSTEM_REG_BASE, REG_TEST_MODE, HAL_READ32(SYSTEM_REG_BASE, REG_TEST_MODE) | BIT(24));
+        0x00215a78:    4310        .C      ORRS     r0,r0,r2
+        0x00215a7a:    e000        ..      B        0x215a7e ; Spic0_control + 18
+        0x00215a7c:    4390        .C      BICS     r0,r0,r2
+        0x00215a7e:    6288        .b      STR      r0,[r1,#0x28]
+;;;493        }
+;;;494        else
+;;;495        {
+;;;496            HAL_WRITE32(SYSTEM_REG_BASE, REG_TEST_MODE, HAL_READ32(SYSTEM_REG_BASE,
+;;;497                                                                   REG_TEST_MODE) & (~BIT(24)));
+;;;498        }
+;;;499    }
+        0x00215a80:    4770        pG      BX       lr
+    Spic1_control
+        0x00215a82:    4905        .I      LDR      r1,[pc,#20] ; [0x215a98] = 0x40000280
+        0x00215a84:    158a        ..      ASRS     r2,r1,#22
+        0x00215a86:    2800        .(      CMP      r0,#0
+        0x00215a88:    6a88        .j      LDR      r0,[r1,#0x28]
+;;;500    /**
+;;;501      * @brief  Spic1 master enable.
+;;;502      * @param  value: 0:Disable 1:Enable .
+;;;503      * @retval None
+;;;504      */
+;;;505    void Spic1_control(uint8_t value)
+;;;506    {
+        0x00215a8a:    d001        ..      BEQ      0x215a90 ; Spic1_control + 14
+;;;507        if (value)
+;;;508        {
+;;;509            HAL_WRITE32(SYSTEM_REG_BASE, REG_TEST_MODE, HAL_READ32(SYSTEM_REG_BASE, REG_TEST_MODE) | BIT(8));
+        0x00215a8c:    4310        .C      ORRS     r0,r0,r2
+        0x00215a8e:    e000        ..      B        0x215a92 ; Spic1_control + 16
+        0x00215a90:    4390        .C      BICS     r0,r0,r2
+        0x00215a92:    6288        .b      STR      r0,[r1,#0x28]
+;;;510        }
+;;;511        else
+;;;512        {
+;;;513            HAL_WRITE32(SYSTEM_REG_BASE, REG_TEST_MODE, HAL_READ32(SYSTEM_REG_BASE, REG_TEST_MODE) & (~BIT(8)));
+;;;514        }
+;;;515    }
+        0x00215a94:    4770        pG      BX       lr
+    $d
+        0x00215a96:    0000        ..      DCW    0
+        0x00215a98:    40000280    ...@    DCD    1073742464
+        0x00215a9c:    00215aac    .Z!.    DCD    2185900
+        0x00215aa0:    00001bff    ....    DCD    7167
+        0x00215aa4:    000001ff    ....    DCD    511
+        0x00215aa8:    000003ff    ....    DCD    1023
+    $d.realdata
+    .constdata
+    PINADDR_TABLE
+        0x00215aac:    00e200e0    ....    DCD    14811360
+        0x00215ab0:    00e600e4    ....    DCD    15073508
+        0x00215ab4:    00a000e8    ....    DCD    10485992
+        0x00215ab8:    00a400a2    ....    DCD    10748066
+        0x00215abc:    00ec00ea    ....    DCD    15466730
+        0x00215ac0:    00f000ee    ....    DCD    15728878
+        0x00215ac4:    008000f2    ....    DCD    8388850
+        0x00215ac8:    00840082    ....    DCD    8650882
+        0x00215acc:    00c200c0    ....    DCD    12714176
+        0x00215ad0:    00c600c4    ....    DCD    12976324
+        0x00215ad4:    00ca00c8    ....    DCD    13238472
+        0x00215ad8:    00ce00cc    ....    DCD    13500620
+        0x00215adc:    00880086    ....    DCD    8913030
+        0x00215ae0:    008c008a    ....    DCD    9175178
+        0x00215ae4:    0090008e    ....    DCD    9437326
+        0x00215ae8:    00000092    ....    DCD    146
+        0x00215aec:    00a800a6    ....    DCD    11010214
+        0x00215af0:    00ac00aa    ....    DCD    11272362
+        0x00215af4:    009600d0    ....    DCD    9830608
+        0x00215af8:    0098        ..      DCW    152
+    WKSTATUS_TABLE
+        0x00215afa:    00f4        ..      DCW    244
+        0x00215afc:    20f410f4    ...     DCD    552866036
+        0x00215b00:    40f430f4    .0.@    DCD    1089745140
+        0x00215b04:    10ae00ae    ....    DCD    279838894
+        0x00215b08:    50f420ae    . .P    DCD    1358176430
+        0x00215b0c:    70f460f4    .`.p    DCD    1895063796
+        0x00215b10:    90f480f4    ....    DCD    2431942900
+        0x00215b14:    109a009a    ....    DCD    278528154
+        0x00215b18:    00d2209a    . ..    DCD    13770906
+        0x00215b1c:    20d210d2    ...     DCD    550637778
+        0x00215b20:    40d230d2    .0.@    DCD    1087516882
+        0x00215b24:    60d250d2    .P.`    DCD    1624395986
+        0x00215b28:    309a70d2    .p.0    DCD    815427794
+        0x00215b2c:    509a409a    .@.P    DCD    1352286362
+        0x00215b30:    709a609a    .`.p    DCD    1889165466
+        0x00215b34:    909a809a    ....    DCD    2426044570
+        0x00215b38:    30ae0000    ...0    DCD    816709632
+        0x00215b3c:    50ae40ae    .@.P    DCD    1353597102
+        0x00215b40:    80d260ae    .`..    DCD    2161270958
+        0x00215b44:    c09ab09a    ....    DCD    3231363226
+
+** Section #3 'FSBL_RAM_TEXT_SECTION' (SHT_NOBITS) [SHF_ALLOC + SHF_WRITE]
+    Size   : 48 bytes (alignment 4)
+    Address: 0x00215b48
+
+
+** Section #4 '.debug_abbrev' (SHT_PROGBITS)
+    Size   : 1476 bytes
+
+
+** Section #5 '.debug_frame' (SHT_PROGBITS)
+    Size   : 1524 bytes
+
+
+** Section #6 '.debug_info' (SHT_PROGBITS)
+    Size   : 53596 bytes
+
+
+** Section #7 '.debug_line' (SHT_PROGBITS)
+    Size   : 6692 bytes
+
+
+** Section #8 '.debug_loc' (SHT_PROGBITS)
+    Size   : 3932 bytes
+
+
+** Section #9 '.debug_macinfo' (SHT_PROGBITS)
+    Size   : 25972 bytes
+
+
+** Section #10 '.debug_pubnames' (SHT_PROGBITS)
+    Size   : 1679 bytes
+
+
+** Section #11 '.symtab' (SHT_SYMTAB)
+    Size   : 6384 bytes (alignment 4)
+    String table #12 '.strtab'
+    Last local symbol no. 45
+
+
+** Section #12 '.strtab' (SHT_STRTAB)
+    Size   : 7704 bytes
+
+
+** Section #13 '.note' (SHT_NOTE)
+    Size   : 28 bytes (alignment 4)
+
+
+** Section #14 '.comment' (SHT_PROGBITS)
+    Size   : 6756 bytes
+
+
+** Section #15 '.shstrtab' (SHT_STRTAB)
+    Size   : 172 bytes
+
+
+address     size       variable name                            type
+0x00215aac  0x4e       PINADDR_TABLE                            array[39] of const uint16_t
+
+address     size       variable name                            type
+0x00215afa  0x4e       WKSTATUS_TABLE                           array[39] of const uint16_t
+
+address     size       variable name                            type
+0x00215b48  0x30       keyscan_global_data                      T_KEYSCAN_GLOBAL_DATA
+0x00215b48  0x1        keyscan_global_data.is_allowed_to_repeat_report _Bool
+0x00215b49  0x1        keyscan_global_data.is_allowed_to_enter_dlps _Bool
+0x00215b4a  0x1        keyscan_global_data.is_all_key_released  _Bool
+0x00215b4b  0x1        keyscan_global_data.is_pinmux_setted     _Bool
+0x00215b4c  0x1        keyscan_global_data.is_key_long_pressed  _Bool
+0x00215b4d  0x1      * keyscan_global_data.long_pressed_key_row_pin uint8_t
+0x00215b50  0x14       keyscan_global_data.pre_fifo_data        T_KEYSCAN_FIFO_DATA
+0x00215b50  0x4        keyscan_global_data.pre_fifo_data.len    uint32_t
+0x00215b54  0x10       keyscan_global_data.pre_fifo_data.key    array[8] of anonymous
+0x00215b64  0x14       keyscan_global_data.cur_fifo_data        T_KEYSCAN_FIFO_DATA
+0x00215b64  0x4        keyscan_global_data.cur_fifo_data.len    uint32_t
+0x00215b68  0x10       keyscan_global_data.cur_fifo_data.key    array[8] of anonymous
+
+address     size       variable name                            type
+0x008561e0  0x220      auth_header                              const T_AUTH_HEADER_FORMAT
+0x008561e0  0x100      auth_header.payload_signature            array[256] of uint8_t
+0x008562e0  0x10       auth_header.payload_mac                  array[16] of uint8_t
+0x008562f0  0x100      auth_header.header_signature             array[256] of uint8_t
+0x008563f0  0x10       auth_header.header_mac                   array[16] of uint8_t
+
+address     size       variable name                            type
+0x00856000  0x1e0      img_header                               const T_IMG_HEADER_FORMAT
+0x00856000  0xc        img_header.ctrl_header                   T_IMG_CTRL_HEADER_FORMAT
+0x00856000  0x1        img_header.ctrl_header.ic_type           uint8_t
+0x00856001  0x1        img_header.ctrl_header.secure_version    uint8_t
+0x00856002  0x2        img_header.ctrl_header.ctrl_flag         anonymous
+0x00856002  0x2        img_header.ctrl_header.ctrl_flag.value   uint16_t
+0x00856002  0x2        img_header.ctrl_header.ctrl_flag.flag_value anonymous
+0x00856002  0x2(15:1)  img_header.ctrl_header.ctrl_flag.flag_value.xip uint16_t
+0x00856002  0x2(14:1)  img_header.ctrl_header.ctrl_flag.flag_value.enc uint16_t
+0x00856002  0x2(13:1)  img_header.ctrl_header.ctrl_flag.flag_value.load_when_boot uint16_t
+0x00856002  0x2(12:1)  img_header.ctrl_header.ctrl_flag.flag_value.enc_load uint16_t
+0x00856002  0x2(9:3)   img_header.ctrl_header.ctrl_flag.flag_value.enc_key_select uint16_t
+0x00856002  0x2(8:1)   img_header.ctrl_header.ctrl_flag.flag_value.not_ready uint16_t
+0x00856002  0x2(7:1)   img_header.ctrl_header.ctrl_flag.flag_value.not_obsolete uint16_t
+0x00856002  0x2(6:1)   img_header.ctrl_header.ctrl_flag.flag_value.integrity_check_en_in_boot uint16_t
+0x00856002  0x2(5:1)   img_header.ctrl_header.ctrl_flag.flag_value.compressed_not_ready uint16_t
+0x00856002  0x2(4:1)   img_header.ctrl_header.ctrl_flag.flag_value.compressed_not_obsolete uint16_t
+0x00856002  0x2(3:1)   img_header.ctrl_header.ctrl_flag.flag_value.rsvd uint16_t
+0x00856002  0x2(0:3)   img_header.ctrl_header.ctrl_flag.flag_value.image_type uint16_t
+0x00856004  0x2        img_header.ctrl_header.image_id          uint16_t
+0x00856006  0x2        img_header.ctrl_header.crc16             uint16_t
+0x00856008  0x4        img_header.ctrl_header.payload_len       uint32_t
+0x0085600c  0x10       img_header.uuid                          array[16] of uint8_t
+0x0085601c  0x4        img_header.exe_base                      uint32_t
+0x00856020  0x4        img_header.load_base                     uint32_t
+0x00856024  0x4        img_header.load_len                      uint32_t
+0x00856028  0x4        img_header.image_base                    uint32_t
+0x0085602c  0x2        img_header.fsbl_ext_img_id               uint16_t
+0x0085602e  0x2        img_header.fsbl_ext_load_pattern         uint16_t
+0x00856030  0x4        img_header.magic_pattern                 uint32_t
+0x00856034  0x10       img_header.dec_key                       array[16] of uint8_t
+0x00856044  0x1c       img_header.rsvd1                         array[28] of uint8_t
+0x00856060  0x10       img_header.git_ver                       T_VERSION_FORMAT
+0x00856060  0x4        img_header.git_ver.ver_info              anonymous
+0x00856060  0x4        img_header.git_ver.ver_info.version      uint32_t
+0x00856060  0x4        img_header.git_ver.ver_info.sub_version  anonymous
+0x00856060  0x4(28:4)  img_header.git_ver.ver_info.sub_version._version_major uint32_t
+0x00856060  0x4(20:8)  img_header.git_ver.ver_info.sub_version._version_minor uint32_t
+0x00856060  0x4(5:15)  img_header.git_ver.ver_info.sub_version._version_revision uint32_t
+0x00856060  0x4(0:5)   img_header.git_ver.ver_info.sub_version._version_reserve uint32_t
+0x00856064  0x4        img_header.git_ver._version_commitid     uint32_t
+0x00856068  0x8        img_header.git_ver._customer_name        array[8] of uint8_t
+0x00856070  0x104      img_header.rsaPubKey                     T_RSA_PUBLIC_KEY
+0x00856070  0x100      img_header.rsaPubKey.N                   array[256] of uint8_t
+0x00856170  0x4        img_header.rsaPubKey.E                   array[4] of uint8_t
+0x00856174  0x20       img_header.sha256                        array[32] of uint8_t
+0x00856194  0x44       img_header.rsvd2                         array[68] of uint8_t
+0x008561d8  0x4        img_header.app_cb_signature              uint32_t
+0x008561dc  0x4        img_header.app_cb_table_base_address     uint32_t
+

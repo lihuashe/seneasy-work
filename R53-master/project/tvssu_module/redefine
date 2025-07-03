@@ -1,0 +1,3 @@
+flash_erase_sector flash_erase_sector_1
+flash_read_page flash_read_page_1
+flash_write_page flash_write_page_1

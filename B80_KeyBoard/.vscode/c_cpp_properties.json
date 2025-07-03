@@ -1,0 +1,43 @@
+{   
+    "env": {
+        "PROJECT_DIR":"app/",
+        "SDK_DIR":"sdk/chip/B80",
+        "COMMON":"sdk/common"
+    },
+    "configurations": [
+        {
+            "name": "sdk",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/${SDK_DIR}",
+                "${workspaceFolder}/${COMMON}",
+
+                "${workspaceFolder}/${PROJECT_DIR}",
+                "${workspaceFolder}/${PROJECT_DIR}/application",
+                "${workspaceFolder}/${PROJECT_DIR}/charge_module/**",
+                "${workspaceFolder}/${PROJECT_DIR}/factory_module/**",
+                "${workspaceFolder}/${PROJECT_DIR}/key_module/**",
+                "${workspaceFolder}/${PROJECT_DIR}/firefly_link_layer/**",
+                "${workspaceFolder}/${PROJECT_DIR}/led_module/**",
+                "${workspaceFolder}/${PROJECT_DIR}/ota_module/**",
+                "${workspaceFolder}/${PROJECT_DIR}/pa_module/**",
+                "${workspaceFolder}/${PROJECT_DIR}/sensor_module/**",
+                "${workspaceFolder}/${PROJECT_DIR}/touch_module/**",
+                "${workspaceFolder}/${SDK_DIR}/drivers/**",
+                "${workspaceFolder}/${SDK_DIR}/drivers/flash/**",
+                "${workspaceFolder}/${SDK_DIR}/drivers/lib/**"
+            ],
+            "defines": [
+
+            ],
+            "forcedInclude": [
+                "${workspaceFolder}/${PROJECT_DIR}/app_config.h"
+            ],
+            "compilerPath": "/opt/tc32/bin/tc32-elf-gcc",
+            "cStandard": "c99",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}

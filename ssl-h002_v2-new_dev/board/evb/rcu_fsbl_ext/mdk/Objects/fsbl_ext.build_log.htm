@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 1, 1, LIC=47GU5-GUHZH-WFJI7-EH8PY-9AMNX-M6DUK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.29.0.0
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.2.0
+Target DLL:      UL2CM3.DLL V1.163.0.0
+Dialog DLL:      TARMCM1.DLL V1.14.1.0
+ 
+<h2>Project:</h2>
+D:\瑞昱资料整合\8762EJF-NEW-SDK\board\evb\rcu_fsbl_ext\mdk\rcu_fsbl_ext.uvprojx
+Project File Date:  08/22/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Rebuild target 'flash_secure_boot_loader'
+Before Build - User command #1: ..\..\..\..\tool\before_build_common.bat D:\keil\
+compiling rtl876x_rcc.c...
+compiling rtl876x_keyscan.c...
+compiling rtl876x_pinmux.c...
+compiling fsbl_entry_ext.c...
+compiling keyscan_basic_driver.c...
+linking...
+Program Size: Code=2732 RO-data=1180 RW-data=0 ZI-data=48  
+After Build - User command #1: ..\..\..\..\tool\after_build_common.bat D:\keil\ARM\ARMCC\include D:\瑞昱资料整合\8762EJF-NEW-SDK\board\evb\rcu_fsbl_ext\mdk\Objects\fsbl_ext.axf fsbl_ext
+go encrypt.
+Plain text image.
+Generating SHA256...
+SHA256 = F70AD541037C6176AFE0C8428EB513CA4E86DB238D5DF832A8DF6A19C0D9D953
+MP header appending...
+ini file path: ..\mp.ini
+No BinDependence
+No Comment
+No Author
+No Date
+MP header appending OK!
+MD5 v1.0.4
+Output Image: bin\fsbl_ext-0d075e62c9b1977832ff4ebd1c895488.bin
+Backup Disasm: bin\fsbl_ext-0d075e62c9b1977832ff4ebd1c895488.disasm
+MD5 v1.0.4
+Output Image: bin\fsbl_ext_MP_sdk_1.2.0.0_98122eb9-dd90cc8c18980c4e8bf50dd9fa68925d.bin
+".\Objects\fsbl_ext.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM.CMSIS.5.6.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_flash_secure_boot_loader
+  D:\keil\Keil\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

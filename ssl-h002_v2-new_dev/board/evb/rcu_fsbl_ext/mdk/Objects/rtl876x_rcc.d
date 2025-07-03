@@ -1,0 +1,13 @@
+.\objects\rtl876x_rcc.o: ..\..\..\..\src\mcu\peripheral\rtl876x_rcc.c
+.\objects\rtl876x_rcc.o: ..\inc\fsbl_ext_section.h
+.\objects\rtl876x_rcc.o: ..\..\..\..\inc\platform\rtl876x.h
+.\objects\rtl876x_rcc.o: ..\..\..\..\inc\platform\core_cm0plus.h
+.\objects\rtl876x_rcc.o: D:\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rtl876x_rcc.o: ..\..\..\..\inc\platform\core_cmInstr.h
+.\objects\rtl876x_rcc.o: ..\..\..\..\inc\platform\cmsis_armcc.h
+.\objects\rtl876x_rcc.o: ..\..\..\..\inc\platform\core_cmFunc.h
+.\objects\rtl876x_rcc.o: ..\..\..\..\inc\platform\system_rtl876x.h
+.\objects\rtl876x_rcc.o: D:\keil\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\rtl876x_rcc.o: ..\..\..\..\inc\platform\rtl876x_ic_type.h
+.\objects\rtl876x_rcc.o: ..\..\..\..\inc\peripheral\rtl876x_bitfields.h
+.\objects\rtl876x_rcc.o: ..\..\..\..\inc\peripheral\rtl876x_rcc.h

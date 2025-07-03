@@ -1,0 +1,29 @@
+#ifndef EXTENDED_CONTROLLER_INTERFACE_H
+#define EXTENDED_CONTROLLER_INTERFACE_H
+
+////Extended Advertising
+void rom_controller_command_HCI_LE_Set_Advertising_Set_Random_Address(uint8_t Parameter_Total_Length, uint8_t* Parameters);
+void rom_controller_command_HCI_LE_Set_Extended_Advertising_Parameters(uint8_t Parameter_Total_Length, uint8_t* Parameters);
+void rom_controller_command_VENDOR_Set_Extended_Advertising_Parameters(uint8_t Parameter_Total_Length, uint8_t* Parameters);
+void rom_controller_command_HCI_LE_Set_Extended_Advertising_Data(uint8_t Parameter_Total_Length, uint8_t* Parameters);
+void rom_controller_command_HCI_LE_Set_Extended_Scan_Response_Data(uint8_t Parameter_Total_Length, uint8_t* Parameters);
+void rom_controller_command_HCI_LE_Set_Extended_Advertising_Enable(uint8_t Parameter_Total_Length, uint8_t* Parameters);
+void rom_controller_command_HCI_LE_Read_Maximum_Advertising_Data_Length(uint8_t Parameter_Total_Length, uint8_t* Parameters);
+void rom_controller_command_HCI_LE_Read_Number_of_Supported_Advertising_Sets(uint8_t Parameter_Total_Length, uint8_t* Parameters);
+void rom_controller_command_HCI_LE_Remove_Advertising_Set(uint8_t Parameter_Total_Length, uint8_t* Parameters);
+void rom_controller_command_HCI_LE_Clear_Advertising_Sets(uint8_t Parameter_Total_Length, uint8_t* Parameters);
+void rom_controller_event_HCI_LE_Advertising_Set_Terminated(uint8_t Status, uint8_t Advertising_Handle, uint16_t Connection_Handle, uint8_t Num_Completed_Extended_Advertising_Events);
+void rom_controller_event_HCI_LE_Scan_Request_Received(uint8_t Advertising_Handle, uint8_t Scanner_Address_Type, uint8_t Scanner_Address[6]);
+////
+
+////Extended Scan
+void rom_controller_return_parameters_HCI_LE_Set_Extended_Scan_Enable(uint8_t Status);
+void rom_controller_event_HCI_LE_Extended_Advertising_Report(uint8_t Parameter_Total_Length, uint8_t* Event_Parameter);
+void rom_controller_event_HCI_LE_Scan_Timeout(void);
+////
+
+
+void extended_controller_interface(void);
+bool extended_controller_interface_process_command_packet(uint8_t OGF, uint16_t OCF, uint8_t Parameter_Total_Length, uint8_t* Parameters);
+
+#endif

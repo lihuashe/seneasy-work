@@ -1,0 +1,29 @@
+#ifndef LLC_EXT_INITIATOR_SECONDARY_SCANNING_H
+#define LLC_EXT_INITIATOR_SECONDARY_SCANNING_H
+
+
+void rom_llc_ext_initiator_secondary_scanning_on_enable(stLlcExtInitiator_t* pstInitiator);
+
+void rom_llc_ext_initiator_secondary_scanning_on_disable(stLlcExtInitiator_t* pstInitiator);
+
+void rom_llc_ext_initiator_secondary_scanning_prepare_timing(stLlcExtInitiator_t* pstInitiator);
+
+bool rom_llc_ext_initiator_secondary_scanning_get_timing(stLlcExtInitiator_t* pstInitiator, stLlcExtInitiatorTiming_t* pstTiming);
+
+void rom_llc_ext_initiator_secondary_scanning_on_received_extended_pdu_when_primary_scanning(stLlcExtInitiator_t* pstInitiator, stLlcAdvChannelPdu_t* pstPdu);
+
+void rom_llc_ext_initiator_secondary_scanning_on_scheduled(stLlcExtInitiator_t* pstInitiator);
+
+uint32_t rom_llc_ext_initiator_secondary_scanning_on_event_blocked (stLlcExtInitiator_t* pstInitiator);
+
+EN_LLP_ERR_T rom_llc_ext_initiator_secondary_scanning_config_llp(stLlcExtInitiator_t* pstInitiator, uint32_t u32MaxWorkWindowTimeUs);
+
+void rom_llc_ext_initiator_secondary_scanning_on_llp_fragment_start(stLlcExtInitiator_t* pstInitiator);
+
+bool rom_llc_ext_initiator_secondary_scanning_on_llp_fragment_stop(stLlcExtInitiator_t* pstInitiator);
+
+EN_LLP_STATE_CMD_T rom_llc_ext_initiator_secondary_scanning_on_llp_tx_end(stLlcExtInitiator_t* pstInitiator, stLlpTxEndReport_t *pstReport);
+
+EN_LLP_STATE_CMD_T rom_llc_ext_initiator_secondary_scanning_on_llp_rx_end(stLlcExtInitiator_t* pstInitiator, stLlpRxEndReport_t *pstReport);
+
+#endif

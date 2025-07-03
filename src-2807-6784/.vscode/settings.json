@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "bct3236_driver.h": "c",
+        "app_keyboard.h": "c",
+        "co_debug.h": "c",
+        "board_config.h": "c",
+        "cmath": "c",
+        "da228ec_driver.h": "c",
+        "app_mode.h": "c",
+        "i2c.h": "c",
+        "board_demo.h": "c"
+    }
+}

@@ -1,0 +1,500 @@
+Component: ARM Compiler 5.06 update 7 (build 960) Tool: armlink [4d3601]
+
+==============================================================================
+
+Section Cross References
+
+    fsbl_entry_ext.o(.patch.ram.start) refers to fsbl_entry_ext.o(.text) for get_reset_reason
+    fsbl_entry_ext.o(.patch.ram.start) refers to keyscan_basic_driver.o(.text) for keyscan_pinmux_config
+    fsbl_entry_ext.o(.patch.ram.start) refers to keyscan_basic_driver.o(.app.data_ram.text) for keyscan_init_driver
+    keyscan_basic_driver.o(.app.data_ram.text) refers to rtl876x_pinmux.o(.text) for Pad_Config
+    keyscan_basic_driver.o(.app.data_ram.text) refers to rtl876x_rcc.o(.text) for RCC_PeriphClockCmd
+    keyscan_basic_driver.o(.app.data_ram.text) refers to rtl876x_keyscan.o(.text) for KeyScan_StructInit
+    keyscan_basic_driver.o(.app.data_ram.text) refers to keyscan_basic_driver.o(.bss) for .bss
+    keyscan_basic_driver.o(.text) refers to rtl876x_pinmux.o(.text) for Pinmux_Config
+    rtl876x_keyscan.o(.text) refers to rtl876x_rcc.o(.text) for RCC_PeriphClockCmd
+    rtl876x_pinmux.o(.text) refers to rtl876x_pinmux.o(.constdata) for .constdata
+
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    ..\..\..\..\src\app\rcu\key_module\keyscan_basic_driver.c 0x00000000   Number         0  keyscan_basic_driver.o ABSOLUTE
+    ..\..\..\..\src\mcu\peripheral\rtl876x_keyscan.c 0x00000000   Number         0  rtl876x_keyscan.o ABSOLUTE
+    ..\..\..\..\src\mcu\peripheral\rtl876x_pinmux.c 0x00000000   Number         0  rtl876x_pinmux.o ABSOLUTE
+    ..\..\..\..\src\mcu\peripheral\rtl876x_rcc.c 0x00000000   Number         0  rtl876x_rcc.o ABSOLUTE
+    ..\\..\\..\\..\\src\\app\\rcu\\key_module\\keyscan_basic_driver.c 0x00000000   Number         0  keyscan_basic_driver.o ABSOLUTE
+    ..\\..\\..\\..\\src\\mcu\\peripheral\\rtl876x_keyscan.c 0x00000000   Number         0  rtl876x_keyscan.o ABSOLUTE
+    ..\\..\\..\\..\\src\\mcu\\peripheral\\rtl876x_pinmux.c 0x00000000   Number         0  rtl876x_pinmux.o ABSOLUTE
+    ..\\..\\..\\..\\src\\mcu\\peripheral\\rtl876x_rcc.c 0x00000000   Number         0  rtl876x_rcc.o ABSOLUTE
+    ..\\src\\fsbl_entry_ext.c                0x00000000   Number         0  fsbl_entry_ext.o ABSOLUTE
+    ..\src\fsbl_entry_ext.c                  0x00000000   Number         0  fsbl_entry_ext.o ABSOLUTE
+    .patch.ram.start                         0x00215000   Section        0  fsbl_entry_ext.o(.patch.ram.start)
+    .app.data_ram.text                       0x00215070   Section        0  keyscan_basic_driver.o(.app.data_ram.text)
+    .rev16_text                              0x002151e4   Section        4  fsbl_entry_ext.o(.rev16_text)
+    .rev16_text                              0x002151e8   Section        4  keyscan_basic_driver.o(.rev16_text)
+    .rev16_text                              0x002151ec   Section        4  rtl876x_keyscan.o(.rev16_text)
+    .rev16_text                              0x002151f0   Section        4  rtl876x_rcc.o(.rev16_text)
+    .rev16_text                              0x002151f4   Section        4  rtl876x_pinmux.o(.rev16_text)
+    .revsh_text                              0x002151f8   Section        4  fsbl_entry_ext.o(.revsh_text)
+    .revsh_text                              0x002151fc   Section        4  keyscan_basic_driver.o(.revsh_text)
+    .revsh_text                              0x00215200   Section        4  rtl876x_keyscan.o(.revsh_text)
+    .revsh_text                              0x00215204   Section        4  rtl876x_rcc.o(.revsh_text)
+    .revsh_text                              0x00215208   Section        4  rtl876x_pinmux.o(.revsh_text)
+    .text                                    0x0021520c   Section        0  fsbl_entry_ext.o(.text)
+    .text                                    0x00215230   Section        0  keyscan_basic_driver.o(.text)
+    .text                                    0x0021527c   Section        0  rtl876x_keyscan.o(.text)
+    .text                                    0x0021541c   Section        0  rtl876x_rcc.o(.text)
+    .text                                    0x0021572c   Section        0  rtl876x_pinmux.o(.text)
+    .constdata                               0x00215aac   Section      156  rtl876x_pinmux.o(.constdata)
+    .bss                                     0x00215b48   Section       48  keyscan_basic_driver.o(.bss)
+    .patch.flash.header                      0x00856000   Section      480  fsbl_entry_ext.o(.patch.flash.header)
+    .patch.flash.header                      0x008561e0   Section      544  fsbl_entry_ext.o(.patch.flash.header)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv3M$S$PE$A:L22$X:L11$S22$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$EBA8$STANDARDLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    Image$$FSBL_RAM_TEXT_SECTION$$ZI$$Length 0x00000030   Number         0  anon$$obj.o ABSOLUTE
+    vAssertHandler                           0x00000209   Thumb Code     0  ROM.lib ABSOLUTE
+    WDG_SystemReset                          0x0000029d   Thumb Code     0  ROM.lib ABSOLUTE
+    __aeabi_memcpy4                          0x000002a9   Thumb Code     0  ROM.lib ABSOLUTE
+    __aeabi_memcpy8                          0x000002a9   Thumb Code     0  ROM.lib ABSOLUTE
+    Image$$FSBL_RAM_TEXT_SECTION$$Length     0x00000b48   Number         0  anon$$obj.o ABSOLUTE
+    RamVectorTableInit                       0x000034d1   Thumb Code     0  ROM.lib ABSOLUTE
+    RamVectorTableUpdate                     0x000034f7   Thumb Code     0  ROM.lib ABSOLUTE
+    LOGUARTDriverInit                        0x000037ed   Thumb Code     0  ROM.lib ABSOLUTE
+    DumpRawMemory                            0x000043ab   Thumb Code     0  ROM.lib ABSOLUTE
+    dump_raw_memory_all                      0x00004519   Thumb Code     0  ROM.lib ABSOLUTE
+    hardfault_print_buffered_log             0x00004573   Thumb Code     0  ROM.lib ABSOLUTE
+    ROM_Default_Handler                      0x000047e7   Thumb Code     0  ROM.lib ABSOLUTE
+    SystemCall                               0x0000491b   Thumb Code     0  ROM.lib ABSOLUTE
+    SystemCall_Stack                         0x00004927   Thumb Code     0  ROM.lib ABSOLUTE
+    update_ram_layout                        0x00004a79   Thumb Code     0  ROM.lib ABSOLUTE
+    get_active_ota_bank_addr                 0x000053a5   Thumb Code     0  ROM.lib ABSOLUTE
+    btxfcs                                   0x000054ed   Thumb Code     0  ROM.lib ABSOLUTE
+    PPB_BufSwitch                            0x00005665   Thumb Code     0  ROM.lib ABSOLUTE
+    PPB_Init                                 0x00005689   Thumb Code     0  ROM.lib ABSOLUTE
+    PPB_Uninit                               0x000056dd   Thumb Code     0  ROM.lib ABSOLUTE
+    PPB_Init_DLPS_Restore                    0x00005701   Thumb Code     0  ROM.lib ABSOLUTE
+    PPB_Write                                0x00005709   Thumb Code     0  ROM.lib ABSOLUTE
+    PPB_ClearOutputBuffer                    0x000057db   Thumb Code     0  ROM.lib ABSOLUTE
+    LogUartTxChar                            0x00005811   Thumb Code     0  ROM.lib ABSOLUTE
+    log_timestamp_get                        0x00005853   Thumb Code     0  ROM.lib ABSOLUTE
+    log_direct                               0x00005a07   Thumb Code     0  ROM.lib ABSOLUTE
+    log_buffer                               0x00005aa9   Thumb Code     0  ROM.lib ABSOLUTE
+    log_index                                0x00005bcd   Thumb Code     0  ROM.lib ABSOLUTE
+    log_snoop                                0x00005cdf   Thumb Code     0  ROM.lib ABSOLUTE
+    trace_bdaddr                             0x00005ddf   Thumb Code     0  ROM.lib ABSOLUTE
+    trace_string                             0x00005e6b   Thumb Code     0  ROM.lib ABSOLUTE
+    trace_binary                             0x00005f07   Thumb Code     0  ROM.lib ABSOLUTE
+    LogBufferLowerStack                      0x00005f9f   Thumb Code     0  ROM.lib ABSOLUTE
+    LogBufferLowerStackData                  0x000060c5   Thumb Code     0  ROM.lib ABSOLUTE
+    log_module_trace_init                    0x000061a3   Thumb Code     0  ROM.lib ABSOLUTE
+    log_module_trace_set                     0x000061d3   Thumb Code     0  ROM.lib ABSOLUTE
+    log_module_bitmap_trace_set              0x0000621f   Thumb Code     0  ROM.lib ABSOLUTE
+    LogUartDMAStart                          0x00006323   Thumb Code     0  ROM.lib ABSOLUTE
+    LogDMA_SM_Dispatch                       0x00006335   Thumb Code     0  ROM.lib ABSOLUTE
+    LogUartDMAInit                           0x000063bd   Thumb Code     0  ROM.lib ABSOLUTE
+    LogUartDMAIdleHook                       0x000064b1   Thumb Code     0  ROM.lib ABSOLUTE
+    log_pm_check                             0x0000651f   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_encrypt128_use_dma                0x0000675d   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_decrypt128_use_dma                0x000067a1   Thumb Code     0  ROM.lib ABSOLUTE
+    aes128_ecb_encrypt                       0x000067e5   Thumb Code     0  ROM.lib ABSOLUTE
+    aes128_ecb_decrypt                       0x00006841   Thumb Code     0  ROM.lib ABSOLUTE
+    aes128_ecb_encrypt_msb2lsb               0x0000689b   Thumb Code     0  ROM.lib ABSOLUTE
+    aes128_ecb_decrypt_msb2lsb               0x000068b3   Thumb Code     0  ROM.lib ABSOLUTE
+    aes256_ecb_encrypt                       0x000068cb   Thumb Code     0  ROM.lib ABSOLUTE
+    aes256_ecb_decrypt                       0x00006927   Thumb Code     0  ROM.lib ABSOLUTE
+    aes256_ecb_encrypt_msb2lsb               0x00006981   Thumb Code     0  ROM.lib ABSOLUTE
+    aes256_ecb_decrypt_msb2lsb               0x00006999   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_decrypt_16byte                    0x000069ed   Thumb Code     0  ROM.lib ABSOLUTE
+    ftl_ioctl                                0x000075d3   Thumb Code     0  ROM.lib ABSOLUTE
+    ftl_load                                 0x00007b1f   Thumb Code     0  ROM.lib ABSOLUTE
+    ftl_save                                 0x00007b33   Thumb Code     0  ROM.lib ABSOLUTE
+    ftl_init                                 0x00007c45   Thumb Code     0  ROM.lib ABSOLUTE
+    hardfault_dump                           0x00007df1   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_dump_flash_info                    0x0000805f   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_get_flash_exist                    0x000080b3   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_get_bank_addr                      0x000080b9   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_get_bank_size                      0x0000813b   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_erase_locked                       0x000081a1   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_ioctl                              0x000081f7   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_write_locked                       0x00008601   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_auto_write_locked                  0x00008629   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_auto_write_buffer_locked           0x0000864b   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_read_locked                        0x00008671   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_auto_read_locked                   0x00008699   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_split_read_locked                  0x000086b7   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_auto_dma_read_locked               0x000086e1   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_auto_seq_trans_dma_read_locked     0x00008709   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_try_high_speed                     0x00008731   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_get_block_protect_locked           0x000088f1   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_set_block_protect_locked           0x00008917   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_sw_protect_unlock_by_addr_locked   0x0000893d   Thumb Code     0  ROM.lib ABSOLUTE
+    crc8EtsGen                               0x000089cd   Thumb Code     0  ROM.lib ABSOLUTE
+    crc8EtsCheck                             0x000089ed   Thumb Code     0  ROM.lib ABSOLUTE
+    set_hci_mode_flag                        0x00008a1d   Thumb Code     0  ROM.lib ABSOLUTE
+    check_hci_mode_flag                      0x00008a47   Thumb Code     0  ROM.lib ABSOLUTE
+    check_image_chksum                       0x00008a5d   Thumb Code     0  ROM.lib ABSOLUTE
+    check_header_valid                       0x00008a83   Thumb Code     0  ROM.lib ABSOLUTE
+    get_header_addr_by_img_id                0x00008ae3   Thumb Code     0  ROM.lib ABSOLUTE
+    get_active_bank_image_size_by_img_id     0x00008b3f   Thumb Code     0  ROM.lib ABSOLUTE
+    is_ota_support_bank_switch               0x00008b7b   Thumb Code     0  ROM.lib ABSOLUTE
+    get_temp_ota_bank_addr_by_img_id         0x00008b95   Thumb Code     0  ROM.lib ABSOLUTE
+    get_temp_ota_bank_size_by_img_id         0x00008c07   Thumb Code     0  ROM.lib ABSOLUTE
+    get_active_bank_image_version            0x00008c73   Thumb Code     0  ROM.lib ABSOLUTE
+    platform_random                          0x00008d3f   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_erase                              0x00009fcf   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_set_bit                            0x0000a559   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_get_bit                            0x0000a561   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_write                              0x0000a56d   Thumb Code     0  ROM.lib ABSOLUTE
+    flash_auto_write                         0x0000a875   Thumb Code     0  ROM.lib ABSOLUTE
+    power_manager_suspend_all                0x0000d207   Thumb Code     0  ROM.lib ABSOLUTE
+    power_manager_resume_all                 0x0000d211   Thumb Code     0  ROM.lib ABSOLUTE
+    platform_pm_set_power_mode               0x0000d755   Thumb Code     0  ROM.lib ABSOLUTE
+    platform_pm_get_power_mode               0x0000d769   Thumb Code     0  ROM.lib ABSOLUTE
+    platform_pm_get_error_code               0x0000d76f   Thumb Code     0  ROM.lib ABSOLUTE
+    platform_pm_get_refuse_reason            0x0000d775   Thumb Code     0  ROM.lib ABSOLUTE
+    platform_pm_get_statistics               0x0000d78f   Thumb Code     0  ROM.lib ABSOLUTE
+    platform_pm_get_wakeup_reason            0x0000d7b9   Thumb Code     0  ROM.lib ABSOLUTE
+    platform_pm_register_callback_func       0x0000d7c9   Thumb Code     0  ROM.lib ABSOLUTE
+    platform_pm_stop_all_non_excluded_timer  0x0000d8cb   Thumb Code     0  ROM.lib ABSOLUTE
+    platform_rtc_get_counter                 0x0000e81b   Thumb Code     0  ROM.lib ABSOLUTE
+    vTaskStatusDump                          0x000105c9   Thumb Code     0  ROM.lib ABSOLUTE
+    vTimerCreateFailedHook                   0x000111a7   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_init                              0x00011dff   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_cpu_operate                       0x00011f6d   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_set_dma_tx_done                   0x00011f79   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_set_dma_rx_done                   0x00011f7f   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_dma_operate                       0x00011f85   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_dma_interrupt_disable             0x0001210b   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_is_dma_rx_done                    0x000121af   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_is_dma_tx_done                    0x000121b5   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_dma_done                          0x000121bb   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_set_dma_move_src                  0x000121c5   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_set_dma_move_dst                  0x000121e5   Thumb Code     0  ROM.lib ABSOLUTE
+    hw_aes_set_dma_carry_size                0x000121eb   Thumb Code     0  ROM.lib ABSOLUTE
+    aes_cmac_inverse                         0x0001235f   Thumb Code     0  ROM.lib ABSOLUTE
+    get_secure_reg_cfg_val                   0x00012417   Thumb Code     0  ROM.lib ABSOLUTE
+    Pinmux_Deinit_rom                        0x0001254b   Thumb Code     0  ROM.lib ABSOLUTE
+    WDG_ClockEnable                          0x00012959   Thumb Code     0  ROM.lib ABSOLUTE
+    WDG_Config                               0x00012977   Thumb Code     0  ROM.lib ABSOLUTE
+    WDG_Enable                               0x000129bb   Thumb Code     0  ROM.lib ABSOLUTE
+    WDG_Disable                              0x000129d5   Thumb Code     0  ROM.lib ABSOLUTE
+    WDG_Restart                              0x000129ef   Thumb Code     0  ROM.lib ABSOLUTE
+    reset_reason_get                         0x00012b71   Thumb Code     0  ROM.lib ABSOLUTE
+    os_mem_alloc_intern                      0x00012c31   Thumb Code     0  ROM.lib ABSOLUTE
+    os_mem_zalloc_intern                     0x00012c8b   Thumb Code     0  ROM.lib ABSOLUTE
+    os_mem_aligned_alloc_intern              0x00012ced   Thumb Code     0  ROM.lib ABSOLUTE
+    os_mem_free                              0x00012d4d   Thumb Code     0  ROM.lib ABSOLUTE
+    os_mem_aligned_free                      0x00012d69   Thumb Code     0  ROM.lib ABSOLUTE
+    os_mem_peek                              0x00012d85   Thumb Code     0  ROM.lib ABSOLUTE
+    os_mem_check_heap_usage                  0x00012da7   Thumb Code     0  ROM.lib ABSOLUTE
+    os_msg_queue_create_intern               0x00012de1   Thumb Code     0  ROM.lib ABSOLUTE
+    os_msg_queue_delete_intern               0x00012e39   Thumb Code     0  ROM.lib ABSOLUTE
+    os_msg_queue_peek_intern                 0x00012e83   Thumb Code     0  ROM.lib ABSOLUTE
+    os_msg_send_intern                       0x00012ed7   Thumb Code     0  ROM.lib ABSOLUTE
+    os_msg_recv_intern                       0x00012f33   Thumb Code     0  ROM.lib ABSOLUTE
+    os_msg_peek_intern                       0x00012f91   Thumb Code     0  ROM.lib ABSOLUTE
+    os_queue_init                            0x00013011   Thumb Code     0  ROM.lib ABSOLUTE
+    os_queue_in                              0x0001301b   Thumb Code     0  ROM.lib ABSOLUTE
+    os_queue_out                             0x0001304b   Thumb Code     0  ROM.lib ABSOLUTE
+    os_queue_peek                            0x0001307f   Thumb Code     0  ROM.lib ABSOLUTE
+    os_queue_insert                          0x00013083   Thumb Code     0  ROM.lib ABSOLUTE
+    os_queue_delete                          0x000130c3   Thumb Code     0  ROM.lib ABSOLUTE
+    os_systick_handler                       0x00013131   Thumb Code     0  ROM.lib ABSOLUTE
+    os_delay                                 0x00013147   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sys_time_get                          0x00013163   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sys_tick_get                          0x00013181   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sys_tick_increase                     0x0001319f   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sched_start                           0x000131c3   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sched_stop                            0x000131e1   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sched_suspend                         0x000131ff   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sched_resume                          0x0001321d   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sched_is_start                        0x0001323b   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sched_state_get                       0x00013259   Thumb Code     0  ROM.lib ABSOLUTE
+    os_vector_table_update                   0x00013277   Thumb Code     0  ROM.lib ABSOLUTE
+    os_init                                  0x0001328d   Thumb Code     0  ROM.lib ABSOLUTE
+    os_lock                                  0x000132d9   Thumb Code     0  ROM.lib ABSOLUTE
+    os_unlock                                0x000132f5   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sem_create                            0x00013311   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sem_delete                            0x0001333d   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sem_take                              0x00013361   Thumb Code     0  ROM.lib ABSOLUTE
+    os_sem_give                              0x00013389   Thumb Code     0  ROM.lib ABSOLUTE
+    os_mutex_create                          0x000133ad   Thumb Code     0  ROM.lib ABSOLUTE
+    os_mutex_delete                          0x000133d1   Thumb Code     0  ROM.lib ABSOLUTE
+    os_mutex_take                            0x000133f5   Thumb Code     0  ROM.lib ABSOLUTE
+    os_mutex_give                            0x0001341d   Thumb Code     0  ROM.lib ABSOLUTE
+    os_task_create                           0x00013469   Thumb Code     0  ROM.lib ABSOLUTE
+    os_task_delete                           0x000134a5   Thumb Code     0  ROM.lib ABSOLUTE
+    os_task_suspend                          0x000134c9   Thumb Code     0  ROM.lib ABSOLUTE
+    os_task_resume                           0x000134ed   Thumb Code     0  ROM.lib ABSOLUTE
+    os_task_yield                            0x00013511   Thumb Code     0  ROM.lib ABSOLUTE
+    os_task_handle_get                       0x0001352f   Thumb Code     0  ROM.lib ABSOLUTE
+    os_task_priority_get                     0x00013553   Thumb Code     0  ROM.lib ABSOLUTE
+    os_task_priority_set                     0x0001357b   Thumb Code     0  ROM.lib ABSOLUTE
+    os_task_status_dump                      0x000135a3   Thumb Code     0  ROM.lib ABSOLUTE
+    os_task_dlps_return_idle_task            0x000135b9   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_id_get                          0x000135f9   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_create                          0x00013635   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_start                           0x00013671   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_restart                         0x00013695   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_stop                            0x000136bd   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_delete                          0x000136e1   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_dump                            0x00013705   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_state_get                       0x00013723   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_init                            0x0001375f   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_number_get                      0x00013775   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_pendcall                        0x0001379d   Thumb Code     0  ROM.lib ABSOLUTE
+    os_timer_next_timeout_value_get          0x000137cb   Thumb Code     0  ROM.lib ABSOLUTE
+    osif_timer_create                        0x00013f9f   Thumb Code     0  ROM.lib ABSOLUTE
+    rtk_write_modem_radio_reg                0x000184ad   Thumb Code     0  ROM.lib ABSOLUTE
+    rtk_read_modem_radio_reg                 0x00018515   Thumb Code     0  ROM.lib ABSOLUTE
+    hci_handle_le_receiver_test              0x0001a81b   Thumb Code     0  ROM.lib ABSOLUTE
+    hci_handle_le_test_end                   0x0001ac3b   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_read                          0x00032f61   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_read_8b                       0x00032f75   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_read_safe                     0x00032f95   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_read_safe_8b                  0x00032fb1   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_write                         0x00032fdb   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_write_8b                      0x00032ffb   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_write_safe                    0x00033039   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_write_safe_8b                 0x00033063   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_update                        0x000330a9   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_update_8b                     0x000330c3   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_update_safe                   0x000330df   Thumb Code     0  ROM.lib ABSOLUTE
+    btaon_fast_update_safe_8b                0x000330fb   Thumb Code     0  ROM.lib ABSOLUTE
+    init_dft                                 0x0003d547   Thumb Code     0  ROM.lib ABSOLUTE
+    modem_dft                                0x0003d66f   Thumb Code     0  ROM.lib ABSOLUTE
+    deinit_dft                               0x0003d751   Thumb Code     0  ROM.lib ABSOLUTE
+    btmac_pm_set_power_mode                  0x0003df43   Thumb Code     0  ROM.lib ABSOLUTE
+    btmac_pm_get_error_code                  0x0003df4f   Thumb Code     0  ROM.lib ABSOLUTE
+    btmac_pm_get_wakeup_reason               0x0003df55   Thumb Code     0  ROM.lib ABSOLUTE
+    btmac_pm_get_statistics                  0x0003df5b   Thumb Code     0  ROM.lib ABSOLUTE
+    dfu_dump_header                          0x0003ed01   Thumb Code     0  ROM.lib ABSOLUTE
+    dfu_set_ready                            0x0003ed1b   Thumb Code     0  ROM.lib ABSOLUTE
+    dfu_set_obsolete                         0x0003ed25   Thumb Code     0  ROM.lib ABSOLUTE
+    dfu_check_ota_mode_flag                  0x0003ed31   Thumb Code     0  ROM.lib ABSOLUTE
+    dfu_reset                                0x0003ed45   Thumb Code     0  ROM.lib ABSOLUTE
+    dfu_process_crc                          0x0003edc3   Thumb Code     0  ROM.lib ABSOLUTE
+    dfu_process_sha256                       0x0003ee99   Thumb Code     0  ROM.lib ABSOLUTE
+    SHA256_Init                              0x0003f4ad   Thumb Code     0  ROM.lib ABSOLUTE
+    SHA256_Update                            0x0003f4d7   Thumb Code     0  ROM.lib ABSOLUTE
+    SHA256_Final                             0x0003f517   Thumb Code     0  ROM.lib ABSOLUTE
+    SHA256                                   0x0003f5d5   Thumb Code     0  ROM.lib ABSOLUTE
+    setlocale                                0x0003f795   Thumb Code     0  ROM.lib ABSOLUTE
+    memcmp                                   0x0003f7a9   Thumb Code     0  ROM.lib ABSOLUTE
+    strlen                                   0x0003f805   Thumb Code     0  ROM.lib ABSOLUTE
+    __aeabi_memcpy                           0x0003f849   Thumb Code     0  ROM.lib ABSOLUTE
+    __rt_memcpy                              0x0003f849   Thumb Code     0  ROM.lib ABSOLUTE
+    __aeabi_memset                           0x0003f8cb   Thumb Code     0  ROM.lib ABSOLUTE
+    _memset_w                                0x0003f8dd   Thumb Code     0  ROM.lib ABSOLUTE
+    _memset                                  0x0003f8f7   Thumb Code     0  ROM.lib ABSOLUTE
+    __aeabi_memclr                           0x0003f915   Thumb Code     0  ROM.lib ABSOLUTE
+    __rt_memclr                              0x0003f915   Thumb Code     0  ROM.lib ABSOLUTE
+    __aeabi_memclr4                          0x0003f919   Thumb Code     0  ROM.lib ABSOLUTE
+    __aeabi_memclr8                          0x0003f919   Thumb Code     0  ROM.lib ABSOLUTE
+    __rt_memclr_w                            0x0003f919   Thumb Code     0  ROM.lib ABSOLUTE
+    exit                                     0x000409b9   Thumb Code     0  ROM.lib ABSOLUTE
+    pMCU_PPB                                 0x00200104   Data           0  ROM.lib ABSOLUTE
+    pLogDMA_SM                               0x00200108   Data           0  ROM.lib ABSOLUTE
+    socv_ft_data                             0x00200110   Data           0  ROM.lib ABSOLUTE
+    platform_delay_us                        0x0020011c   Data           0  ROM.lib ABSOLUTE
+    platform_delay_ms                        0x00200120   Data           0  ROM.lib ABSOLUTE
+    otp                                      0x00200164   Data           0  ROM.lib ABSOLUTE
+    SystemCpuClock                           0x00200524   Data           0  ROM.lib ABSOLUTE
+    init_true_random_generator               0x00200854   Data           0  ROM.lib ABSOLUTE
+    get_true_random_number                   0x00200858   Data           0  ROM.lib ABSOLUTE
+    rtk_write_rfc_reg_pi                     0x002008b0   Data           0  ROM.lib ABSOLUTE
+    rtk_read_modem_radio_reg_pi              0x002008b4   Data           0  ROM.lib ABSOLUTE
+    rtk_write_modem_radio_reg_pi             0x002008b8   Data           0  ROM.lib ABSOLUTE
+    rtk_ioq_read_rfc_reg                     0x002008e0   Data           0  ROM.lib ABSOLUTE
+    rtk_update_rfc_reg_pi                    0x002008e4   Data           0  ROM.lib ABSOLUTE
+    phy_auto_gated_on                        0x00200ea0   Data           0  ROM.lib ABSOLUTE
+    phy_auto_gated_off                       0x00200ea4   Data           0  ROM.lib ABSOLUTE
+    btmac_pm_system                          0x002010d4   Data           0  ROM.lib ABSOLUTE
+    app_pre_main                             0x002011d0   Data           0  ROM.lib ABSOLUTE
+    upperstack_entry                         0x002011d4   Data           0  ROM.lib ABSOLUTE
+    app_main                                 0x002011d8   Data           0  ROM.lib ABSOLUTE
+    log_seq_num                              0x002011e8   Data           0  ROM.lib ABSOLUTE
+    is_log_init                              0x002011ea   Data           0  ROM.lib ABSOLUTE
+    flash_sem                                0x00201228   Data           0  ROM.lib ABSOLUTE
+    flash_device_info                        0x00201258   Data           0  ROM.lib ABSOLUTE
+    pxCurrentTCB                             0x00201340   Data           0  ROM.lib ABSOLUTE
+    xTickCount                               0x0020134c   Data           0  ROM.lib ABSOLUTE
+    pTaskHandleList                          0x00201374   Data           0  ROM.lib ABSOLUTE
+    uxTimerCreateCount                       0x00201474   Data           0  ROM.lib ABSOLUTE
+    uxTimerDeleteCount                       0x00201476   Data           0  ROM.lib ABSOLUTE
+    xTimerQueue                              0x00201478   Data           0  ROM.lib ABSOLUTE
+    pxTimerPool                              0x00201488   Data           0  ROM.lib ABSOLUTE
+    puxUsedTimerPoolMask                     0x0020148c   Data           0  ROM.lib ABSOLUTE
+    xFreeBytesRemaining                      0x002014d8   Data           0  ROM.lib ABSOLUTE
+    xMinimumEverFreeBytesRemaining           0x002014e0   Data           0  ROM.lib ABSOLUTE
+    xHeapTotalSize                           0x002014e8   Data           0  ROM.lib ABSOLUTE
+    xStart                                   0x002014f0   Data           0  ROM.lib ABSOLUTE
+    app_cb_wdg_reset                         0x00201514   Data           0  ROM.lib ABSOLUTE
+    patch_osif_os_sys_time_get               0x00201580   Data           0  ROM.lib ABSOLUTE
+    patch_osif_os_msg_send_intern            0x00201608   Data           0  ROM.lib ABSOLUTE
+    patch_osif_os_timer_create               0x00201644   Data           0  ROM.lib ABSOLUTE
+    Patch_Dump_CPU_Register_and_Memory       0x00201694   Data           0  ROM.lib ABSOLUTE
+    patch_vTaskSwitchContext                 0x002016c0   Data           0  ROM.lib ABSOLUTE
+    patch_traceTaskSwitchIn                  0x002016c4   Data           0  ROM.lib ABSOLUTE
+    patch_HardFaultRecord_TryToSave          0x0020182c   Data           0  ROM.lib ABSOLUTE
+    low_task_handle                          0x00201858   Data           0  ROM.lib ABSOLUTE
+    Image$$FSBL_RAM_TEXT_SECTION$$Base       0x00215000   Number         0  anon$$obj.o ABSOLUTE
+    fsbl_ext_entry                           0x00215001   Thumb Code    56  fsbl_entry_ext.o(.patch.ram.start)
+    keyscan_column_pad_config                0x00215071   Thumb Code    96  keyscan_basic_driver.o(.app.data_ram.text)
+    keyscan_row_pad_config                   0x002150d1   Thumb Code    78  keyscan_basic_driver.o(.app.data_ram.text)
+    keyscan_init_pad_config                  0x0021511f   Thumb Code    40  keyscan_basic_driver.o(.app.data_ram.text)
+    keyscan_init_driver                      0x00215147   Thumb Code   140  keyscan_basic_driver.o(.app.data_ram.text)
+    __asm___16_fsbl_entry_ext_c_b35718a1____REV16 0x002151e5   Thumb Code     4  fsbl_entry_ext.o(.rev16_text)
+    __asm___22_keyscan_basic_driver_c_5ad10e14____REV16 0x002151e9   Thumb Code     4  keyscan_basic_driver.o(.rev16_text)
+    __asm___17_rtl876x_keyscan_c_e63e7e65____REV16 0x002151ed   Thumb Code     4  rtl876x_keyscan.o(.rev16_text)
+    __asm___13_rtl876x_rcc_c_2b14c0fe____REV16 0x002151f1   Thumb Code     4  rtl876x_rcc.o(.rev16_text)
+    __asm___16_rtl876x_pinmux_c_fe16c4ae____REV16 0x002151f5   Thumb Code     4  rtl876x_pinmux.o(.rev16_text)
+    __asm___16_fsbl_entry_ext_c_b35718a1____REVSH 0x002151f9   Thumb Code     4  fsbl_entry_ext.o(.revsh_text)
+    __asm___22_keyscan_basic_driver_c_5ad10e14____REVSH 0x002151fd   Thumb Code     4  keyscan_basic_driver.o(.revsh_text)
+    __asm___17_rtl876x_keyscan_c_e63e7e65____REVSH 0x00215201   Thumb Code     4  rtl876x_keyscan.o(.revsh_text)
+    __asm___13_rtl876x_rcc_c_2b14c0fe____REVSH 0x00215205   Thumb Code     4  rtl876x_rcc.o(.revsh_text)
+    __asm___16_rtl876x_pinmux_c_fe16c4ae____REVSH 0x00215209   Thumb Code     4  rtl876x_pinmux.o(.revsh_text)
+    bss_ram_init                             0x0021520d   Thumb Code    12  fsbl_entry_ext.o(.text)
+    get_reset_reason                         0x00215219   Thumb Code    16  fsbl_entry_ext.o(.text)
+    keyscan_pinmux_config                    0x00215231   Thumb Code    76  keyscan_basic_driver.o(.text)
+    KeyScan_Init                             0x0021527d   Thumb Code   164  rtl876x_keyscan.o(.text)
+    KeyScan_DeInit                           0x00215321   Thumb Code    14  rtl876x_keyscan.o(.text)
+    KeyScan_StructInit                       0x0021532f   Thumb Code    62  rtl876x_keyscan.o(.text)
+    KeyScan_INTConfig                        0x0021536d   Thumb Code    16  rtl876x_keyscan.o(.text)
+    KeyScan_INTMask                          0x0021537d   Thumb Code    16  rtl876x_keyscan.o(.text)
+    KeyScan_Read                             0x0021538d   Thumb Code    22  rtl876x_keyscan.o(.text)
+    KeyScan_Cmd                              0x002153a3   Thumb Code    44  rtl876x_keyscan.o(.text)
+    KeyScan_FilterDataConfig                 0x002153cf   Thumb Code    60  rtl876x_keyscan.o(.text)
+    RCC_PeriphClockCmd                       0x0021541d   Thumb Code   252  rtl876x_rcc.o(.text)
+    RCC_PeriFunctionConfig                   0x00215519   Thumb Code    84  rtl876x_rcc.o(.text)
+    RCC_PeriClockConfig                      0x0021556d   Thumb Code   100  rtl876x_rcc.o(.text)
+    RCC_I2CClkDivConfig                      0x002155d1   Thumb Code    88  rtl876x_rcc.o(.text)
+    RCC_SPIClkDivConfig                      0x00215629   Thumb Code    78  rtl876x_rcc.o(.text)
+    RCC_TIMClkDivConfig                      0x00215677   Thumb Code    46  rtl876x_rcc.o(.text)
+    RCC_UARTClkDivConfig                     0x002156a5   Thumb Code    88  rtl876x_rcc.o(.text)
+    Pinmux_Reset                             0x0021572d   Thumb Code    22  rtl876x_pinmux.o(.text)
+    Pinmux_Deinit                            0x00215743   Thumb Code    24  rtl876x_pinmux.o(.text)
+    Pinmux_Config                            0x0021575b   Thumb Code    30  rtl876x_pinmux.o(.text)
+    Pad_Config                               0x00215779   Thumb Code    96  rtl876x_pinmux.o(.text)
+    Pad_WakeupEnableValue                    0x002157d9   Thumb Code    38  rtl876x_pinmux.o(.text)
+    Pad_WKDebounceConfig                     0x002157ff   Thumb Code    40  rtl876x_pinmux.o(.text)
+    Pad_WakeupPolarityValue                  0x00215827   Thumb Code    38  rtl876x_pinmux.o(.text)
+    Pad_DebounceWakeupStatus                 0x0021584d   Thumb Code    32  rtl876x_pinmux.o(.text)
+    System_DebounceWakeupStatus              0x0021586d   Thumb Code     2  rtl876x_pinmux.o(.text)
+    System_WakeUpPinDisable                  0x0021586f   Thumb Code     4  rtl876x_pinmux.o(.text)
+    System_WakeUpPinEnable                   0x00215873   Thumb Code    86  rtl876x_pinmux.o(.text)
+    Pad_WakeupInterruptValue                 0x002158c9   Thumb Code    40  rtl876x_pinmux.o(.text)
+    System_WakeUpInterruptValue              0x002158f1   Thumb Code     2  rtl876x_pinmux.o(.text)
+    Pad_OutputControlValue                   0x002158f3   Thumb Code    38  rtl876x_pinmux.o(.text)
+    Pad_OutputEnableValue                    0x00215919   Thumb Code    38  rtl876x_pinmux.o(.text)
+    Pad_PullEnableValue                      0x0021593f   Thumb Code    38  rtl876x_pinmux.o(.text)
+    Pad_PullUpOrDownValue                    0x00215965   Thumb Code    38  rtl876x_pinmux.o(.text)
+    Pad_PullConfigValue                      0x0021598b   Thumb Code    38  rtl876x_pinmux.o(.text)
+    Pad_PowerOrShutDownValue                 0x002159b1   Thumb Code    40  rtl876x_pinmux.o(.text)
+    Pad_ControlSelectValue                   0x002159d9   Thumb Code    40  rtl876x_pinmux.o(.text)
+    Pad_ClearWakeupINTPendingBit             0x00215a01   Thumb Code    40  rtl876x_pinmux.o(.text)
+    Pad_ClearAllWakeupINT                    0x00215a29   Thumb Code    68  rtl876x_pinmux.o(.text)
+    Spic0_control                            0x00215a6d   Thumb Code    22  rtl876x_pinmux.o(.text)
+    Spic1_control                            0x00215a83   Thumb Code    20  rtl876x_pinmux.o(.text)
+    PINADDR_TABLE                            0x00215aac   Data          78  rtl876x_pinmux.o(.constdata)
+    WKSTATUS_TABLE                           0x00215afa   Data          78  rtl876x_pinmux.o(.constdata)
+    Image$$FSBL_RAM_TEXT_SECTION$$ZI$$Base   0x00215b48   Number         0  anon$$obj.o ABSOLUTE
+    keyscan_global_data                      0x00215b48   Data          48  keyscan_basic_driver.o(.bss)
+    img_header                               0x00856000   Data         480  fsbl_entry_ext.o(.patch.flash.header)
+    auth_header                              0x008561e0   Data         544  fsbl_entry_ext.o(.patch.flash.header)
+    Load$$FSBL_RAM_TEXT_SECTION$$Base        0x00856400   Number         0  anon$$obj.o ABSOLUTE
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image entry point : Not specified.
+
+  Load Region LOAD_Flash (Base: 0x00856000, Size: 0x00000f48, Max: 0x00001000, ABSOLUTE)
+
+    Execution Region FSBL_RAM_TEXT_SECTION (Exec base: 0x00215000, Load base: 0x00856400, Size: 0x00000b78, Max: 0x00001000, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00215000   0x00856400   0x00000070   Code   RO            3    .patch.ram.start    fsbl_entry_ext.o
+    0x00215070   0x00856470   0x00000174   Code   RO          119    .app.data_ram.text  keyscan_basic_driver.o
+    0x002151e4   0x008565e4   0x00000004   Code   RO            1    .rev16_text         fsbl_entry_ext.o
+    0x002151e8   0x008565e8   0x00000004   Code   RO          117    .rev16_text         keyscan_basic_driver.o
+    0x002151ec   0x008565ec   0x00000004   Code   RO          164    .rev16_text         rtl876x_keyscan.o
+    0x002151f0   0x008565f0   0x00000004   Code   RO          184    .rev16_text         rtl876x_rcc.o
+    0x002151f4   0x008565f4   0x00000004   Code   RO          204    .rev16_text         rtl876x_pinmux.o
+    0x002151f8   0x008565f8   0x00000004   Code   RO            2    .revsh_text         fsbl_entry_ext.o
+    0x002151fc   0x008565fc   0x00000004   Code   RO          118    .revsh_text         keyscan_basic_driver.o
+    0x00215200   0x00856600   0x00000004   Code   RO          165    .revsh_text         rtl876x_keyscan.o
+    0x00215204   0x00856604   0x00000004   Code   RO          185    .revsh_text         rtl876x_rcc.o
+    0x00215208   0x00856608   0x00000004   Code   RO          205    .revsh_text         rtl876x_pinmux.o
+    0x0021520c   0x0085660c   0x00000024   Code   RO            4    .text               fsbl_entry_ext.o
+    0x00215230   0x00856630   0x0000004c   Code   RO          120    .text               keyscan_basic_driver.o
+    0x0021527c   0x0085667c   0x000001a0   Code   RO          166    .text               rtl876x_keyscan.o
+    0x0021541c   0x0085681c   0x00000310   Code   RO          186    .text               rtl876x_rcc.o
+    0x0021572c   0x00856b2c   0x00000380   Code   RO          206    .text               rtl876x_pinmux.o
+    0x00215aac   0x00856eac   0x0000009c   Data   RO          207    .constdata          rtl876x_pinmux.o
+    0x00215b48        -       0x00000030   Zero   RW          121    .bss                keyscan_basic_driver.o
+
+
+    Execution Region fsbl_ext.bin (Exec base: 0x00856000, Load base: 0x00856000, Size: 0x00000400, Max: 0xffffffff, ABSOLUTE)
+
+    Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00856000   0x00856000   0x000001e0   Data   RO            5    .patch.flash.header  fsbl_entry_ext.o
+    0x008561e0   0x008561e0   0x00000220   Data   RO            6    .patch.flash.header  fsbl_entry_ext.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       156         64       1024          0          0      63295   fsbl_entry_ext.o
+       456         18          0          0         48      15269   keyscan_basic_driver.o
+       424         18          0          0          0       3869   rtl876x_keyscan.o
+       904         22        156          0          0       9037   rtl876x_pinmux.o
+       792         48          0          0          0       4265   rtl876x_rcc.o
+
+    ----------------------------------------------------------------------
+      2732        170       1180          0         48      95735   Object Totals
+         0          0          0          0          0          0   (incl. Generated)
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+         0          0          0          0          0          0   Library Totals
+         0          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+      2732        170       1180          0         48      94871   Grand Totals
+      2732        170       1180          0         48      94871   ELF Image Totals
+      2732        170       1180          0          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                 3912 (   3.82kB)
+    Total RW  Size (RW Data + ZI Data)                48 (   0.05kB)
+    Total ROM Size (Code + RO Data + RW Data)       3912 (   3.82kB)
+
+==============================================================================
+

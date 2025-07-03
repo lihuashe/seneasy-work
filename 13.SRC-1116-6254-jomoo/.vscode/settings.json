@@ -1,0 +1,33 @@
+{
+    "files.associations": {
+        "function.h": "c",
+        "led_driver.h": "c",
+        "key_driver.h": "c",
+        "types.h": "c",
+        "driver.h": "c",
+        "timer.h": "c",
+        "algorithm": "c",
+        "key_handle_config.h": "c",
+        "my_key.h": "c",
+        "random": "c",
+        "limits": "c",
+        "bath_rcu.h": "c",
+        "factory_test.h": "c",
+        "string.h": "c",
+        "help_tools.h": "c",
+        "*.tcc": "c",
+        "cstdlib": "c",
+        "memory": "c",
+        "stdio.h": "c",
+        "malloc.h": "c",
+        "keyboard.h": "c",
+        "usb.h": "c",
+        "usbdesc.h": "c",
+        "aaa_app_config.h": "c",
+        "aaa_project_config.h": "c",
+        "array": "c",
+        "string": "c",
+        "my_led.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

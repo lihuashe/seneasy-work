@@ -1,0 +1,17 @@
+#ifndef LLC_LEGACY_ADV_ADV_IND_H
+#define LLC_LEGACY_ADV_ADV_IND_H
+
+
+
+bool rom_llc_legacy_adv_adv_ind_enable(stLlcLegacyAdv_t* pstLegacyAdv);
+
+void rom_llc_legacy_adv_adv_ind_on_llp_fragment_start(stLlcLegacyAdv_t* pstLegacyAdv);
+void rom_llc_legacy_adv_adv_ind_on_llp_fragment_stop(stLlcLegacyAdv_t* pstLegacyAdv);
+EN_LLP_STATE_CMD_T rom_llc_legacy_adv_adv_ind_on_llp_tx_end(stLlcLegacyAdv_t* pstLegacyAdv, stLlpTxEndReport_t *pstReport);
+EN_LLP_STATE_CMD_T rom_llc_legacy_adv_adv_ind_on_llp_rx_end(stLlcLegacyAdv_t* pstLegacyAdv, stLlpRxEndReport_t *pstReport);
+
+
+
+
+
+#endif

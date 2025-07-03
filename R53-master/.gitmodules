@@ -1,0 +1,3 @@
+[submodule "sdk"]
+	path = sdk
+	url = git@gitlab.syseneasy.com:seneasy/telink/refDesignRcu.git

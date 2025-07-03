@@ -1,0 +1,3 @@
+[submodule "BEE2-SDK-RCU"]
+	path = BEE2-SDK-RCU
+	url = git@gitlab.syseneasy.com:seneasy/realtek/BEE2-SDK-RCU.git

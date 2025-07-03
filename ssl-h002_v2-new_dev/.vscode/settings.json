@@ -1,0 +1,30 @@
+{
+    "files.associations": {
+        "key_config.h": "c",
+        "key_handle.h": "c",
+        "rtl876x_pinmux.h": "c",
+        "app_section.h": "c",
+        "rtl876x.h": "c",
+        "platform_utils.h": "c",
+        "rtl876x_gpio.h": "c",
+        "app_task.h": "c",
+        "rtl876x_nvic.h": "c",
+        "system_rtl876x.h": "c",
+        "rtl876x_enh_tim.h": "c",
+        "app_function.h": "c",
+        "uart_driver.h": "c",
+        "app_msg.h": "c",
+        "bct3236_driver.h": "c",
+        "i2c_init.h": "c",
+        "rtl876x_rcc.h": "c",
+        "bas.h": "c",
+        "lp4081h_driver.h": "c",
+        "board.h": "c",
+        "rtl876x_uart.h": "c",
+        "rtl876x_adc.h": "c",
+        "rtl876x_gdma.h": "c",
+        "keyscan_driver.h": "c",
+        "led_config.h": "c",
+        "usb_chg.h": "c"
+    }
+}

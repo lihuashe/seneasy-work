@@ -1,0 +1,15 @@
+.\objects\rtl876x_ir.o: ..\..\..\..\src\mcu\peripheral\rtl876x_ir.c
+.\objects\rtl876x_ir.o: ..\..\..\..\inc\platform\app_define.h
+.\objects\rtl876x_ir.o: ..\..\rcu\mem_config.h
+.\objects\rtl876x_ir.o: ..\..\rcu\flash_map.h
+.\objects\rtl876x_ir.o: ..\..\..\..\inc\peripheral\rtl876x_rcc.h
+.\objects\rtl876x_ir.o: ..\..\..\..\inc\platform\rtl876x.h
+.\objects\rtl876x_ir.o: ..\..\..\..\inc\platform\core_cm0plus.h
+.\objects\rtl876x_ir.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rtl876x_ir.o: ..\..\..\..\inc\platform\core_cmInstr.h
+.\objects\rtl876x_ir.o: ..\..\..\..\inc\platform\cmsis_armcc.h
+.\objects\rtl876x_ir.o: ..\..\..\..\inc\platform\core_cmFunc.h
+.\objects\rtl876x_ir.o: ..\..\..\..\inc\platform\system_rtl876x.h
+.\objects\rtl876x_ir.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\rtl876x_ir.o: ..\..\..\..\inc\platform\rtl876x_ic_type.h
+.\objects\rtl876x_ir.o: ..\..\..\..\inc\peripheral\rtl876x_ir.h

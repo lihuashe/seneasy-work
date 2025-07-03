@@ -1,0 +1,95 @@
+T0E1C 037:464.328   SEGGER J-Link V8.20 Log File
+T0E1C 037:464.516   DLL Compiled: Mar 12 2025 12:14:11
+T0E1C 037:464.536   Logging started @ 2025-06-24 08:12
+T0E1C 037:464.552   Process: C:\Keil_v5\KEIL_ARM\UV4\UV4.exe
+T0E1C 037:464.572 - 897.056ms 
+T0E1C 037:464.596 JLINK_SetWarnOutHandler(...)
+T0E1C 037:464.616 - 0.018ms 
+T0E1C 037:464.632 JLINK_OpenEx(...)
+T0E1C 037:467.512   Firmware: J-Link V9 compiled Dec  8 2023 20:16:22
+T0E1C 037:468.924   Firmware: J-Link V9 compiled Dec  8 2023 20:16:22
+T0E1C 037:469.108   Decompressing FW timestamp took 121 us
+T0E1C 037:476.640   Hardware: V9.70
+T0E1C 037:476.692   S/N: 602712438
+T0E1C 037:476.716   OEM: SEGGER
+T0E1C 037:476.744   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash
+T0E1C 037:478.044   Bootloader: (FW returned invalid version)
+T0E1C 037:479.468   TELNET listener socket opened on port 19021
+T0E1C 037:484.328   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T0E1C 037:484.560   WEBSRV Webserver running on local port 19080
+T0E1C 037:484.776   Looking for J-Link GUI Server exe at: C:\Keil_v5\KEIL_ARM\ARM\Segger\JLinkGUIServer.exe
+T0E1C 037:484.940   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink_V820\JLinkGUIServer.exe
+T0E1C 037:485.008   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink_V820\JLinkGUIServer.exe
+T0E1C 037:546.524   J-Link GUI Server info: "J-Link GUI server V8.20 "
+T0E1C 037:547.180 - 82.544ms returns "O.K."
+T0E1C 037:547.224 JLINK_GetEmuCaps()
+T0E1C 037:547.252 - 0.022ms returns 0xB9FF7BBF
+T0E1C 037:547.272 JLINK_TIF_GetAvailable(...)
+T0E1C 037:547.804 - 0.531ms 
+T0E1C 037:547.848 JLINK_SetErrorOutHandler(...)
+T0E1C 037:547.864 - 0.021ms 
+T0E1C 037:547.896 JLINK_ExecCommand("ProjectFile = "D:\xiangmu¡ªvscode\src-2807-6784\sdk\examples\ble_app_rc\keil\JLinkSettings.ini"", ...). 
+T0E1C 037:553.324 - 5.427ms returns 0x00
+T0E1C 037:554.116 JLINK_ExecCommand("Device = ARMCM4", ...). 
+T0E1C 037:554.168   Device "CORTEX-M4" selected.
+T0E1C 037:555.048 - 0.891ms returns 0x00
+T0E1C 037:555.096 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T0E1C 037:555.124   ERROR: Unknown command
+T0E1C 037:555.160 - 0.036ms returns 0x01
+T0E1C 037:555.184 JLINK_GetHardwareVersion()
+T0E1C 037:555.204 - 0.019ms returns 97000
+T0E1C 037:555.224 JLINK_GetDLLVersion()
+T0E1C 037:555.240 - 0.019ms returns 82000
+T0E1C 037:555.260 JLINK_GetOEMString(...)
+T0E1C 037:555.284 JLINK_GetFirmwareString(...)
+T0E1C 037:555.304 - 0.019ms 
+T0E1C 037:555.324 JLINK_GetDLLVersion()
+T0E1C 037:555.344 - 0.019ms returns 82000
+T0E1C 037:555.364 JLINK_GetCompileDateTime()
+T0E1C 037:555.400 - 0.037ms 
+T0E1C 037:555.420 JLINK_GetFirmwareString(...)
+T0E1C 037:555.440 - 0.018ms 
+T0E1C 037:555.460 JLINK_GetHardwareVersion()
+T0E1C 037:555.480 - 0.017ms returns 97000
+T0E1C 037:555.496 JLINK_GetSN()
+T0E1C 037:555.516 - 0.019ms returns 602712438
+T0E1C 037:555.536 JLINK_GetOEMString(...)
+T0E1C 037:555.560 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T0E1C 037:557.604 - 2.042ms returns 0x00
+T0E1C 037:557.640 JLINK_HasError()
+T0E1C 037:557.668 JLINK_SetSpeed(5000)
+T0E1C 037:558.004 - 0.336ms 
+T0E1C 037:558.448 JLINK_HasError()
+T0E1C 037:558.488 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T0E1C 037:558.504 - 0.019ms returns JLINKARM_RESET_TYPE_NORMAL
+T0E1C 037:558.528 JLINK_Reset()
+T0E1C 037:560.300   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T0E1C 037:560.880   Failed to identify target. Resetting via Reset pin and trying again.
+T0E1C 037:715.348   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T0E1C 037:715.864 - 157.334ms 
+T0E1C 037:715.988 JLINK_GetIdData(pIdData)
+T0E1C 037:717.760   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T0E1C 037:718.364   Failed to identify target. Resetting via Reset pin and trying again.
+T0E1C 037:871.892   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T0E1C 037:872.548 - 156.562ms 
+T0E1C 037:872.588 JLINK_GetIdData(pIdData)
+T0E1C 037:874.544   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T0E1C 037:875.088   Failed to identify target. Resetting via Reset pin and trying again.
+T0E1C 038:029.564   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T0E1C 038:030.152 - 157.560ms 
+T0E1C 038:039.688 JLINK_GetFirmwareString(...)
+T0E1C 038:039.736 - 0.045ms 
+T0E1C 063:148.024 JLINK_GetFirmwareString(...)
+T0E1C 063:148.264 - 0.236ms 
+T0E1C 063:148.296 JLINK_GetEmuCaps()
+T0E1C 063:148.312 - 0.020ms returns 0xB9FF7BBF
+T0E1C 063:148.332 JLINK_TIF_GetAvailable(...)
+T0E1C 063:148.840 - 0.504ms 
+T932C 100:965.840   
+  ***** Error: Connection to emulator lost!
+T932C 103:582.568   
+  ***** Error: Connection to emulator lost!
+T0E1C 168:311.872 JLINK_Close()
+T0E1C 168:324.784 - 12.913ms
+T0E1C 168:324.832   
+T0E1C 168:324.848   Closed

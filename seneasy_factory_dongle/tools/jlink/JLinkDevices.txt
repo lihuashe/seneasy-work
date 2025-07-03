@@ -1,0 +1,9 @@
+<DataBase>
+  <!--                                    -->
+  <!-- Maxscend Devices                   -->
+  <!--                                    -->
+  <Device>
+   <ChipInfo Vendor="Maxscend" Name="MXD2670" Core="JLINK_CORE_CORTEX_M33" WorkRAMAddr="0x20020000" WorkRAMSize="0x20000" />
+   <FlashBankInfo Name="Internal Flash" BaseAddr="0x10000000" MaxSize="0x100000" Loader="Devices/Maxscend/MXD2670/MXD267x_FLASH_V1.3.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS"/>
+  </Device>
+</DataBase>
